@@ -60,3 +60,4 @@ output:
     css: styles.css
     highlight: tango
   
+theme: jekyll-theme-hacker
