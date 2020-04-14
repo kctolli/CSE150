@@ -1,0 +1,35 @@
+---
+title: "Data Intuition and Insight"
+subtitle: "CSE 150"
+author: "Kyle Tolliver"
+output: 
+  html_document:
+    css: "style.css"
+    toc: true
+    toc_float: true
+---
+
+## Course Work
+
+* ### [Week 1]() - 
+* ### [Week 2]() -
+* ### [Week 3]() -
+* ### [Week 4]() - 
+* ### [Week 5]() - 
+* ### [Week 6]() - 
+* ### [Week 7]() -
+* ### [Week 8]() - 
+* ### [Week 9]() -
+* ### [Week 10]() -
+* ### [Week 11]() - 
+* ### [Week 12]() - 
+* ### [Week 13]() - 
+* ### [Week 14]() -
+
+## Course Materials
+
+* ### [Good Charts Textbook](https://www.amazon.com/gp/product/1633690709/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)         
+#### Found on Amazon
+
+* ### [Supplemental Readings](https://byuistats.github.io/BYUI_CSE150_StatBook/)    
+#### Found through BYUI Stats Github
