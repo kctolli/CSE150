@@ -32,6 +32,6 @@ output:
 * ### [Supplemental Readings](https://byuistats.github.io/BYUI_CSE150_StatBook/)    
 #### Found through BYUI Stats Github
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; 
 
 #####  *--- Website is made with Rmd files and Rstudio*
