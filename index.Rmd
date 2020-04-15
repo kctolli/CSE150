@@ -9,20 +9,20 @@ output:
 
 ## Course Work
 
-* ### [Week 1]() - 
-* ### [Week 2]() -
-* ### [Week 3]() -
-* ### [Week 4]() - 
-* ### [Week 5]() - 
-* ### [Week 6]() - 
-* ### [Week 7]() -
-* ### [Week 8]() - 
-* ### [Week 9]() -
-* ### [Week 10]() -
-* ### [Week 11]() - 
-* ### [Week 12]() - 
-* ### [Week 13]() - 
-* ### [Week 14]() -
+* ### [Week 1](./week01/main.html) - 
+* ### [Week 2](./week02/main.html) -
+* ### [Week 3](./week03/main.html) -
+* ### [Week 4](./week04/main.html) - 
+* ### [Week 5](./week05/main.html) - 
+* ### [Week 6](./week06/main.html) - 
+* ### [Week 7](./week07/main.html) -
+* ### [Week 8](./week08/main.html) - 
+* ### [Week 9](./week09/main.html) -
+* ### [Week 10](./week10/main.html) -
+* ### [Week 11](./week11/main.html) - 
+* ### [Week 12](./week11/main.html) - 
+* ### [Week 13](./week13/main.html) - 
+* ### [Week 14](./week14/main.html) -
 
 ## Course Materials
 
