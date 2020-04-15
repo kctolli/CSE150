@@ -5,8 +5,6 @@ author: "Kyle Tolliver"
 output: 
   html_document:
     css: "style.css"
-    toc: true
-    toc_float: true
 ---
 
 ## Course Work
