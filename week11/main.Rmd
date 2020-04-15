@@ -4,7 +4,7 @@ subtitle: "Week "
 author: "Kyle Tolliver"
 output: 
   html_document:
-    css: "style.css"
+    css: "../style.css"
     toc: true
     toc_float: true
     code_folding: hide
