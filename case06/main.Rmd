@@ -1,6 +1,6 @@
 ---
-title: ""
-subtitle: "Week "
+title: "Catch me, if you can?"
+subtitle: "Case Study 6"
 author: "Kyle Tolliver"
 output: 
   html_document:
@@ -13,10 +13,19 @@ output:
     fig_align: 'center'
 ---
 
-## Assignments
+## Background
 
-* []()
-* []()
+
+
+### Challenge
+
+
+
+## Deliverables
+
+* 
+
+### [See Assignment Page](./assign.html)
 
 ## Class Notes
 

@@ -1,6 +1,6 @@
 ---
-title: ""
-subtitle: "Week "
+title: "What is normal about marathons?"
+subtitle: "Case Study 3"
 author: "Kyle Tolliver"
 output: 
   html_document:
@@ -13,10 +13,29 @@ output:
     fig_align: 'center'
 ---
 
-## Assignments
+## Background
 
-* []()
-* []()
+In a nod to Greek history, the first marathon in 1896 commemorated the run of the soldier Pheidippides from a battlefield near the town of Marathon, Greece, to Athens in 490 B.C. For the 1908 London Olympics, the course was laid out from Windsor Castle to White City stadium, about 26 miles. An extra 385 yards was added inside the stadium to locate the finish line in front of the royal family’s viewing box.
+
+Despite the success of that first race, it took 13 more years of arguing before the International Amateur Athletic Federation (IAAF) adopted the 1908 distance as the official marathon. In fact, of the first seven modern Olympics, there were six different distances. Today, there are more than 500 organized marathons in 64 countries around the world each year, with more than 425,000 marathon finishers in the United States alone (reference).
+
+Eric J. Allen published an article on marathon runners and they have shared much of the data that we will use. We have formatted their data and its size for use in our class. Their data has close to 10 million observations.
+
+### Challenge
+
+You will need to work with your team to describe the finishing times of their associated spatial and temporal patterns. You will look at the individual marathon runners and the marathon’s themselves.
+
+You have been asked to create a short story that describes marathons that could be published in a local newspaper the week before a marathon is to be held in their community.
+
+## Deliverables
+
+* A short article with less than 500 words and 4-6 visualizations.
+* Your article should introduce the reader to what a normal distribution is with the use of a visualization of the marathon data.
+* Your article should contain at least one spatial, temporal, and variable graphic.
+* Your article should contain one table that provides data summaries.
+* The end of your article should contain one quote from a reader (like a comment on the article). The reader should be a spouse or parent.
+
+### [See Assignment Page](./assign.html)
 
 ## Class Notes
 

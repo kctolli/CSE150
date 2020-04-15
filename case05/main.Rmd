@@ -1,6 +1,6 @@
 ---
-title: ""
-subtitle: "Week "
+title: "Does your birthday make you better at sports?"
+subtitle: "Case Study 5"
 author: "Kyle Tolliver"
 output: 
   html_document:
@@ -13,10 +13,26 @@ output:
     fig_align: 'center'
 ---
 
-## Assignments
+## Background
 
-* []()
-* []()
+Matthew 25:29 explains that _‘whoever has will be given more, and they will have an abundance. Whoever does not have, even what they have will be taken from them’ _which has lead many researchers to describe how some get more and others get less as the‘Matthew Effect’ in our society.
+
+One way to evaluate this effect is to look at professional athletes. Malcolm Gladwell studies the birth dates of successful hockey players in a chapter of his 2008 non-fiction book Outliers to provide an example of the Matthew Effect. Please read the Matthew Effect chapter to get more background.
+
+Hockey’s cutoff date is December 31st, but baseball’s cutoff date has historically been July 31st. Football’s cutoff is July 31st as well but they also have weight categories as well for older ages. Basketball’s AAU cutoff date is August 31st.
+
+### Challenge
+
+Malcolm Gladwell’s chapter on the Matthew Effect is persuasive as a narrative. He even has a couple of tables. After reading his Matthew Effect chapter, your job is to create a few persuasive visualizations about the birthday distributions within each sport. In addition, you will need to compare the sport birthday distributions to the distributions of birthdays in the US population to verify that the population of birthdays is in fact different.
+
+## Deliverables
+
+* Build a 6-10 slide presentation that provides data visualizations to pair up with text from Malcolm Gladwell’s chapter on the Matthew Effect.
+* At least one slide should have a visualization that compares the US population of births to a sport of your preference with persuasive annotations added to the graphics.
+* At least three slides should describe and show the statistical comparison you performed to provide justification for your inference.
+* Your final slide should have your conclusions beyond the observed data.
+
+### [See Assignment Page](./assign.html)
 
 ## Class Notes
 

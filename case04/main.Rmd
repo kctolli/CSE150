@@ -1,6 +1,6 @@
 ---
-title: ""
-subtitle: "Week "
+title: "What is a healthy child?"
+subtitle: "Case Study 4"
 author: "Kyle Tolliver"
 output: 
   html_document:
@@ -13,10 +13,25 @@ output:
     fig_align: 'center'
 ---
 
-## Assignments
+## Background
 
-* []()
-* []()
+Do you remember you or your sibling going to the doctor for a check-up to hear a conversation about what percentile the measured height and weight were in? The World Health Organization gets some bad press at times of pandemics, but they do much more than managing pandemics. With the US CDC, they define the standards for those percentiles that you hear - https://www.cdc.gov/growthcharts/who_charts.htm.
+
+### Challenge
+
+We have repeated measurements of weights and heights for children from multiple countries. We will use these measures to explain the health of the children in each country and to explore children that have poor health over most of their measurements.
+
+## Deliverables
+
+* A short presentation (4-8 slides) that visualizes child health using the height measurements.
+* One slide should show the distribution of heights for the US and Dutch data at ~365 days.
+* One slide should show a plot of the heights of the dutch children over time.
+* One slide should explain what a z-score is and how it is calculated for our graphics.
+* One slide should have visualizations of the health of the children at ~365 days for each country (height adjusted z-scores).
+* One slide should show height adjusted z-scores (HAZ) for a healthy and unhealthy child over all their measurements (don’t use the US data).
+* Be creative with the remaining slides.
+
+### [See Assignment Page](./assign.html)
 
 ## Class Notes
 

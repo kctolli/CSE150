@@ -1,6 +1,6 @@
 ---
-title: ""
-subtitle: "Week "
+title: "Do you want to be a data scientist?"
+subtitle: "Case Study 8"
 author: "Kyle Tolliver"
 output: 
   html_document:
@@ -13,10 +13,19 @@ output:
     fig_align: 'center'
 ---
 
-## Assignments
+## Background
 
-* []()
-* []()
+
+
+### Challenge
+
+
+
+## Deliverables
+
+* 
+
+### [See Assignment Page](./assign.html)
 
 ## Class Notes
 

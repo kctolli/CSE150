@@ -1,6 +1,6 @@
 ---
-title: ""
-subtitle: "Week "
+title: "Lego my data"
+subtitle: "Case Study 2"
 author: "Kyle Tolliver"
 output: 
   html_document:
@@ -13,10 +13,35 @@ output:
     fig_align: 'center'
 ---
 
-## Assignments
+## Background
 
-* []()
-* []()
+Lego has become one of the most valuable toys on the planet. You can even [download software](https://www.leocad.org/index.html) and create your own sets from bulk toys.
+
+We will be selling bulk LEGO in 1/2-lb bags. According to this LEGO selling guide, the more organized the bricks are the better they will sell. While most Ebayers take a couple of photos and list the number of pounds to sell their project, we will be selling our bags of LEGO with data visualizations.
+
+### Challenge
+
+You will need to work with your team to enter your LEGO data and then create a set of visualizations that sell your product. We will need to prepare our sales material to make sure we can communicate our bag of LEGO without them handling or seeing the product (no pictures of your bag of LEGO).1
+
+Each buyer will have questions similar to the list below about your blocks. However, other questions may come up during the buying session.
+
+* How many slanted bricks do you have?
+* What is the distribution of colors available in your set?
+* What makes your bag of LEGO unique?
+* What is the total area by color?
+* What are your biggest pieces?
+
+If you would like more details about each brick you can [read here](https://www.bricklink.com/catalog.asp?utm_content=subnav).
+
+## Deliverables
+
+* 3-5 Plot Presentation of your team’s LEGO.
+* A complete data set of each LEGO block in your bag.
+* Estimated value or asking price for your bag.
+* One extra visualization that is requested the day of the sale.
+* A set of three pictures of your LEGO spread out (on-campus only).
+
+### [See Assignment Page](./assign.html)
 
 ## Class Notes
 

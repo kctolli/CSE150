@@ -21,7 +21,7 @@ Data intuition and insight is not rocket science. However, there is a science to
 
 Make sure you understand the course objectives and that you are introduced to the material and tools of the course.
 
-## Assignments
+## Deliverables
 
 * Complete the quizzes for the first two days of class in Canvas
 
