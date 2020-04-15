@@ -1,6 +1,6 @@
 ---
-title: ""
-subtitle: "Week "
+title: "intro"
+subtitle: "Week 1"
 author: "Kyle Tolliver"
 output: 
   html_document:
