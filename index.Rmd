@@ -10,13 +10,13 @@ output:
 ## Course Work
 
 * ### [Case Study 1](./case01/main.html) - Introduction
-* ### [Case Study 2](./case02/main.html) - 
-* ### [Case Study 3](./case03/main.html) -
-* ### [Case Study 4](./case04/main.html) - 
-* ### [Case Study 5](./case05/main.html) - 
-* ### [Case Study 6](./case06/main.html) - 
-* ### [Case Study 7](./case07/main.html) -
-* ### [Case Study 8](./case08/main.html) - 
+* ### [Case Study 2](./case02/main.html) - Lego my data
+* ### [Case Study 3](./case03/main.html) - What is normal about marathons?
+* ### [Case Study 4](./case04/main.html) - What is a healthy child?
+* ### [Case Study 5](./case05/main.html) - Does your birthday make you better at sports?
+* ### [Case Study 6](./case06/main.html) - Catch me, if you can?
+* ### [Case Study 7](./case07/main.html) - Can you help me with my data problem?
+* ### [Case Study 8](./case08/main.html) - Do you want to be a data scientist?
 
 ## Course Materials
 
