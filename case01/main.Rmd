@@ -1,0 +1,29 @@
+---
+title: "Introduction"
+subtitle: "Case Study 1"
+author: "Kyle Tolliver"
+output: 
+  html_document:
+    css: "../style.css"
+    toc: true
+    toc_float: true
+    code_folding: hide
+    fig_height: 6
+    fig_width: 12
+    fig_align: 'center'
+---
+
+## Background
+
+Data intuition and insight is not rocket science. However, there is a science to data handling, visualization, and decision making with data. The material we cover this semester will introduce to topics around this science.
+
+### Challenge
+
+Make sure you understand the course objectives and that you are introduced to the material and tools of the course.
+
+## Assignments
+
+* [Complete the quizzes for the first two days of class in Canvas](https://byui.instructure.com/)
+
+## Class Notes
+

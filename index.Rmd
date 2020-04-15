@@ -9,20 +9,14 @@ output:
 
 ## Course Work
 
-* ### [Week 1](./week01/main.html) - 
-* ### [Week 2](./week02/main.html) -
-* ### [Week 3](./week03/main.html) -
-* ### [Week 4](./week04/main.html) - 
-* ### [Week 5](./week05/main.html) - 
-* ### [Week 6](./week06/main.html) - 
-* ### [Week 7](./week07/main.html) -
-* ### [Week 8](./week08/main.html) - 
-* ### [Week 9](./week09/main.html) -
-* ### [Week 10](./week10/main.html) -
-* ### [Week 11](./week11/main.html) - 
-* ### [Week 12](./week11/main.html) - 
-* ### [Week 13](./week13/main.html) - 
-* ### [Week 14](./week14/main.html) -
+* ### [Case Study 1](./case01/main.html) - Introduction
+* ### [Case Study 2](./case02/main.html) - 
+* ### [Case Study 3](./case03/main.html) -
+* ### [Case Study 4](./case04/main.html) - 
+* ### [Case Study 5](./case05/main.html) - 
+* ### [Case Study 6](./case06/main.html) - 
+* ### [Case Study 7](./case07/main.html) -
+* ### [Case Study 8](./case08/main.html) - 
 
 ## Course Materials
 
@@ -34,4 +28,4 @@ output:
 
 &nbsp; &nbsp; 
 
-#####  *--- Website is made with Rmd files and Rstudio*
+#####  *--- Website is made with [Rmd files](https://rmarkdown.rstudio.com/index.html) and [Rstudio](https://rstudio.com/)*
