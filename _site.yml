@@ -33,6 +33,4 @@ output:
     toc_float: true
     fig_height: 6
     fig_width: 12
-    fig_align: 'center'
-    code_folding: hide
-  
+    fig_align: 'center'  
