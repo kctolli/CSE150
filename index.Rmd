@@ -38,3 +38,5 @@ You are driven by curiosity and interested in how data decisions are made (somet
 <br> <br>
 
 #####  *--- Website is made with [Rmd files](https://rmarkdown.rstudio.com/index.html) and [Rstudio](https://rstudio.com/)*
+
+#####  *--- Hosted on [github](https://github.com/kctolli/CSE150)*

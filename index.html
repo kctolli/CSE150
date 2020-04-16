@@ -20,7 +20,11 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
+<script src="site_libs/navigation-1.1/codefolding.js"></script>
 
 
 
@@ -230,7 +234,73 @@ $(document).ready(function () {
 </style>
 
 <!-- code folding -->
+<style type="text/css">
+.code-folding-btn { margin-bottom: 4px; }
+</style>
 
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
 
 
 
@@ -240,6 +310,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -264,28 +344,28 @@ $(document).ready(function () {
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="./case01/main.html">Introduction</a>
+      <a href="./case1.html">Introduction</a>
     </li>
     <li>
-      <a href="./case02/main.html">Lego my data</a>
+      <a href="./case2.html">Lego my data</a>
     </li>
     <li>
-      <a href="./case03/main.html">What is normal about marathons?</a>
+      <a href="./case3.html">What is normal about marathons?</a>
     </li>
     <li>
-      <a href="./case04/main.html">What is a healthy child?</a>
+      <a href="./case4.html">What is a healthy child?</a>
     </li>
     <li>
-      <a href="./case05/main.html">Does your birthday make you better at sports?</a>
+      <a href="./case5.html">Does your birthday make you better at sports?</a>
     </li>
     <li>
-      <a href="./case06/main.html">Catch me, if you can?</a>
+      <a href="./case6.html">Catch me, if you can?</a>
     </li>
     <li>
-      <a href="./case07/main.html">Can you help me with my data problem?</a>
+      <a href="./case7.html">Can you help me with my data problem?</a>
     </li>
     <li>
-      <a href="./case08/main.html">Do you want to be a data scientist?</a>
+      <a href="./case8.html">Do you want to be a data scientist?</a>
     </li>
   </ul>
 </li>
@@ -298,6 +378,14 @@ $(document).ready(function () {
 </div><!--/.navbar -->
 
 <div class="fluid-row" id="header">
+
+<div class="btn-group pull-right">
+<button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Code</span> <span class="caret"></span></button>
+<ul class="dropdown-menu" style="min-width: 50px;">
+<li><a id="rmd-show-all-code" href="#">Show All Code</a></li>
+<li><a id="rmd-hide-all-code" href="#">Hide All Code</a></li>
+</ul>
+</div>
 
 
 
@@ -346,10 +434,15 @@ $(document).ready(function () {
 <div id="website-is-made-with-rmd-files-and-rstudio" class="section level5">
 <h5><em>— Website is made with <a href="https://rmarkdown.rstudio.com/index.html">Rmd files</a> and <a href="https://rstudio.com/">Rstudio</a></em></h5>
 </div>
+<div id="hosted-on-github" class="section level5">
+<h5><em>— Hosted on <a href="https://github.com/kctolli/CSE150">github</a></em></h5>
+</div>
 </div>
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -381,7 +474,38 @@ $(document).ready(function () {
 </script>
 
 <!-- code folding -->
+<script>
+$(document).ready(function () {
+  window.initializeCodeFolding("hide" === "show");
+});
+</script>
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
