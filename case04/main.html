@@ -1263,66 +1263,6 @@ window.buildTabsets = function(tocID) {
 };
 
 </script>
-<script>
-window.initializeCodeFolding = function(show) {
-
-  // handlers for show-all and hide all
-  $("#rmd-show-all-code").click(function() {
-    $('div.r-code-collapse').each(function() {
-      $(this).collapse('show');
-    });
-  });
-  $("#rmd-hide-all-code").click(function() {
-    $('div.r-code-collapse').each(function() {
-      $(this).collapse('hide');
-    });
-  });
-
-  // index for unique code element ids
-  var currentIndex = 1;
-
-  // select all R code blocks
-  var rCodeBlocks = $('pre.r, pre.python, pre.bash, pre.sql, pre.cpp, pre.stan, pre.julia');
-  rCodeBlocks.each(function() {
-
-    // create a collapsable div to wrap the code in
-    var div = $('<div class="collapse r-code-collapse"></div>');
-    if (show || $(this)[0].classList.contains('fold-show'))
-      div.addClass('in');
-    var id = 'rcode-643E0F36' + currentIndex++;
-    div.attr('id', id);
-    $(this).before(div);
-    $(this).detach().appendTo(div);
-
-    // add a show code button right above
-    var showCodeText = $('<span>' + (show ? 'Hide' : 'Code') + '</span>');
-    var showCodeButton = $('<button type="button" class="btn btn-default btn-xs code-folding-btn pull-right"></button>');
-    showCodeButton.append(showCodeText);
-    showCodeButton
-        .attr('data-toggle', 'collapse')
-        .attr('data-target', '#' + id)
-        .attr('aria-expanded', show)
-        .attr('aria-controls', id);
-
-    var buttonRow = $('<div class="row"></div>');
-    var buttonCol = $('<div class="col-md-12"></div>');
-
-    buttonCol.append(showCodeButton);
-    buttonRow.append(buttonCol);
-
-    div.before(buttonRow);
-
-    // update state of button on show/hide
-    div.on('hidden.bs.collapse', function () {
-      showCodeText.text('Code');
-    });
-    div.on('show.bs.collapse', function () {
-      showCodeText.text('Hide');
-    });
-  });
-
-}
-</script>
 <style type="text/css">.hljs-literal {
 color: #990073;
 }
@@ -1388,243 +1328,7 @@ h6 {
 }
 </style>
 
-<style type="text/css">
-
-#courseTitle {
-background: #326BA9;
-	padding: 20px;
-}
-#courseTitle h1 {
-color: #FFFFFF;
-font-size: 30px;
-display: inline-block;
-vertical-align: middle;
-margin-left: 20px;
-}
-#courseTitle .logo {
-width: 64px;
-display: inline-block;
-vertical-align: middle;
-padding: 0 20px 0 20px;
-border-right: 1px solid #FFFFFF;
-}
-
-pre code {
-font-family: Menlo, Monaco, Consolas, monospace;
-font-size: 14px;
-line-height: 1.4em;
-margin: 20px auto;
-border: 1px solid #CCC;
-}
-pre code.hljs {padding-bottom: 25px;}
-code .user-input {text-decoration: underline;}
-img.screenshot {
-display: block;
-max-height: 60px;
-margin: 0 auto 0.5em auto;
-}
-img.screenshot-large {
-display: block;
-max-height: 200px;
-margin: 0 auto 0.5em auto;
-}
-
-p code, li code {
-font-size: 18px;
-font-family: Menlo, Monaco, Consolas, monospace;
-font-weight:bold;
-}
-
-.java.hljs {padding: 15px;}
-
-article {
-margin: 10px auto;
-max-width: 750px;
-padding: 20px;
-}
-article p {
-font-size: 22px;
-line-height: 1.4em;
-margin-bottom: 1em;
-}
-article em {
-font-style: italic;
-color: #666;
-font-size: 17px;
-}
-article strong {
-font-weight: bold;
-color: #CC0000;
-}
-article h2 {
-text-align: center;
-font-size: 36px;
-margin-bottom: 1em;
-}
-article h3 {
-font-size: 26px;
-font-weight: bold;
-margin: 40px 0 10px 0;
-padding-bottom: 0.25em;
-border-bottom: 1px solid #040404;
-}
-article h4 {
-color: #006AB9;
-text-transform: uppercase;
-padding-top: 10px;
-margin-bottom: 1em;
-font-weight: bold;
-}
-aside.pull-right, aside.pull-left {
-position: absolute;
-right: 5px;
-width: 200px;
-background: #006AB9;
-padding: 13px;
-margin: 0 1.5%;
-}
-aside.pull-left {
-left: 5px;
-right: 0px;
-}
-aside.pull-right p, aside.pull-left p {
-color: white;
-font-size: 16px
-}
-aside.pull-right strong, aside.pull-left strong {
-color: black;
-font-size: 18px;
-}
-
-article ul {margin: 0 0 1em 2em;}
-article ol {margin: 0 0 1em 3em;}
-article ol li {
-list-style: decimal-leading-zero;
-font-size: 18px;
-color: #000000;
-margin-bottom: 1em;
-border-left: 2px solid #CCC;
-}
-article h3:before {
-content: counter(h3, upper-roman) ".";
-counter-increment: h3 1;
-margin-right: 10px;
-}
-article li p {
-font-size: 18px;
-margin-bottom: 0.5em;
-color: #040404;
-margin-left: 10px;
-}
-article ol ul li {
-list-style: none;
-border-left: none;
-}
-article ul li p:before {
-content: "»";
-color: #006AB9;
-font-size: 24px;
-margin-right: 0.5em;
-}
-@media only screen and (max-width: 1250px) {
-aside.pull-right, aside.pull-left {
-width: 96.5%;
-position: relative;
-padding: 13px;
-margin: 0 0 15px 0;
-right: 0px;
-left: 0px;
-}
-}
-.table-small {
-font-size:small;
-margin-bottom: 20px;
-}
-.table-small p {font-size:small;}
-.table-small td {
-border: 1px solid rgb(200,200,200);
-padding: 3px;
-}
-.table-small thead {
-text-align:center;
-font-weight:bold;
-}
-.table-small ul {
-list-style-position: inside;
-margin-left: 10px;
-padding-left: 0px;
-text-indent: -10px;
-}
-.table-small li {padding-left: 10px;}
-
-.class-diagrams {
-text-align: center;
-}
-.class-diagram-spacer{
-background: #EFEFEF;
-padding: 0;
-}
-.table-class-diagram tr.class-diagram-spacer td{
-padding: 0;
-border: 1px solid #EFEFEF;
-}
-.table-class-diagram{
-border: 1px solid #CCC;
-border-collapse: collapse;
-margin-left: 20px;
-margin-bottom: 10px;
-display: inline-block;
-vertical-align: top;
-text-align: left;
-font-family: Menlo, Monaco, Consolas, fixed;
-}
-.table-class-diagram th{
-background: #3981B2;
-color: #EFEFEF;
-text-align: center;
-padding: 5px;
-padding-top: 5px!important;
-}
-.table-class-diagram tr td{
-padding: 5px;
-padding-top: 5px!important;
-border-right: 1px dashed #CCC;
-}
-.table-class-diagram tr{
-border-bottom: 1px solid #EEE;
-}
-.table-class-diagram tr:last-child, .table-class-diagram tr:first-child{
-border-bottom: none;
-}
-
-div.tips {
-background-color: rgb(230, 230, 230);
-margin-left: 20px;
-margin-right: 10px;
-margin-bottom: 10px;
-padding: 10px;
-}
-div.tips p:first-child {
-font-weight: bold;
-}
-div.tips p {
-font-size: 0.8em;
-}
-p.subtitle {
-text-align: center;
-margin-top: -30px;
-color: #0F6CB6;
-font-size: 1.45em;
-}
-.img-tutorial {
-border: 0;
-display:block;
-margin-left: auto;
-margin-right: auto;
-}
-span.subtitle {
-font-weight: bold;
-}</style>
+<style type="text/css">.hoverchunk {border: 1px solid #cccccc;background-color: #f8f8f8;border-radius: 3px;padding-left: 8px;padding-top: 10px;padding-bottom: 5px;padding-right: 8px;font-family: Monospace, sans-serif;margin-top: .5em;}.hoverchunk:hover {border: 1px solid #cccccc;background-color: #c8c8c8;border-radius: 3px;padding-left: 8px;padding-top: 10px;padding-bottom: 5px;padding-right: 8px;font-family: Monospace, sans-serif;margin-top: .5em;}.tooltipr {position: relative;display: inline-block;}.tooltipr .tooltiprtext {display: none;width: 200px;background-color: gray;color: #fff;text-align: center;border-radius: 6px;padding: 5px 0;position: absolute;z-index: 1;top: 100%;left: 50%;margin-left: -170px;}.tooltipr:hover .tooltiprtext {display: block;}.tooltipr:hover {background-color: #f8f8f8;border-radius: 6px;}.tooltipr .tooltipRtext {display: none;width: 200px;background-color: gray;color: #fff;text-align: center;border-radius: 6px;padding: 5px 0;position: absolute;z-index: 1;top: 100%;left: 50%;margin-left: 0px;}.tooltipr:hover .tooltipRtext {display: block;}.tooltiprout {position: relative;display: inline-block;}.tooltiprout .tooltiprouttext {display: none;width: 200px;background-color: darkgray;color: #fff;text-align: center;border-radius: 6px;padding: 5px 0;position: absolute;z-index: 1;top: 100%;left: 50%;margin-left: 0px;}.tooltiprout:hover .tooltiprouttext {display: block;}.tooltiprout:hover {background-color: #888888;color: #f3f3f3;border-radius: 2px;padding-left: 3px;padding-right: 3px;}.tab {overflow: hidden;border: 1px solid #ccc;background-color: #f1f1f1;}.tab button {background-color: inherit;float: left;border: none;outline: none;cursor: pointer;padding: 14px 16px;transition: 0.3s;font-size: 17px;}.tab button:hover {background-color: #ddd;}.tab button.active {background-color: #ccc;}.tabcontent {display: none;padding: 6px 12px;border: 1px solid #ccc;border-top: none;}.expand-caption {font-size: .8em;color: darkgray;padding-left: 60px;}.rconsole { font-family: monaco,Consolas,Lucida Console,monospace; font-size: .7em;}.fancytable {width: 100%;}.fancytable th {border-bottom:1px solid #ddd;padding: 12px;}.fancytable td {padding:12px;vertical-align: top;}.tooltiprbold {position: relative;display: inline-block;}.tooltiprbold .tooltiprtext {display: none;width: 200px;background-color: gray;color: #fff;text-align: center;border-radius: 6px;padding: 5px 0;position: absolute;z-index: 1;top: 100%;left: 50%;margin-left: -170px;}.tooltiprbold:hover .tooltiprtext {display: block;}.tooltiprbold:hover {background-color: #585858;color: #f2f2f2;border-radius: 6px;}.tooltiprbold .tooltipRtext {display: none;width: 200px;background-color: gray;color: #fff;text-align: center;border-radius: 6px;padding: 5px 0;position: absolute;z-index: 1;top: 100%;left: 50%;margin-left: 0px;}.tooltiprbold:hover .tooltipRtext {display: block;}.note {padding-left: 20px;color: gray;size: .8em;}.tooltipimage {position: relative;display: inline-block;}.tooltipimage .tooltipimagetext {display: none;width: 200px;background-color: gray;color: #fff;text-align: center;border-radius: 6px;padding: 5px 0;position: absolute;z-index: 1;top: 100%;left: 50%;margin-left: 1px;}.tooltipimage:hover .tooltipimagetext {display: block;}.tooltipimage:hover {background: radial-gradient(circle at 50% 30%, #f1f2f3, #ffffff);border-radius: 6px;}.myhover {border: 1px solid #ddd;border-radius: 4px;padding: 5px;width: 125px;height: 105px;}.myhover:hover {box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);}.gallerygraphs {border: 1px solid #ddd;border-radius: 4px;padding: 5px;width: 200px;height: 150px;}.gallerygraphs:hover {box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);}.tooltipgallery {position: relative;display: inline-block;}.tooltipgallery .tooltipgallerytext {display: none;width: 700px;background-color: gray;color: #fff;text-align: left;border-radius: 6px;padding: 2px 10px 15px 10px;position: absolute;z-index: 1;top: 50%;left: 20%;margin-left: 0px;}.tooltipgallery:hover .tooltipgallerytext {display: block;}.tooltipgallery:hover {background-color: #f8f8f8;border-radius: 6px;}</style>
 
 
 
@@ -1715,9 +1419,6 @@ summary {
 </style>
 
 <!-- code folding -->
-<style type="text/css">
-.code-folding-btn { margin-bottom: 4px; }
-</style>
 
 
 
@@ -1807,14 +1508,6 @@ div.tocify {
 
 <div class="fluid-row" id="header">
 
-<div class="btn-group pull-right">
-<button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Code</span> <span class="caret"></span></button>
-<ul class="dropdown-menu" style="min-width: 50px;">
-<li><a id="rmd-show-all-code" href="#">Show All Code</a></li>
-<li><a id="rmd-hide-all-code" href="#">Hide All Code</a></li>
-</ul>
-</div>
-
 
 
 <h1 class="title toc-ignore">What is a healthy child?</h1>
@@ -1886,11 +1579,6 @@ $(document).ready(function () {
 </script>
 
 <!-- code folding -->
-<script>
-$(document).ready(function () {
-  window.initializeCodeFolding("hide" === "show");
-});
-</script>
 
 <script>
 $(document).ready(function ()  {

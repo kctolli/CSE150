@@ -4,7 +4,7 @@ subtitle: "Case Study 1"
 author: "Kyle Tolliver"
 output: 
   html_document:
-    css: "../style.css"
+    css: "../styles.css"
     toc: true
     toc_float: true
     fig_height: 6

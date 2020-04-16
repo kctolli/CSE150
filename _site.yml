@@ -34,6 +34,6 @@ output_dir: '.'
 output: 
   html_document:
     theme: cerulean
-    css: style.css
+    css: styles.css
     highlight: tango
   

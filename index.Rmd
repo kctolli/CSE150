@@ -4,7 +4,7 @@ subtitle: "CSE 150"
 author: "Kyle Tolliver"
 output: 
   html_document:
-    css: "style.css"
+    css: "styles.css"
 ---
 
 ## Case Studies
