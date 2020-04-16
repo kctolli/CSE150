@@ -4,6 +4,10 @@ subtitle: "Case Study 6"
 author: "Kyle Tolliver"
 ---
 
+```{r load_libraries, include=FALSE}
+library(tidyverse)
+```
+
 ## Background
 
 

@@ -4,6 +4,10 @@ subtitle: "Case Study 3"
 author: "Kyle Tolliver"
 ---
 
+```{r load_libraries, include=FALSE}
+library(tidyverse)
+```
+
 ## Background
 
 In a nod to Greek history, the first marathon in 1896 commemorated the run of the soldier Pheidippides from a battlefield near the town of Marathon, Greece, to Athens in 490 B.C. For the 1908 London Olympics, the course was laid out from Windsor Castle to White City stadium, about 26 miles. An extra 385 yards was added inside the stadium to locate the finish line in front of the royal family’s viewing box.

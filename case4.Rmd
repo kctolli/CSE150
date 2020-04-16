@@ -4,6 +4,10 @@ subtitle: "Case Study 4"
 author: "Kyle Tolliver"
 ---
 
+```{r load_libraries, include=FALSE}
+library(tidyverse)
+```
+
 ## Background
 
 Do you remember you or your sibling going to the doctor for a check-up to hear a conversation about what percentile the measured height and weight were in? The World Health Organization gets some bad press at times of pandemics, but they do much more than managing pandemics. With the US CDC, they define the standards for those percentiles that you hear - https://www.cdc.gov/growthcharts/who_charts.htm.

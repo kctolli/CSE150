@@ -41,6 +41,8 @@ navbar:
         - text: "Additional Materials"  
         - text: "Data Visualisation Catalogue"
           href: https://datavizcatalogue.com/
+        - text: "Communicating Data with Tableau"
+          href: https://dataremixed.com/books/cdwt/         
           
           
 output_dir: '.'
@@ -55,3 +57,4 @@ output:
     fig_height: 6
     fig_width: 12
     fig_align: 'center'  
+    code_folding: hide 

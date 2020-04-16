@@ -4,6 +4,10 @@ subtitle: "Case Study 1"
 author: "Kyle Tolliver"
 ---
 
+```{r load_libraries, include=FALSE}
+library(tidyverse)
+```
+
 ## Background
 
 Data intuition and insight is not rocket science. However, there is a science to data handling, visualization, and decision making with data. The material we cover this semester will introduce to topics around this science.

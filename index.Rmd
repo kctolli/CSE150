@@ -4,6 +4,20 @@ subtitle: "CSE 150"
 author: "Kyle Tolliver"
 ---
 
+```{r load_libraries, include=FALSE}
+library(tidyverse)
+```
+
+```{r links}
+top <- 'https://secure.meetupstatic.com/photos/event/d/7/4/b/600_482695115.jpeg'
+
+data <- 'https://hackernoon.com/drafts/jb2cu3ncx.png'
+```
+
+```{r top_pic, fig.align='center', out.width='100%'}
+knitr::include_graphics(top)
+```
+
 ## Summary
 
 This course will introduce you to data science and provide insight into how to use data to make decisions using visualization and statistical inference. Data scientists spend a significant amount of their time cleaning and manipulating data for use in decision making. In this course, we have crafted real-world data for use in our learning to offset much of the work around data cleaning and manipulation. CSE 250, CSE 350/Math 335, CIT 111, CIT 225 and other advanced analytics courses like CSE 450 and Math 488 can help you build those skills.
@@ -63,7 +77,9 @@ Microsoft’s Excel program has broad industry penetration and is used by virtua
 
 ## Data Science Quotes
 
-<br>
+```{r pic, fig.align='center', out.width='50%'}
+knitr::include_graphics(data)
+```
 
 ### Albert Einstein
 
@@ -71,21 +87,15 @@ The formulation of a problem is often more essential than its solution, which ma
 
 ### Dan Meyer
 
-Ask yourselves, what problem have you solved, ever, that was worth solving, where you knew all of the given information in advance? Where you didn’t have a surplus of information and have to filter it out, or you didn’t have insufficient information and have to go find some?
+Ask yourselves, what problem have you solved, *ever*, that was worth solving... Where you didn’t have a surplus of information and have to filter it out, or you didn’t have insufficient information and have to go find some?
 
 ### Rainer Maria Rilke
 
 ... try to love the questions themselves as if they were locked rooms or books written in a very foreign language. Don’t search for the answers, which could not be given to you now, because you would not be able to live them. And the point is, to live everything. Live the questions now. Perhaps then, someday far in the future, you will gradually, without even noticing it, live your way into the answer.
 
-### Bertrand Russell
-
-Most people would rather die than think and many of them do!
-
 ### Aristotle
 
-Anything that we have to learn to do we learn by the actual doing of it … We become just by doing just acts, temperate by doing temperate ones, brave by doing brave ones.’
-
-… by doing the acts that we do in our transactions with other men we become just or unjust, and by doing the acts that we do in the presence of danger, and being habituated to feel fear or confidence, we become brave or cowardly. … Thus, in one word, states of character arise out of like activities. This is why the activities we exhibit must be of a certain kind; it is because the states of character correspond to the differences between these. It makes no small difference, then, whether we form habits of one kind or of another from our very youth; it makes a very great difference, or rather all the difference.
+Anything that we have to learn to do we learn by the actual doing of it … We become just by doing just acts, temperate by doing temperate ones, brave by doing brave ones.’ … by doing the acts that we do in our transactions with other men we become just or unjust, and by doing the acts that we do in the presence of danger, and being habituated to feel fear or confidence, we become brave or cowardly. … Thus, in one word, states of character arise out of like activities. This is why the activities we exhibit must be of a certain kind; it is because the states of character correspond to the differences between these. It makes no small difference, then, whether we form habits of one kind or of another from our very youth; it makes a very great difference, or rather all the difference.
 
 ### Apocryphal
 
@@ -95,6 +105,8 @@ Everybody is a genius. But if you judge a fish by its ability to climb a tree, i
 
 So let’s talk about learning. As a teacher at heart, I love the word and the idea, though I do think we should define it a little better than we usually do. … I don’t just mean the accumulation of knowledge, though that is part of it. I also don’t just mean passively listening to a lecture or memorizing facts. I mean learning in the sense of growth and change, of insight leading to improvement, of knowing the truth, which in turn leads us closer to the God of all truth.
 
+
+Talk titled '[Making Your Life a Soul-Stirring Journey of Personal Growth](https://www.churchofjesuschrist.org/study/ensign/2018/12/making-your-life-a-soul-stirring-journey-of-personal-growth?lang=eng)'
 
 
 <br> <br> 

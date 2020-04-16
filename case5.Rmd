@@ -4,6 +4,10 @@ subtitle: "Case Study 5"
 author: "Kyle Tolliver"
 ---
 
+```{r load_libraries, include=FALSE}
+library(tidyverse)
+```
+
 ## Background
 
 Matthew 25:29 explains that _‘whoever has will be given more, and they will have an abundance. Whoever does not have, even what they have will be taken from them’ _which has lead many researchers to describe how some get more and others get less as the‘Matthew Effect’ in our society.

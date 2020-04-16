@@ -4,6 +4,10 @@ subtitle: "Case Study 2"
 author: "Kyle Tolliver"
 ---
 
+```{r load_libraries, include=FALSE}
+library(tidyverse)
+```
+
 ## Background
 
 Lego has become one of the most valuable toys on the planet. You can even [download software](https://www.leocad.org/index.html) and create your own sets from bulk toys.
