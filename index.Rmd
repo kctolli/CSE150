@@ -4,27 +4,36 @@ subtitle: "CSE 150"
 author: "Kyle Tolliver"
 ---
 
-## Case Studies
+## Summary
 
-* ### [Case Study 1](./case01/main.html) - Introduction
-* ### [Case Study 2](./case02/main.html) - Lego my data
-* ### [Case Study 3](./case03/main.html) - What is normal about marathons?
-* ### [Case Study 4](./case04/main.html) - What is a healthy child?
-* ### [Case Study 5](./case05/main.html) - Does your birthday make you better at sports?
-* ### [Case Study 6](./case06/main.html) - Catch me, if you can?
-* ### [Case Study 7](./case07/main.html) - Can you help me with my data problem?
-* ### [Case Study 8](./case08/main.html) - Do you want to be a data scientist?
+This course will introduce you to data science and provide insight into how to use data to make decisions using visualization and statistical inference. Data scientists spend a significant amount of their time cleaning and manipulating data for use in decision making. In this course, we have crafted real-world data for use in our learning to offset much of the work around data cleaning and manipulation. CSE 250, CSE 350/Math 335, CIT 111, CIT 225 and other advanced analytics courses like CSE 450 and Math 488 can help you build those skills.
+
+### Why This Class
+
+You are driven by curiosity and interested in how data decisions are made (sometimes called data intuition). Possibly, you have a more empathetic approach to how the world works and how problems can be solved. Finally, you have an eye for visualization and how data is communicated to make impactful decisions. 
+
+### Principles of teaching Data Science
+
+* Organize the course around a set of diverse case studies
+* Integrate computing into every aspect of the course
+* Teach abstraction, but minimize reliance on mathematical notation
+* Structure course activities to realistically mimic a data scientist’s experience
+* Demonstrate the importance of critical thinking/skepticism through examples
+
+## Course Outcomes
+
+1. Organize and store tabular data for time-series, spatial, and measured variables.
+2. Calculate data summaries and produce visualizations from data.
+3. Communicate about data with people of varied backgrounds (e.g., novices, database administrators, data scientists, business decision-makers).
+4. Describe the implications of data visualization and summaries in the decision-making process.
 
 ## Course Materials
 
-* ### [Course Website](https://byuistats.github.io/CSE150/)    
-#### Found through BYUI Stats Github
+* [Course Website](https://byuistats.github.io/CSE150/) - Found through BYUI Stats Github
 
-* ### [Good Charts Textbook](https://www.amazon.com/gp/product/1633690709/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)         
-#### Found on Amazon
+* [Good Charts Textbook](https://www.amazon.com/gp/product/1633690709/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) - Found on Amazon
 
-* ### [Supplemental Readings](https://byuistats.github.io/BYUI_CSE150_StatBook/)    
-#### Found through BYUI Stats Github
+* [Supplemental Readings](https://byuistats.github.io/BYUI_CSE150_StatBook/) - Found through BYUI Stats Github
 
 <br> <br>
 

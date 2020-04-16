@@ -1,0 +1,8 @@
+    - text: "Materials"
+      menu:
+        - text: "Course Website"
+          href: https://byuistats.github.io/CSE150/
+        - text: "Good Charts"
+          href: https://www.amazon.com/gp/product/1633690709/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1
+        - text: "Supplemental Readings"
+          href: https://byuistats.github.io/BYUI_CSE150_StatBook/
