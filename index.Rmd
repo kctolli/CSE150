@@ -20,22 +20,84 @@ You are driven by curiosity and interested in how data decisions are made (somet
 * Structure course activities to realistically mimic a data scientist’s experience
 * Demonstrate the importance of critical thinking/skepticism through examples
 
-## Course Outcomes
+## Course Requirements
+
+We will not focus on traditional statistical hypothesis testing or complex statistical modeling. We will leverage statistics for the concepts of how to visualize uncertainty and variability while keeping our focus on visualization and data handling to focus on ‘safe-stats.’ We will not focus on traditional statistical hypothesis testing or complex statistical modeling.
+
+We will leverage statistics for the concepts of how to visualize uncertainty and variability while keeping our focus on visualization and data handling to focus on ‘safe-stats’. We do expect that you have familiarity with using web-based software.
+
+### Course Outcomes
 
 1. Organize and store tabular data for time-series, spatial, and measured variables.
 2. Calculate data summaries and produce visualizations from data.
 3. Communicate about data with people of varied backgrounds (e.g., novices, database administrators, data scientists, business decision-makers).
 4. Describe the implications of data visualization and summaries in the decision-making process.
 
-## Course Materials
+## Course Structure
 
-* [Course Website](https://byuistats.github.io/CSE150/) - Found through BYUI Stats Github
+We have built the class around a set of data driven projects. During each of those projects we will cover readings in visualzation, data handling, and statistics. Excluding the first two days and the last two days of class, we will spend four days of class on each case study.
 
-* [Good Charts Textbook](https://www.amazon.com/gp/product/1633690709/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) - Found on Amazon
+### Course Format
 
-* [Supplemental Readings](https://byuistats.github.io/BYUI_CSE150_StatBook/) - Found through BYUI Stats Github
+We will meet for 1 hour twice a week and use the following weekly rhythm. After the first week, we will complete multiple 4-class day data projects. We expect 1-3 hours of work to be completed outside of class.
 
-<br> <br>
+#### Preparation
+
+In my experience, getting lectured training outside of college is even more expensive than it is in college. A week’s worth of training can cost more than a semester of school here at BYUI. Due to this expense, learning how to digest material that is online and get up to speed on a topic before going to the expert for questions is a valuable skill to develop. I expect that you have completed the assigned reading material before class begins. You will also have tasks to complete after class.
+
+#### Class Time
+
+As described in the weekly format, we will have shorter assignments due at the beginning of each period and case studies. We will use class time to enforce the analytics and visualization concepts needed for the weekly topic covered in the case study.
+
+### Semester deliverables
+
+1. A cover letter stating the key concepts and techniques that you learned during our projects and your goals to continue learning in this area - include a grade request that represents your knowledge and task completion
+2. A dream data science resume covering your desired skills when you graduate.
+3. A semester task form that records your completed tasks during the semester
+
+## Course Tools
+
+We will be using Google Spreadsheets and Chart Studio by Plotly for our data handling and visualization throughout the course. Neither tool requires the use of a programming language for their use in our class. Both are used heavily in the data science space, and they have many connections to R and Python. There are many other tools for this type of work. You may have heard of PowerBI, Tableau, Python, R, SQL, to name a few that touch the space of data handling. PowerBI and Tableau are described as Graphical User Interface (GUI) tools for Business Analytics and Intelligence (BI) and Data Science (DS). Python, R, and SQL are programming languages that are heavily used in data science.
+
+Microsoft’s Excel program has broad industry penetration and is used by virtually every company on the planet. Google’s spreadsheet tool is a strong competitor and has equally strong user penetration in industry.
+
+## Data Science Quotes
+
+<br>
+
+### Albert Einstein
+
+The formulation of a problem is often more essential than its solution, which may be merely a matter of mathematical or experimental skill.
+
+### Dan Meyer
+
+Ask yourselves, what problem have you solved, ever, that was worth solving, where you knew all of the given information in advance? Where you didn’t have a surplus of information and have to filter it out, or you didn’t have insufficient information and have to go find some?
+
+### Rainer Maria Rilke
+
+... try to love the questions themselves as if they were locked rooms or books written in a very foreign language. Don’t search for the answers, which could not be given to you now, because you would not be able to live them. And the point is, to live everything. Live the questions now. Perhaps then, someday far in the future, you will gradually, without even noticing it, live your way into the answer.
+
+### Bertrand Russell
+
+Most people would rather die than think and many of them do!
+
+### Aristotle
+
+Anything that we have to learn to do we learn by the actual doing of it … We become just by doing just acts, temperate by doing temperate ones, brave by doing brave ones.’
+
+… by doing the acts that we do in our transactions with other men we become just or unjust, and by doing the acts that we do in the presence of danger, and being habituated to feel fear or confidence, we become brave or cowardly. … Thus, in one word, states of character arise out of like activities. This is why the activities we exhibit must be of a certain kind; it is because the states of character correspond to the differences between these. It makes no small difference, then, whether we form habits of one kind or of another from our very youth; it makes a very great difference, or rather all the difference.
+
+### Apocryphal
+
+Everybody is a genius. But if you judge a fish by its ability to climb a tree, it will live its whole life believing that it is stupid.
+
+### Jeffrey R. Holland
+
+So let’s talk about learning. As a teacher at heart, I love the word and the idea, though I do think we should define it a little better than we usually do. … I don’t just mean the accumulation of knowledge, though that is part of it. I also don’t just mean passively listening to a lecture or memorizing facts. I mean learning in the sense of growth and change, of insight leading to improvement, of knowing the truth, which in turn leads us closer to the God of all truth.
+
+
+
+<br> <br> 
 
 #####  *--- Website is made with [Rmd files](https://rmarkdown.rstudio.com/index.html) and [Rstudio](https://rstudio.com/)*
 

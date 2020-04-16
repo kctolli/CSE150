@@ -6,21 +6,42 @@ navbar:
       menu:
         - text: "Introduction"
           href: ./case1.html
+        - text: "---------------"           
         - text: "Lego my data"
           href: ./case2.html
+        - text: "---------------"   
         - text: "What is normal about marathons?"
           href: ./case3.html
+        - text: "---------------"   
         - text: "What is a healthy child?"
           href: ./case4.html
+        - text: "---------------"   
         - text: "Does your birthday make you better at sports?"
           href: ./case5.html
+        - text: "---------------"   
         - text: "Catch me, if you can?"
           href: ./case6.html
+        - text: "---------------"   
         - text: "Can you help me with my data problem?"
           href: ./case7.html
+        - text: "---------------"   
         - text: "Do you want to be a data scientist?"
-          href: ./case8.html
-
+          href: ./case8.html 
+    - text: "Materials"
+      menu:
+        - text: "Course Website"
+          href: https://byuistats.github.io/CSE150/
+        - text: "---------------" 
+        - text: "Books"  
+        - text: "Good Charts"
+          href: https://www.amazon.com/gp/product/1633690709/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1
+        - text: "Supplemental Readings"
+          href: https://byuistats.github.io/BYUI_CSE150_StatBook/
+        - text: "---------------" 
+        - text: "Additional Materials"  
+        - text: "Data Visualisation Catalogue"
+          href: https://datavizcatalogue.com/
+          
           
 output_dir: '.'
 
