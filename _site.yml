@@ -33,7 +33,7 @@ output_dir: '.'
 
 output: 
   html_document:
-    theme: cerulean
     css: styles.css
     highlight: tango
+    theme: readable
   
