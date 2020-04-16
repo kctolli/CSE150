@@ -1,0 +1,39 @@
+name: "data-intuition"
+navbar:
+  title: "Data Intuition and Insight"
+  left:
+    - text: "Case Studies"
+      menu:
+        - text: "Introduction"
+          href: ./case01/main.html
+        - text: "Lego my data"
+          href: ./case02/main.html
+        - text: "What is normal about marathons?"
+          href: ./case03/main.html
+        - text: "What is a healthy child?"
+          href: ./case04/main.html
+        - text: "Does your birthday make you better at sports?"
+          href: ./case05/main.html
+        - text: "Catch me, if you can?"
+          href: ./case06/main.html
+        - text: "Can you help me with my data problem?"
+          href: ./case07/main.html
+        - text: "Do you want to be a data scientist?"
+          href: ./case08/main.html
+    - text: "Materials"
+      menu:
+        - text: "Course Website"
+          href: https://byuistats.github.io/CSE150/
+        - text: "Good Charts"
+          href: https://www.amazon.com/gp/product/1633690709/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1
+        - text: "Supplemental Readings"
+          href: https://byuistats.github.io/BYUI_CSE150_StatBook/
+          
+output_dir: '.'
+
+output: 
+  html_document:
+    theme: cerulean
+    css: style.css
+    highlight: tango
+  

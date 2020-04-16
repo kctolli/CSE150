@@ -7,7 +7,6 @@ output:
     css: "../style.css"
     toc: true
     toc_float: true
-    code_folding: hide
     fig_height: 6
     fig_width: 12
     fig_align: 'center'
@@ -21,7 +20,7 @@ We will be selling bulk LEGO in 1/2-lb bags. According to this LEGO selling guid
 
 ### Challenge
 
-You will need to work with your team to enter your LEGO data and then create a set of visualizations that sell your product. We will need to prepare our sales material to make sure we can communicate our bag of LEGO without them handling or seeing the product (no pictures of your bag of LEGO).1
+You will need to work with your team to enter your LEGO data and then create a set of visualizations that sell your product. We will need to prepare our sales material to make sure we can communicate our bag of LEGO without them handling or seeing the product (no pictures of your bag of LEGO).
 
 Each buyer will have questions similar to the list below about your blocks. However, other questions may come up during the buying session.
 

@@ -7,7 +7,7 @@ output:
     css: "style.css"
 ---
 
-## Course Work
+## Case Studies
 
 * ### [Case Study 1](./case01/main.html) - Introduction
 * ### [Case Study 2](./case02/main.html) - Lego my data
@@ -29,6 +29,6 @@ output:
 * ### [Supplemental Readings](https://byuistats.github.io/BYUI_CSE150_StatBook/)    
 #### Found through BYUI Stats Github
 
-&nbsp; &nbsp; 
+<br> <br>
 
 #####  *--- Website is made with [Rmd files](https://rmarkdown.rstudio.com/index.html) and [Rstudio](https://rstudio.com/)*
