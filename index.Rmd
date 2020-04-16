@@ -2,7 +2,6 @@
 title: "Data Intuition and Insight"
 subtitle: "CSE 150"
 author: "Kyle Tolliver"
-output: html_document
 ---
 
 ## Case Studies
