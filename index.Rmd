@@ -26,7 +26,7 @@ This course will introduce you to data science and provide insight into how to u
 
 You are driven by curiosity and interested in how data decisions are made (sometimes called data intuition). Possibly, you have a more empathetic approach to how the world works and how problems can be solved. Finally, you have an eye for visualization and how data is communicated to make impactful decisions. 
 
-### Principles of teaching Data Science
+### Principles of Teaching Data Science
 
 * Organize the course around a set of diverse case studies
 * Integrate computing into every aspect of the course
@@ -63,7 +63,7 @@ In my experience, getting lectured training outside of college is even more expe
 
 As described in the weekly format, we will have shorter assignments due at the beginning of each period and case studies. We will use class time to enforce the analytics and visualization concepts needed for the weekly topic covered in the case study.
 
-### Semester deliverables
+### Semester Deliverables
 
 1. A cover letter stating the key concepts and techniques that you learned during our projects and your goals to continue learning in this area - include a grade request that represents your knowledge and task completion
 2. A dream data science resume covering your desired skills when you graduate.
