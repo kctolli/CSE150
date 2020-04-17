@@ -11,7 +11,7 @@ library(tidyverse)
 ```{r links}
 top <- 'https://secure.meetupstatic.com/photos/event/d/7/4/b/600_482695115.jpeg'
 
-data <- 'https://hackernoon.com/drafts/jb2cu3ncx.png'
+lifecycle <- 'https://hackernoon.com/drafts/jb2cu3ncx.png'
 ```
 
 ```{r top_pic, fig.align='center', out.width='100%'}
@@ -78,7 +78,7 @@ Microsoft’s Excel program has broad industry penetration and is used by virtua
 ## Data Science Quotes
 
 ```{r pic, fig.align='center', out.width='50%'}
-knitr::include_graphics(data)
+knitr::include_graphics(lifecycle)
 ```
 
 ### Albert Einstein
