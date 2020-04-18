@@ -1,7 +1,6 @@
 ---
 title: "Lego my data"
 subtitle: "Case Study 2"
-author: "Kyle Tolliver"
 ---
 
 ```{r load_libraries, include=FALSE}

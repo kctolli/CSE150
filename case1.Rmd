@@ -1,7 +1,6 @@
 ---
 title: "Introduction"
 subtitle: "Case Study 1"
-author: "Kyle Tolliver"
 ---
 
 ```{r load_libraries, include=FALSE}

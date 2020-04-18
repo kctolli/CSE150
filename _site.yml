@@ -5,28 +5,42 @@ navbar:
     - text: "Case Studies"
       menu:
         - text: "Introduction"
-          href: ./case1.html
+          href: ./case1.html 
         - text: "---------------"           
         - text: "Lego my data"
           href: ./case2.html
+        - text: "Assignment"
+          href: ./assign.html  
         - text: "---------------"   
         - text: "What is normal about marathons?"
           href: ./case3.html
+        - text: "Assignment"
+          href: ./assign.html  
         - text: "---------------"   
         - text: "What is a healthy child?"
           href: ./case4.html
+        - text: "Assignment"
+          href: ./assign.html  
         - text: "---------------"   
         - text: "Does your birthday make you better at sports?"
           href: ./case5.html
+        - text: "Assignment"
+          href: ./assign.html
         - text: "---------------"   
         - text: "Catch me, if you can?"
           href: ./case6.html
+        - text: "Assignment"
+          href: ./assign.html  
         - text: "---------------"   
         - text: "Can you help me with my data problem?"
           href: ./case7.html
+        - text: "Assignment"
+          href: ./assign.html  
         - text: "---------------"   
         - text: "Do you want to be a data scientist?"
-          href: ./case8.html 
+          href: ./case8.html
+        - text: "Assignment"
+          href: ./assign.html  
     - text: "Materials"
       menu:
         - text: "Course Website"
@@ -43,7 +57,8 @@ navbar:
           href: https://datavizcatalogue.com/
         - text: "Communicating Data with Tableau"
           href: https://dataremixed.com/books/cdwt/         
-          
+        - text: "Stats Sheet"
+          href: https://docs.google.com/spreadsheets/d/1KUq-7qEHB642UB9olN7Fw0Yp9pYoKyCQIhs1TCPP198/template/preview
           
 output_dir: '.'
 
