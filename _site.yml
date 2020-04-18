@@ -26,14 +26,35 @@ navbar:
           href: ./case7.html 
         - text: "---------------"   
         - text: "Do you want to be a data scientist?"
-          href: ./case8.html      
+          href: ./case8.html   
+    - text: "Readings"
+      menu:
+        - text: "Case Study 1"
+          href: ./read1.html
+        - text: "---------------" 
+        - text: "Case Study 2"
+          href: ./read2.html
+        - text: "---------------" 
+        - text: "Case Study 3"
+          href: ./read3.html
+        - text: "---------------" 
+        - text: "Case Study 4"
+          href: ./read4.html
+        - text: "---------------" 
+        - text: "Case Study 5"
+          href: ./read5.html
+        - text: "---------------" 
+        - text: "Case Study 6"
+          href: ./read6.html
+        - text: "---------------" 
+        - text: "Case Study 7"
+          href: ./read7.html
+        - text: "---------------" 
+        - text: "Case Study 8"
+        - text: "No Reading"
+        - text: "---------------" 
     - text: "Materials"
       menu:
-        - text: "Course Website"
-          href: https://byuistats.github.io/CSE150/
-        - text: "Grading"
-          href: ./grading.html
-        - text: "---------------" 
         - text: "Books"  
         - text: "Good Charts"
           href: https://www.amazon.com/gp/product/1633690709/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1
@@ -49,6 +70,12 @@ navbar:
           href: https://docs.google.com/spreadsheets/d/1KUq-7qEHB642UB9olN7Fw0Yp9pYoKyCQIhs1TCPP198/template/preview
     - text: "Resources"
       menu:
+        - text: "Course Website"
+          href: https://byuistats.github.io/CSE150/
+        - text: "---------------"  
+        - text: "Grading"
+          href: ./grading.html  
+        - text: "---------------"   
         - text: "Languages"
           href: ./language.html
         - text: "---------------"  
