@@ -54,6 +54,9 @@ navbar:
         - text: "---------------"  
         - text: "Quotes"
           href: ./quotes.html  
+        - text: "---------------"  
+        - text: "Data Wrangling"
+          href: https://mcs335.glitch.me/   
 
           
 output_dir: '.'
