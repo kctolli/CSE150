@@ -10,15 +10,17 @@ library(tidyverse)
 
 ## Background
 
-
+Data scientists need to have resumes that show strong experience in solving real-world problems. While employers know that their job candidates need experience, they often don’t know what experience they need and often list too many requirements.
 
 ### Challenge
 
-
+To finish the semester you will need to create your hypothetical resume that you could use upon graduation from BYU-I to a data science or analytics position. Your resume will need to combine the three elements of coursework available, the real-work experience you can accumulate over your next few years before graduation, and the job requirements of the currently available positions for undergraduate data scientists.
 
 ## Deliverables
 
-* 
+* A one-page dream data science resume.
+* A second page of sources that you used to justify the stuff in your resume.
+* A cover letter that describes what you have learned from this course
 
 ### [See Assignment Page](./assign.html)
 

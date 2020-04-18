@@ -10,15 +10,27 @@ library(tidyverse)
 
 ## Background
 
+Up to this point in our course, we have been protecting you against the difficulty of gathering and formatting data for use in visualization and analysis. Tools like Tableau and PowerBI can be used to manipulate data. Some business analysts will stay in Excel and use VBA or use DAX in PowerBI. We are still going to protect you, but you will have to guide us on your data needs.
 
+Most of the time data scientists move to the programming languages of Python, R, or SQL to wrangle their data. Both PowerBI and Tableau allow all three languages to be used internally.
+
+The [Bill and Melinda Gates Foundation wants to eradicate Tuberculosis](https://www.gatesfoundation.org/what-we-do/global-health/tuberculosis) (TB). They have asked your team to use the World Health Organization’s report on TB to guide them on their next steps in fighting this disease.
 
 ### Challenge
 
+Address the following questions;
 
+* Which countries require our attention?
+* What age groups are of the most concern?
+* Are there differences between males and females?
+* What data science programming language should we use moving forward?
 
 ## Deliverables
 
-* 
+* A 5-8 slide presentation that addresses the questions above.
+* Each question should have at least one graphic to support your answer.
+* At least one slide highlighting the language choice for future work on the project.
+* You should have an appendix slide that describes the wrangling that had to be done to the data.
 
 ### [See Assignment Page](./assign.html)
 

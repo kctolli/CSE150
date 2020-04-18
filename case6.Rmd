@@ -10,15 +10,23 @@ library(tidyverse)
 
 ## Background
 
+You have recently been hired by the U.S. internal revenue service (IRS) to catch corporate cheaters. You have been given three companies to investigate. You will need to decide if the IRS should build a legal case to investigate the institution for fraud.
 
+* Sino Forest Corporation: You have the values from the financial statement numbers of Sino Forest Corporation’s 2010 Report.
+* Government Entity: A dataset containing the card transactions for a government entity - 2010.
+* General Motors: The amounts paid to vendors for the 90 days preceding General Motor’s 2009 liquidation.
 
 ### Challenge
 
-
+You will be responsible to report as much evidence as you can with the data provided for each institution above. The government entity has more available data than the other two which will require you to dig deeper to find additional clues.
 
 ## Deliverables
 
-* 
+* A 8-12 slide presentation to your IRS managers on the case against each entity.
+* At least one slide that shows the statistical test results from the analysis you performed.
+* At least one slide per institution that visualizes their first digit distribution compared to Benford’s law.
+* At least one slide for one of the institutions that compares the last digit distribution to what would be expected.
+* Multiple visualizations of the Government Entity data to find other interesting insights.
 
 ### [See Assignment Page](./assign.html)
 

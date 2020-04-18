@@ -8,13 +8,8 @@ author: "Kyle Tolliver"
 library(tidyverse)
 ```
 
-```{r links}
-top <- 'https://secure.meetupstatic.com/photos/event/d/7/4/b/600_482695115.jpeg'
-
-lifecycle <- 'https://hackernoon.com/drafts/jb2cu3ncx.png'
-```
-
 ```{r top_pic, fig.align='center', out.width='100%'}
+top <- 'https://secure.meetupstatic.com/photos/event/d/7/4/b/600_482695115.jpeg'
 knitr::include_graphics(top)
 ```
 
@@ -47,27 +42,19 @@ We will leverage statistics for the concepts of how to visualize uncertainty and
 3. Communicate about data with people of varied backgrounds (e.g., novices, database administrators, data scientists, business decision-makers).
 4. Describe the implications of data visualization and summaries in the decision-making process.
 
-## Course Structure
+## Course Format
 
 We have built the class around a set of data driven projects. During each of those projects we will cover readings in visualzation, data handling, and statistics. Excluding the first two days and the last two days of class, we will spend four days of class on each case study.
 
-### Course Format
-
 We will meet for 1 hour twice a week and use the following weekly rhythm. After the first week, we will complete multiple 4-class day data projects. We expect 1-3 hours of work to be completed outside of class.
 
-#### Preparation
+### Preparation
 
 In my experience, getting lectured training outside of college is even more expensive than it is in college. A week’s worth of training can cost more than a semester of school here at BYUI. Due to this expense, learning how to digest material that is online and get up to speed on a topic before going to the expert for questions is a valuable skill to develop. I expect that you have completed the assigned reading material before class begins. You will also have tasks to complete after class.
 
-#### Class Time
+### Class Time
 
-As described in the weekly format, we will have shorter assignments due at the beginning of each period and case studies. We will use class time to enforce the analytics and visualization concepts needed for the weekly topic covered in the case study.
-
-### Semester Deliverables
-
-1. A cover letter stating the key concepts and techniques that you learned during our projects and your goals to continue learning in this area - include a grade request that represents your knowledge and task completion
-2. A dream data science resume covering your desired skills when you graduate.
-3. A semester task form that records your completed tasks during the semester
+We will use class time to enforce the analytics and visualization concepts needed for the weekly topic covered in the case study.
 
 ## Course Tools
 
@@ -75,39 +62,17 @@ We will be using Google Spreadsheets and Chart Studio by Plotly for our data han
 
 Microsoft’s Excel program has broad industry penetration and is used by virtually every company on the planet. Google’s spreadsheet tool is a strong competitor and has equally strong user penetration in industry.
 
-## Data Science Quotes
+### Chart Studio
 
-```{r pic, fig.align='center', out.width='50%'}
-knitr::include_graphics(lifecycle)
-```
+Plotly has provided a full suite of [tutorials](https://plotly.com/chart-studio-help/tutorials/) that we can use during the course. Chart Studio is the tool that was used to make the graphics in our textbook. It pretty intuitive and has Plotly has built R and Python packages as well.
 
-### Albert Einstein
+### Google Sheets
 
-The formulation of a problem is often more essential than its solution, which may be merely a matter of mathematical or experimental skill.
+With Google Sheets, you can create and edit spreadsheets directly in your web browser—no special software is required. Multiple people can work simultaneously, you can see people’s changes as they make them, and every change is saved automatically. Use the guides below to learn Sheets and refer to their [cheat sheet](https://support.google.com/a/users/answer/9300022).
 
-### Dan Meyer
+### Tableau
 
-Ask yourselves, what problem have you solved, *ever*, that was worth solving... Where you didn’t have a surplus of information and have to filter it out, or you didn’t have insufficient information and have to go find some?
-
-### Rainer Maria Rilke
-
-... try to love the questions themselves as if they were locked rooms or books written in a very foreign language. Don’t search for the answers, which could not be given to you now, because you would not be able to live them. And the point is, to live everything. Live the questions now. Perhaps then, someday far in the future, you will gradually, without even noticing it, live your way into the answer.
-
-### Aristotle
-
-Anything that we have to learn to do we learn by the actual doing of it … We become just by doing just acts, temperate by doing temperate ones, brave by doing brave ones.’ … by doing the acts that we do in our transactions with other men we become just or unjust, and by doing the acts that we do in the presence of danger, and being habituated to feel fear or confidence, we become brave or cowardly. … Thus, in one word, states of character arise out of like activities. This is why the activities we exhibit must be of a certain kind; it is because the states of character correspond to the differences between these. It makes no small difference, then, whether we form habits of one kind or of another from our very youth; it makes a very great difference, or rather all the difference.
-
-### Apocryphal
-
-Everybody is a genius. But if you judge a fish by its ability to climb a tree, it will live its whole life believing that it is stupid.
-
-### Jeffrey R. Holland
-
-So let’s talk about learning. As a teacher at heart, I love the word and the idea, though I do think we should define it a little better than we usually do. … I don’t just mean the accumulation of knowledge, though that is part of it. I also don’t just mean passively listening to a lecture or memorizing facts. I mean learning in the sense of growth and change, of insight leading to improvement, of knowing the truth, which in turn leads us closer to the God of all truth.
-
-
-Talk titled '[Making Your Life a Soul-Stirring Journey of Personal Growth](https://www.churchofjesuschrist.org/study/ensign/2018/12/making-your-life-a-soul-stirring-journey-of-personal-growth?lang=eng)'
-
+Tableau is heavily used among business analysts and data scientists. As we use Tableau, we will not be covering all the powerful data connections and dashboard tools in the software in our class. We will be focusing on creating different data views for visual analytics in this class. 
 
 <br> <br> 
 

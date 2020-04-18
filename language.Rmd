@@ -1,0 +1,29 @@
+---
+title: "Languages"
+---
+
+Knowing a language doesn’t make you a data scientist, just like knowing English doesn’t make you a poet. You will also need to have analytics and visualization capabilities.
+
+## Data Science
+
+Currently, three languages drive the data science community. If you want to argue that you are a data scientist, you need to be proficient in at least one and able to use all three.1
+
+* R: - A successor to the S language with it’s first beta release in 2000. Heavily used by trained statisticians and researchers. Thanks to RStudio (established in 2010), data scientists also use this software for their work. 
+* Python: - Version 2.0 was released in 2000, with version 3.0 arriving in 2008. Pandas is the foundation for data science in Python, and it started development in 2008. Python is heavily used by software engineers as well.
+* SQL: - Has been around much longer. In the early 1970s, IBM implemented the language. Oracle created the first commercially available implementation. It is built to handle relational databases but has also been leveraged for other big data database constructs. IT departments heavily use SQL. 
+
+### R for data science?
+
+BYUI students can take MATH 325 to be introduced to R for statistics and MATH 335 to learn R for data wrangling and visualization.
+
+### Python for data science?
+
+BYU-I students can take CSE 110 to be introduced to Python and CSE 250 to be introduced to Python for data science.
+
+### SQL for data science?
+
+BYU-I students can take CIT 111 or CIT 225 to be introduced to SQL.
+
+<br> <br> 
+
+*--- Found on [Course Website](https://byuistats.github.io/CSE150/languages.html)*

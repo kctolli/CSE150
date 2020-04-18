@@ -1,0 +1,42 @@
+---
+title: "Grading"
+---
+
+Grading is a nasty side effect of mass learning and academia. We are in a class at a university and will have to manage this side effect. **However, we do not have to let it control our learning, thinking, or this class. Learning and thinking should motivate each activity.**
+
+We will complete work in the following areas
+
+* Weekly reading (30%)
+* Case Study Preparation (5%)
+* Case Study (40%)
+* Teach one another (15%)
+* Visualization challenge(10%)
+
+## Weekly reading
+
+To keep up with the conversation in class, you will need to keep up to date with the reading. We have a couple of quiz questions about the readings with some self-reporting on your reading completion.
+
+## Case Study
+
+Our class is focused on 6 data case studies. This section will count for over 50% of your grade.
+
+* Preparation for the case study (5%): You will have two checkpoints for each project.
+* Case Study completion (40%): Each student will submit their final presentations based on the requirements of the case study.
+* Teach one another (10%): Each student will be responsible for presenting to another student and then provide questions and feedback on another project as a part of teaching one another.
+
+## Teach one another
+
+This section includes three elements - 1) Tooltips presentations, 2) Case study presentations, and 3) Case study comments. Each is worth 5% of your overall grade. There will be one quiz that you can repeatedly take over the semester to document your completion.
+
+## Visualization challenge
+
+We expect to provide an in-class and take-home challenge that you can start on the last day of class. It will cover three elements.
+
+1. A messy data set that requires you to describe its issues and what you would do to clean it up for use in visualization.
+2. A data journalism article review where you identify the strengths and weaknesses of the visualizations used to tell their story.
+3. A visualization request to be done in Tableau with the data set that we provide.
+
+## Semester deliverables
+
+1. A cover letter stating the key concepts and techniques that you learned during our projects and your goals to continue learning in this area - include a grade request that represents your knowledge and task completion
+2. A dream data science resume that covers the skills you desire upon graduation.
