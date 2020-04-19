@@ -52,7 +52,6 @@ navbar:
         - text: "---------------" 
         - text: "Case Study 8"
         - text: "No Reading"
-        - text: "---------------" 
     - text: "Materials"
       menu:
         - text: "Books"  
