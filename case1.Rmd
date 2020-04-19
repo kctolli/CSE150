@@ -18,6 +18,3 @@ Make sure you understand the course objectives and that you are introduced to th
 ### Deliverables
 
 * Complete the quizzes for the first two days of class in [Canvas](https://byui.instructure.com/)
-
-## Class Notes
-

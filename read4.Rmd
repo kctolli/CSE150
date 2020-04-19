@@ -12,23 +12,27 @@ Students will understand how percentiles are calculated and data distribution as
 * How to calculate percentiles from data and from normal distribution assumptions.
 * How to use and interpret a confidence interval.
 
-## Day 11
+## Readings
+
+### Day 11
 
 * Read Good Charts (Type: Visualization)
   + Chapter 7: Persuasion or Manipulation
 * Read [Build a Line Chart](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_line.htm) (Type:Tools)
 * Read [Build a Box Plot](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_boxplot.htm) (Types: Tools)
 
-## Day 12
+### Day 12
 
 * None
 
-## Day 13
+### Day 13
 
 * Read Good Charts (Type: Visualization)
   + Chapter 8: Present to Persuade (pg. 177-192)
 
-## Day 14
+### Day 14
 
 * CSE 150 Data Intuition and Insight 
   + Chapter 3: Probability, Sampling, and Confidence Intervals (Type: Statistics)
+  
+## Class Notes  

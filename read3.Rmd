@@ -1,6 +1,5 @@
 ---
 title: "Case Study 3"
-subtitle: "Readings"
 ---
 
 ## Objective
@@ -15,7 +14,9 @@ Students discover how to visualize data temporally (lines), spatially (map), and
 * Concepts around the normal distribution
 * Additional concepts around data structure (Tidy)
 
-## Day 7 
+## Readings
+
+### Day 7 
 
 * Read Good Charts (Type: Visualization)
   + Chapter 5: Refine to impress (pg. 109-120)
@@ -24,22 +25,24 @@ Students discover how to visualize data temporally (lines), spatially (map), and
 * Read Good Charts (Types: Statistics)
   + Chapter 2: The normal distribution
 
-## Day 8
+### Day 8
 
 * Read Good Charts (Type: Visualization)
   + Chapter 5: Refine to impress (pg. 121-132)
 * Read [Tableau Editing your graphic, Part 1](https://help.tableau.com/current/pro/desktop/en-us/concepts.htm) (Type: Tools)
 
-## Day 9
+### Day 9
 
 * Read Good Charts (Type: Visualization)
   + Chapter 6: Refine to persuade (pg. 133-142)
 * Read [Tidy Data Paper](https://vita.had.co.nz/papers/tidy-data.pdf) (pg. 1-13) (Type: Data)
 
-## Day 10
+### Day 10
 
 * Read Good Charts (Type: Visualization)
   + Chapter 6: Refine to persuade (pg. 143-152)
 * Read [Tableau Editing your graphic Part 2](https://help.tableau.com/current/pro/desktop/en-us/ask_data.htm) (Type: Tools)
 * CSE 150 Data Intuition and Insight
   + Chapter 2: Introduction to the Normal Distribution and Z-Scores (Type: Statistics)
+  
+## Class Notes  

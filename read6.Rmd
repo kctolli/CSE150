@@ -12,19 +12,23 @@ Students will come to understand the difference between visualizing a sample of 
 * How to compare observed counts to an expected distribution of counts.
 * The proper way to draw conclusions from statistical tests
 
-## Day 19
+## Readings
+
+### Day 19
 
 * Read [Benford’s Law (The First Digit Law): Simple Definition, Examples](https://www.statisticshowto.com/benfords-law/) (Type: Statistics)
 
-## Day 20
+### Day 20
 
 * Read [Visualize Benford's Law](https://help.tableau.com/current/pro/desktop/en-us/benford.htm) (Type: Tools)
 
-## Day 21
+### Day 21
 
 * Read Good Charts (Type: Visualization)
   + Chapter 9: Visual Crit
 
-## Day 22
+### Day 22
 
 * Read [Call Centers and Data Requests](https://byuistats.github.io/CSE150/files/FSCPD_Donahue_callcenter.pdf) (Type: Data)
+
+## Class Notes

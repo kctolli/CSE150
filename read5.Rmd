@@ -13,24 +13,28 @@ Students discover how to move their visualizations and data beyond descriptions 
 * How to compare two proportions to see if the populations are different.
 * How to compare two categorical variables to see if there is a relationship between them.
 
-## Day 15
+## Readings
+
+### Day 15
 
 * Read Good Charts (Type: Visualization)
   + Chapter 8: Present to Persuade (pg. 192-208)
 * Read CSE 150 Data Intuition and Insight 
   + Section 4.1: Hypothesis Tests (Type: Statistics)
 
-## Day 16
+### Day 16
 
 * Read CSE 150 Data Intuition and Insight 
   + Section 4.2: Test for Two Proportions (Type: Statistics)
 
-## Day 17
+### Day 17
 
 * Read CSE 150 Data Intuition and Insight
   + Section 4.3: Chi-Squared Test of Independence (Type: Statistics)
 
-## Day 18
+### Day 18
 
 * Read CSE 150 Data Intuition and Insight
   + Section 4.4: Chi-Square Goodness of Fit Test (Type: Statistics)
+  
+## Class Notes  
