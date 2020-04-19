@@ -1,0 +1,81 @@
+---
+title: "Data Intuition and Insight"
+subtitle: "CSE 150"
+author: "Kyle Tolliver"
+---
+
+```{r load_libraries, include=FALSE}
+library(tidyverse)
+```
+
+```{r top_pic, fig.align='center', out.width='100%'}
+top <- 'https://secure.meetupstatic.com/photos/event/d/7/4/b/600_482695115.jpeg'
+knitr::include_graphics(top)
+```
+
+## Summary
+
+This course will introduce you to data science and provide insight into how to use data to make decisions using visualization and statistical inference. Data scientists spend a significant amount of their time cleaning and manipulating data for use in decision making. In this course, we have crafted real-world data for use in our learning to offset much of the work around data cleaning and manipulation. CSE 250, CSE 350/Math 335, CIT 111, CIT 225 and other advanced analytics courses like CSE 450 and Math 488 can help you build those skills.
+
+### Why This Class
+
+You are driven by curiosity and interested in how data decisions are made (sometimes called data intuition). Possibly, you have a more empathetic approach to how the world works and how problems can be solved. Finally, you have an eye for visualization and how data is communicated to make impactful decisions. 
+
+### Principles of Teaching Data Science
+
+* Organize the course around a set of diverse case studies
+* Integrate computing into every aspect of the course
+* Teach abstraction, but minimize reliance on mathematical notation
+* Structure course activities to realistically mimic a data scientist’s experience
+* Demonstrate the importance of critical thinking/skepticism through examples
+
+## Course Requirements
+
+We will not focus on traditional statistical hypothesis testing or complex statistical modeling. We will leverage statistics for the concepts of how to visualize uncertainty and variability while keeping our focus on visualization and data handling to focus on ‘safe-stats.’ We will not focus on traditional statistical hypothesis testing or complex statistical modeling.
+
+We will leverage statistics for the concepts of how to visualize uncertainty and variability while keeping our focus on visualization and data handling to focus on ‘safe-stats’. We do expect that you have familiarity with using web-based software.
+
+### Course Outcomes
+
+1. Organize and store tabular data for time-series, spatial, and measured variables.
+2. Calculate data summaries and produce visualizations from data.
+3. Communicate about data with people of varied backgrounds (e.g., novices, database administrators, data scientists, business decision-makers).
+4. Describe the implications of data visualization and summaries in the decision-making process.
+
+## Course Format
+
+We have built the class around a set of data driven projects. During each of those projects we will cover readings in visualzation, data handling, and statistics. Excluding the first two days and the last two days of class, we will spend four days of class on each case study.
+
+We will meet for 1 hour twice a week and use the following weekly rhythm. After the first week, we will complete multiple 4-class day data projects. We expect 1-3 hours of work to be completed outside of class.
+
+### Preparation
+
+In my experience, getting lectured training outside of college is even more expensive than it is in college. A week’s worth of training can cost more than a semester of school here at BYUI. Due to this expense, learning how to digest material that is online and get up to speed on a topic before going to the expert for questions is a valuable skill to develop. I expect that you have completed the assigned reading material before class begins. You will also have tasks to complete after class.
+
+### Class Time
+
+We will use class time to enforce the analytics and visualization concepts needed for the weekly topic covered in the case study.
+
+## Course Tools
+
+We will be using Google Spreadsheets and Chart Studio by Plotly for our data handling and visualization throughout the course. Neither tool requires the use of a programming language for their use in our class. Both are used heavily in the data science space, and they have many connections to R and Python. There are many other tools for this type of work. You may have heard of PowerBI, Tableau, Python, R, SQL, to name a few that touch the space of data handling. PowerBI and Tableau are described as Graphical User Interface (GUI) tools for Business Analytics and Intelligence (BI) and Data Science (DS). Python, R, and SQL are programming languages that are heavily used in data science.
+
+Microsoft’s Excel program has broad industry penetration and is used by virtually every company on the planet. Google’s spreadsheet tool is a strong competitor and has equally strong user penetration in industry.
+
+### Chart Studio
+
+Plotly has provided a full suite of [tutorials](https://plotly.com/chart-studio-help/tutorials/) that we can use during the course. Chart Studio is the tool that was used to make the graphics in our textbook. It pretty intuitive and has Plotly has built R and Python packages as well.
+
+### Google Sheets
+
+With Google Sheets, you can create and edit spreadsheets directly in your web browser—no special software is required. Multiple people can work simultaneously, you can see people’s changes as they make them, and every change is saved automatically. Use the guides below to learn Sheets and refer to their [cheat sheet](https://support.google.com/a/users/answer/9300022).
+
+### Tableau
+
+Tableau is heavily used among business analysts and data scientists. As we use Tableau, we will not be covering all the powerful data connections and dashboard tools in the software in our class. We will be focusing on creating different data views for visual analytics in this class. 
+
+<br> <br> 
+
+#####  *--- Website is made with [Rmd files](https://rmarkdown.rstudio.com/index.html) and [Rstudio](https://rstudio.com/)*
+
+#####  *--- Hosted on [github](https://github.com/kctolli/CSE150)*
