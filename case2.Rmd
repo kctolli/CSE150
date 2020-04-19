@@ -34,8 +34,3 @@ If you would like more details about each brick you can [read here](https://www.
 * Estimated value or asking price for your bag.
 * One extra visualization that is requested the day of the sale.
 * A set of three pictures of your LEGO spread out (on-campus only).
-
-### [See Assignment Page](./assign.html)
-
-## Class Notes
-

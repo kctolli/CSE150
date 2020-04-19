@@ -27,8 +27,3 @@ You will be responsible to report as much evidence as you can with the data prov
 * At least one slide per institution that visualizes their first digit distribution compared to Benford’s law.
 * At least one slide for one of the institutions that compares the last digit distribution to what would be expected.
 * Multiple visualizations of the Government Entity data to find other interesting insights.
-
-### [See Assignment Page](./assign.html)
-
-## Class Notes
-

@@ -31,8 +31,3 @@ Address the following questions;
 * Each question should have at least one graphic to support your answer.
 * At least one slide highlighting the language choice for future work on the project.
 * You should have an appendix slide that describes the wrangling that had to be done to the data.
-
-### [See Assignment Page](./assign.html)
-
-## Class Notes
-
