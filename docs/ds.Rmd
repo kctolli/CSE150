@@ -90,4 +90,4 @@ You’ve probably heard of LinkedIn before, it’s a popular social media platfo
 
 <br> <br> 
 
-*--- Found on [Course Website](https://byuistats.github.io/BYUI_CSE150_StatBook/what-is-data-science.html)*
+*--- Found in [Supplemental Reading](https://byuistats.github.io/BYUI_CSE150_StatBook/what-is-data-science.html)*
