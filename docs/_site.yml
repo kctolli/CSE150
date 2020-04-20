@@ -27,7 +27,7 @@ navbar:
         - text: "---------------"   
         - text: "Do you want to be a data scientist?"
           href: ./case8.html   
-    - text: "Readings"
+    - text: "Class Meetings"
       menu:
         - text: "Case Study 1"
           href: ./read1.html
@@ -72,12 +72,12 @@ navbar:
         - text: "Course Website"
           href: https://byuistats.github.io/CSE150/
         - text: "---------------"  
+        - text: "What is Data Science?"
+          href: ./ds.html
+        - text: "---------------" 
         - text: "Grading"
           href: ./grading.html  
-        - text: "---------------"   
-        - text: "Languages"
-          href: ./language.html
-        - text: "---------------"  
+        - text: "---------------" 
         - text: "Quotes"
           href: ./quotes.html  
         - text: "---------------"  

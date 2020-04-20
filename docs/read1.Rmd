@@ -1,5 +1,6 @@
 ---
 title: "Case Study 1"
+subtitle: "Class Meeting"
 ---
 
 ## Objective 

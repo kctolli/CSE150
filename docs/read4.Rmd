@@ -1,6 +1,6 @@
 ---
 title: "Case Study 4"
-subtitle: "Readings"
+subtitle: "Class Meeting"
 ---
 
 ## Objective 
