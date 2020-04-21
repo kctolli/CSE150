@@ -31,3 +31,30 @@ During the first two days of the semester students will get oriented with the co
   + Sections 6.1.1 and 6.1.2: Google Sheets (Type: Tools)
   
 ## Class Notes  
+
+### Day 1
+
+[Learning Manifesto](https://datathink.io/my-learning-manifesto-aka-teaching-philosophy/)
+
+Discussion based class
+
+#### Outcomes
+
+* Leave this class with marketable skills.
+* Discover the joy of data literacy.
+* Learn about the field of data science and data visualization.
+
+#### Work in progress
+
+We just finished the first draft of this class last Friday.
+
+* We expect to have some hiccups along the way.
+* Don’t panic! We are all learning together.
+* Seth, Cannon, and I are all capable at visualization, but we will be learning Tableau with you.
+
+
+[Implement what you learned](https://www.youtube.com/embed/kO8x8eoU3L4?rel=0&start=0)
+
+Tab out your sheets
+
+
