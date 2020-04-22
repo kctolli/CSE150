@@ -50,7 +50,7 @@ We just finished the first draft of this class last Friday.
 
 * We expect to have some hiccups along the way.
 * Don’t panic! We are all learning together.
-* Seth, Cannon, and I are all capable at visualization, but we will be learning Tableau with you.
+* Seth, Cannon, and Hathaway are all capable at visualization, but we will be learning Tableau with you.
 
 
 [Implement what you learned](https://www.youtube.com/embed/kO8x8eoU3L4?rel=0&start=0)

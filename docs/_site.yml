@@ -72,6 +72,9 @@ navbar:
         - text: "Course Website"
           href: https://byuistats.github.io/CSE150/
         - text: "---------------"  
+        - text: "Ed Connect"
+          href: https://app.edconnect.app/group/b67cc810-738f-11ea-832d-a5091fd52a48:Communities
+        - text: "---------------" 
         - text: "What is Data Science?"
           href: ./ds.html
         - text: "---------------" 
