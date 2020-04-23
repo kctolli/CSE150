@@ -51,9 +51,6 @@ navbar:
         - text: "---------------" 
         - text: "Case Study 7"
           href: ./read7.html
-        - text: "---------------" 
-        - text: "Case Study 8"
-        - text: "No Reading"
     - text: "Materials"
       icon: fa-book    
       menu:
