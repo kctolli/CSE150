@@ -3,7 +3,7 @@ navbar:
   title: "Data Intuition and Insight"
   left:
     - text: "Case Studies"
-      icon: fa-file-text    
+      icon: fa-tasks    
       menu:
         - text: "Introduction"
           href: ./case1.html 
