@@ -3,6 +3,7 @@ navbar:
   title: "Data Intuition and Insight"
   left:
     - text: "Case Studies"
+      icon: fa-file-text    
       menu:
         - text: "Introduction"
           href: ./case1.html 
@@ -28,6 +29,7 @@ navbar:
         - text: "Do you want to be a data scientist?"
           href: ./case8.html   
     - text: "Class Meetings"
+      icon: fa-university
       menu:
         - text: "Case Study 1"
           href: ./read1.html
@@ -53,6 +55,7 @@ navbar:
         - text: "Case Study 8"
         - text: "No Reading"
     - text: "Materials"
+      icon: fa-book    
       menu:
         - text: "Books"  
         - text: "Good Charts"
@@ -68,6 +71,7 @@ navbar:
         - text: "Stats Sheet"
           href: https://docs.google.com/spreadsheets/d/1KUq-7qEHB642UB9olN7Fw0Yp9pYoKyCQIhs1TCPP198/template/preview
     - text: "Resources"
+      icon: fa-briefcase
       menu:
         - text: "Course Website"
           href: https://byuistats.github.io/CSE150/
