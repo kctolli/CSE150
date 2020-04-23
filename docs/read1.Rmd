@@ -57,4 +57,51 @@ We just finished the first draft of this class last Friday.
 
 Tab out your sheets
 
+### Day 2
 
+Above all else, show the data
+
+#### Steps
+
+1. We don't go in order
+2. We see first what stands out
+3. We see only a few things at once
+4. We seek meaning and make connections
+5. We rely on conventions and metaphors
+
+#### Rephased
+
+1. We don’t go in order
+2. We see what stands out
+3. Don’t fill up the plot
+4. Humans yearn for patterns
+5. Communication only happens through metaphor
+
+#### Metaphor highlights
+
+* South is down?
+* Lighter color shades are “emptier” or lower than darker ones.
+* Lines imply ordered relationship
+* Time moves from left to right.
+* After reading the chapter, what other metaphors could you use to describe visualization or elements of a visualization?
+
+#### Good Chart Matrix
+
+```{r pic, fig.align='center', out.width='75%'}
+pic <- 'https://byuistats.github.io/CSE150/slides/images/gc/Intro_chartquadrant.png'
+knitr::include_graphics(pic)
+```
+
+#### How data is stored.
+
+Data and how to handle it isn’t trivial
+
+* Visual consumption by humans
+* Computer consumption for storage
+* Analytics consumption
+
+#### Tidy Structure
+
+1. Each variable forms a column.
+2. Each observation forms a row.
+3. Each value must have its own cell.
