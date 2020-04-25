@@ -17,6 +17,8 @@ We will be selling bulk LEGO in 1/2-lb bags. According to this LEGO selling guid
 
 You will need to work with your team to enter your LEGO data and then create a set of visualizations that sell your product. We will need to prepare our sales material to make sure we can communicate our bag of LEGO without them handling or seeing the product (no pictures of your bag of LEGO).
 
+This is your [bag of legos](https://byuidatascience.github.io/cse150_lego/index.html)
+
 Each buyer will have questions similar to the list below about your blocks. However, other questions may come up during the buying session.
 
 * How many slanted bricks do you have?
