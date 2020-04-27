@@ -55,18 +55,24 @@ navbar:
       icon: fa-book    
       menu:
         - text: "Books"  
-        - text: "Good Charts"
+        - text: "Good Charts - Amazon"
           href: https://www.amazon.com/gp/product/1633690709/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1
         - text: "Supplemental Readings"
           href: https://byuistats.github.io/BYUI_CSE150_StatBook/
         - text: "---------------" 
+        - text: "Data for CSE150"  
+        - text: "Data-4 - Download"
+          href: ./data4.zip  
+        - text: "Data-4  - Google Drive"
+          href: https://drive.google.com/drive/u/0/folders/1jR07hsu3mbsBOmghKset0geclsFn_ZMG  
+        - text: "Stats Sheet - Google Drive"
+          href: https://docs.google.com/spreadsheets/d/1KUq-7qEHB642UB9olN7Fw0Yp9pYoKyCQIhs1TCPP198/template/preview 
+        - text: "---------------" 
         - text: "Additional Materials"  
         - text: "Data Visualisation Catalogue"
           href: https://datavizcatalogue.com/
-        - text: "Communicating Data with Tableau"
+        - text: "Communicating with Tableau"
           href: https://dataremixed.com/books/cdwt/         
-        - text: "Stats Sheet"
-          href: https://docs.google.com/spreadsheets/d/1KUq-7qEHB642UB9olN7Fw0Yp9pYoKyCQIhs1TCPP198/template/preview
     - text: "Resources"
       icon: fa-briefcase
       menu:
