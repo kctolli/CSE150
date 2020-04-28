@@ -44,3 +44,7 @@ Students discover team collaboration, understand collecting data vs. data summar
   + Section 6.2.3 Tableau Introduction depth (Type: Tools)
   
 ## Class Notes  
+
+Conceptual and Exploratory 
+
+Design Thinking 
