@@ -29,10 +29,23 @@ Each buyer will have questions similar to the list below about your blocks. Howe
 
 If you would like more details about each brick you can [read here](https://www.bricklink.com/catalog.asp?utm_content=subnav).
 
-## Deliverables
+### Deliverables
 
 * 3-5 Plot Presentation of your team’s LEGO.
 * A complete data set of each LEGO block in your bag.
 * Estimated value or asking price for your bag.
 * One extra visualization that is requested the day of the sale.
-* A set of three pictures of your LEGO spread out (on-campus only).
+
+## Assignments
+
+### Midpoint
+
+```{r mid, fig.align='center', out.width='75%'}
+knitr::include_graphics("../tableau/cs2/Checkpt.png")
+```
+
+* [Checkpoint -- PDF](../tableau/cs2/Checkpt.pdf)
+* [Checkpoint -- TWB](../tableau/cs2/Checkpt.twb)
+
+### Final 
+
