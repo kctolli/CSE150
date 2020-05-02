@@ -34,7 +34,7 @@ If you would like more details about each brick you can [read here](https://www.
 ### Midpoint
 
 ```{r mid, fig.align='center', out.width='75%'}
-knitr::include_graphics("../tableau/cs2/Checkpt.png")
+knitr::include_graphics("../tableau/cs2/tableau1.png")
 ```
 
 <!--
