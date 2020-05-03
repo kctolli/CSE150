@@ -27,7 +27,7 @@ rsconnect/
 # R Project
 .Rproj
 .Rproj.user
-CSE150.Rproj
-
 
 .DS_Store
+
+./tableau/my_tableau
