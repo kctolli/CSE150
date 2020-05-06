@@ -19,9 +19,46 @@ We have repeated measurements of weights and heights for children from multiple 
 ## Deliverables
 
 * A short presentation (4-8 slides) that visualizes child health using the height measurements.
-* One slide should show the distribution of heights for the US and Dutch data at ~365 days.
-* One slide should show a plot of the heights of the dutch children over time.
-* One slide should explain what a z-score is and how it is calculated for our graphics.
-* One slide should have visualizations of the health of the children at ~365 days for each country (height adjusted z-scores).
-* One slide should show height adjusted z-scores (HAZ) for a healthy and unhealthy child over all their measurements (don’t use the US data).
+  + One slide should show the distribution of heights for the US and Dutch data at ~365 days.
+  + One slide should show a plot of the heights of the dutch children over time.
+  + One slide should explain what a z-score is and how it is calculated for our graphics.
+  + One slide should have visualizations of the health of the children at ~365 days for each country (height adjusted z-scores).
+  + One slide should show height adjusted z-scores (HAZ) for a healthy and unhealthy child over all their measurements (don’t use the US data).
 * Be creative with the remaining slides.
+
+## Class Meeting
+
+### Objective 
+
+Students will understand how percentiles are calculated and data distribution assumptions (Normal distribution).  They will explore how to compare subjects from different normal distributions to explain performance using z-scores. Finally, they will understand the concepts of a confidence interval and how one is calculated using z-scores and normality assumptions.
+
+### Topics Covered
+
+* How to calculate Z-scores for comparison across varied groups.
+* How to calculate percentiles from data and from normal distribution assumptions.
+* How to use and interpret a confidence interval.
+
+## Readings
+
+### Day 11
+
+* Read Good Charts (Type: Visualization)
+  + Chapter 7: Persuasion or Manipulation
+* Read [Build a Line Chart](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_line.htm) (Type:Tools)
+* Read [Build a Box Plot](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_boxplot.htm) (Types: Tools)
+
+### Day 12
+
+* None
+
+### Day 13
+
+* Read Good Charts (Type: Visualization)
+  + Chapter 8: Present to Persuade (pg. 177-192)
+
+### Day 14
+
+* CSE 150 Data Intuition and Insight 
+  + Chapter 3: Probability, Sampling, and Confidence Intervals (Type: Statistics)
+  
+## Class Notes  

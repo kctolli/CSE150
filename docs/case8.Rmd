@@ -21,3 +21,7 @@ To finish the semester you will need to create your hypothetical resume that you
 * A one-page dream data science resume.
 * A second page of sources that you used to justify the stuff in your resume.
 * A cover letter that describes what you have learned from this course
+
+<!-- ## Class Meeting -->
+
+<!-- ### Objective  -->

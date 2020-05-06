@@ -28,29 +28,6 @@ navbar:
         - text: "---------------"   
         - text: "Do you want to be a data scientist?"
           href: ./case8.html   
-    - text: "Class Meetings"
-      icon: fa-university
-      menu:
-        - text: "Case Study 1"
-          href: ./read1.html
-        - text: "---------------" 
-        - text: "Case Study 2"
-          href: ./read2.html
-        - text: "---------------" 
-        - text: "Case Study 3"
-          href: ./read3.html
-        - text: "---------------" 
-        - text: "Case Study 4"
-          href: ./read4.html
-        - text: "---------------" 
-        - text: "Case Study 5"
-          href: ./read5.html
-        - text: "---------------" 
-        - text: "Case Study 6"
-          href: ./read6.html
-        - text: "---------------" 
-        - text: "Case Study 7"
-          href: ./read7.html
     - text: "Materials"
       icon: fa-book    
       menu:
@@ -62,7 +39,7 @@ navbar:
         - text: "---------------" 
         - text: "Data for CSE150"  
         - text: "Data-4 - Download"
-          href: ./data4.zip  
+          href: ./site_libs/data4.zip  
         - text: "Data-4  - Google Drive"
           href: https://drive.google.com/drive/u/0/folders/1jR07hsu3mbsBOmghKset0geclsFn_ZMG  
         - text: "Stats Sheet - Google Drive"
@@ -72,7 +49,10 @@ navbar:
         - text: "Data Visualisation Catalogue"
           href: https://datavizcatalogue.com/
         - text: "Communicating with Tableau"
-          href: https://dataremixed.com/books/cdwt/         
+          href: https://dataremixed.com/books/cdwt/
+        - text: "---------------"      
+        - text: "Tableau Public"
+          href: https://public.tableau.com/en-us/s/
     - text: "Resources"
       icon: fa-briefcase
       menu:
@@ -99,7 +79,7 @@ output_dir: '.'
 
 output: 
   html_document:
-    css: styles.css
+    css: ./site_libs/styles.css
     highlight: tango
     theme: readable
     toc: true

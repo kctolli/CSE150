@@ -27,3 +27,36 @@ You will be responsible to report as much evidence as you can with the data prov
 * At least one slide per institution that visualizes their first digit distribution compared to Benford’s law.
 * At least one slide for one of the institutions that compares the last digit distribution to what would be expected.
 * Multiple visualizations of the Government Entity data to find other interesting insights.
+
+## Class Meeting
+
+### Objective 
+
+Students will come to understand the difference between visualizing a sample of data and using statistics to make inferential statements about an observed sample of data.  They will learn about a common accounting technique to find potential cheaters using the Chi-square Goodness of Fit Test.
+
+### Topics Covered
+
+* Hypothesis testing for a goodness of fit test.
+* How to compare observed counts to an expected distribution of counts.
+* The proper way to draw conclusions from statistical tests
+
+## Readings
+
+### Day 19
+
+* Read [Benford’s Law (The First Digit Law): Simple Definition, Examples](https://www.statisticshowto.com/benfords-law/) (Type: Statistics)
+
+### Day 20
+
+* Read [Visualize Benford's Law](https://help.tableau.com/current/pro/desktop/en-us/benford.htm) (Type: Tools)
+
+### Day 21
+
+* Read Good Charts (Type: Visualization)
+  + Chapter 9: Visual Crit
+
+### Day 22
+
+* Read [Call Centers and Data Requests](https://byuistats.github.io/CSE150/files/FSCPD_Donahue_callcenter.pdf) (Type: Data)
+
+## Class Notes

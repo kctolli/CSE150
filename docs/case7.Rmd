@@ -31,3 +31,36 @@ Address the following questions;
 * Each question should have at least one graphic to support your answer.
 * At least one slide highlighting the language choice for future work on the project.
 * You should have an appendix slide that describes the wrangling that had to be done to the data.
+
+## Class Meeting
+
+### Objective 
+
+Students will learn the complications that come with requesting and manipulating data for use in an analysis.  They will grasp that data scientists usually work in diverse teams that require them to be able to speak with technical staff in Information Technology (IT) and computer scientists as well as communicate and connect with management and other business consumers about data.
+
+### Topics Covered
+
+* Translate business questions into data requests.
+* To request data from technical programmers.
+* Compare and contrast R, Python, and SQL for data wrangling.
+
+## Readings
+
+### Day 23
+
+* Read [How to ask for data sets](https://medium.com/@ckreibich/how-to-ask-for-datasets-d5ef791cb38c)
+
+### Day 24
+
+* None
+
+### Day 25
+
+* Read Good Charts (Type: Visualization)
+  + Conclusion Chapter of Good Charts
+
+### Day 26
+
+* Read [Building your dream data science resume](https://www.dataquest.io/blog/how-data-science-resume-cv/)
+
+## Class Notes
