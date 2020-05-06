@@ -87,4 +87,4 @@ Conceptual and Exploratory
 
 Design Thinking 
 
-Sketching vs Prototypring
+Sketching vs Prototyping
