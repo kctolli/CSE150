@@ -29,5 +29,6 @@ rsconnect/
 .Rproj.user
 
 .DS_Store
+.twbr
 
 /tableau/my-tableau
