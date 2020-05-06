@@ -36,7 +36,7 @@ If you would like more details about each brick you can [read here](https://www.
 3. Estimated value or asking price for your bag
 4. One extra visualization that is requested the day of the sale
 
---- Visualizations done in [Tableau](https://github.com/kctolli/CSE150/raw/master/tableau/cs2/CS2.twb)
+--- Visualizations done in [Tableau](../tableau/cs2/CS2.twb)
 
 ## Class Meeting
 
