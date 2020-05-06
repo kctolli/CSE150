@@ -48,3 +48,5 @@ Students discover team collaboration, understand collecting data vs. data summar
 Conceptual and Exploratory 
 
 Design Thinking 
+
+Sketching vs Prototypring

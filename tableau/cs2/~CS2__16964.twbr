@@ -1,0 +1,1059 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20201.20.0326.1623                               -->
+<workbook source-build='2020.1.2 (20201.20.0326.1623)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Sheet1 (CS2-Lego)' inline='true' name='federated.0ao8ljt1gvivwr17sdur60fla8r1' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='CS2-Lego' name='google-sheets.1803u5t1fqwnjl1gp0rcp0fotyc1'>
+            <connection REDIRECT_URI='urn:ietf:wg:oauth:2.0:oob' SCOPE='email profile https://www.googleapis.com/auth/drive.readonly' class='google-sheets' cleaning='no' compat='no' dataRefreshTime='' filename='CS2-Lego' googleSheetId='1cbTpIahGzPFqoalRYJbucLHlYJp13bEUYuAdyu_O8Ao' interpretationMode='8' mimeType='application/vnd.google-apps.spreadsheet' server='' server-oauth='' username='tol17001@byui.edu' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='google-sheets.1803u5t1fqwnjl1gp0rcp0fotyc1' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:J251:no:A1:J251:0' header='yes' outcome='2'>
+            <column datatype='integer' name='Sample' ordinal='0' />
+            <column datatype='integer' name='Total_Studs' ordinal='1' />
+            <column datatype='integer' name='Length_Studs' ordinal='2' />
+            <column datatype='integer' name='Width_Studs' ordinal='3' />
+            <column datatype='integer' name='Extra_Studs' ordinal='4' />
+            <column datatype='string' name='Primary Color' ordinal='5' />
+            <column datatype='string' name='Second Color' ordinal='6' />
+            <column datatype='string' name='Third Color' ordinal='7' />
+            <column datatype='integer' name='Slanted' ordinal='8' />
+            <column datatype='integer' name='Opacity' ordinal='9' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Sample</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sample]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Sample</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total_Studs</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total_Studs]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Total_Studs</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Length_Studs</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Length_Studs]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Length_Studs</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Width_Studs</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Width_Studs]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Width_Studs</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Extra_Studs</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Extra_Studs]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Extra_Studs</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Primary Color</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Primary Color]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Primary Color</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Second Color</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Second Color]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Second Color</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Third Color</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Third Color]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Third Color</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Slanted</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Slanted]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Slanted</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Opacity</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Opacity]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Opacity</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:J251:no:A1:J251:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='integer' name='[Opacity]' role='measure' type='quantitative'>
+        <aliases>
+          <alias key='0' value='Not Opaque' />
+          <alias key='1' value='Opaque' />
+        </aliases>
+      </column>
+      <column datatype='string' name='[Primary Color]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Second Color]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;NA&quot;' value='Same' />
+        </aliases>
+      </column>
+      <column datatype='integer' name='[Slanted]' role='measure' type='quantitative'>
+        <aliases>
+          <alias key='0' value='Not Slanted' />
+          <alias key='1' value='Slanted' />
+        </aliases>
+      </column>
+      <column-instance column='[Primary Color]' derivation='None' name='[none:Primary Color:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Second Color]' derivation='None' name='[none:Second Color:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Slanted]' derivation='None' name='[none:Slanted:ok]' pivot='key' type='ordinal' />
+      <group hidden='true' name='[Exclusions (Primary Color,Second Color)]' name-style='unqualified' user:auto-column='exclude'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:Primary Color:nk]' />
+          <groupfilter function='level-members' level='[none:Second Color:nk]' />
+        </groupfilter>
+      </group>
+      <layout dim-ordering='alphabetic' dim-percentage='0.390042' measure-ordering='alphabetic' measure-percentage='0.609959' show-aliased-fields='true' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Primary Color:nk]' type='palette'>
+            <map to='#5485b2'>
+              <bucket>&quot;Blue&quot;</bucket>
+            </map>
+            <map to='#59504e'>
+              <bucket>&quot;Black&quot;</bucket>
+            </map>
+            <map to='#66b3c2'>
+              <bucket>&quot;Teal&quot;</bucket>
+            </map>
+            <map to='#6eb663'>
+              <bucket>&quot;Green&quot;</bucket>
+            </map>
+            <map to='#865986'>
+              <bucket>&quot;Purple&quot;</bucket>
+            </map>
+            <map to='#989ca3'>
+              <bucket>&quot;Gray&quot;</bucket>
+            </map>
+            <map to='#c47247'>
+              <bucket>&quot;Brown&quot;</bucket>
+            </map>
+            <map to='#d3d3d3'>
+              <bucket>&quot;Clear&quot;</bucket>
+            </map>
+            <map to='#dcd4d0'>
+              <bucket>&quot;White&quot;</bucket>
+            </map>
+            <map to='#e74545'>
+              <bucket>&quot;Red&quot;</bucket>
+            </map>
+            <map to='#f0bd27'>
+              <bucket>&quot;Yellow&quot;</bucket>
+            </map>
+            <map to='#f2882d'>
+              <bucket>&quot;Orange&quot;</bucket>
+            </map>
+            <map to='#f49538'>
+              <bucket>&quot;Gold&quot;</bucket>
+            </map>
+            <map to='#f8bc5b'>
+              <bucket>&quot;Tan&quot;</bucket>
+            </map>
+            <map to='#fdab9b'>
+              <bucket>&quot;Pink&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Slanted:ok]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>0</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>1</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Second Color:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Blue&quot;</bucket>
+            </map>
+            <map to='#59504e'>
+              <bucket>&quot;Black&quot;</bucket>
+            </map>
+            <map to='#6eb663'>
+              <bucket>&quot;Green&quot;</bucket>
+            </map>
+            <map to='#9ca3a4'>
+              <bucket>&quot;Gray&quot;</bucket>
+            </map>
+            <map to='#c8d0d9'>
+              <bucket>&quot;Glitter&quot;</bucket>
+            </map>
+            <map to='#d5d5d5'>
+              <bucket>&quot;White&quot;</bucket>
+            </map>
+            <map to='#e5ae6c'>
+              <bucket>&quot;Tan&quot;</bucket>
+            </map>
+            <map to='#e74545'>
+              <bucket>&quot;Red&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;NA&quot;</bucket>
+            </map>
+            <map to='#f2882d'>
+              <bucket>&quot;Orange&quot;</bucket>
+            </map>
+            <map to='#f7d42a'>
+              <bucket>&quot;Yellow&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Checkpt'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Sum of Length and Width of Studs, and Extra Studs  for Total Studs&#10;Colored by count of number of records</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (CS2-Lego)' name='federated.0ao8ljt1gvivwr17sdur60fla8r1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ao8ljt1gvivwr17sdur60fla8r1'>
+            <column datatype='integer' name='[Extra_Studs]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Length_Studs]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column datatype='integer' name='[Total_Studs]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Width_Studs]' role='measure' type='quantitative' />
+            <column-instance column='[Number of Records]' derivation='Count' name='[cnt:Number of Records:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Total_Studs]' derivation='None' name='[none:Total_Studs:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Extra_Studs]' derivation='Sum' name='[sum:Extra_Studs:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Length_Studs]' derivation='Sum' name='[sum:Length_Studs:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Width_Studs]' derivation='Sum' name='[sum:Width_Studs:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0ao8ljt1gvivwr17sdur60fla8r1].[none:Total_Studs:ok]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Total_Studs:ok]' />
+              <groupfilter function='member' level='[none:Total_Studs:ok]' member='0' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0ao8ljt1gvivwr17sdur60fla8r1].[none:Total_Studs:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' center='40' field='[federated.0ao8ljt1gvivwr17sdur60fla8r1].[cnt:Number of Records:qk]' min='1' num-steps='25' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0ao8ljt1gvivwr17sdur60fla8r1].[cnt:Number of Records:qk]' />
+            </encodings>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0ao8ljt1gvivwr17sdur60fla8r1].[sum:Length_Studs:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0ao8ljt1gvivwr17sdur60fla8r1].[cnt:Number of Records:qk]' />
+            </encodings>
+          </pane>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0ao8ljt1gvivwr17sdur60fla8r1].[sum:Extra_Studs:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0ao8ljt1gvivwr17sdur60fla8r1].[cnt:Number of Records:qk]' />
+            </encodings>
+          </pane>
+          <pane id='6' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0ao8ljt1gvivwr17sdur60fla8r1].[sum:Width_Studs:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0ao8ljt1gvivwr17sdur60fla8r1].[cnt:Number of Records:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.0ao8ljt1gvivwr17sdur60fla8r1].[sum:Length_Studs:qk] + ([federated.0ao8ljt1gvivwr17sdur60fla8r1].[sum:Width_Studs:qk] + [federated.0ao8ljt1gvivwr17sdur60fla8r1].[sum:Extra_Studs:qk]))</rows>
+        <cols>[federated.0ao8ljt1gvivwr17sdur60fla8r1].[none:Total_Studs:ok]</cols>
+      </table>
+      <simple-id uuid='{151F9F4B-9FB0-43C9-BA57-F65B23603C75}' />
+    </worksheet>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Trend of Count of Opacity and Slanted for Total Studs</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (CS2-Lego)' name='federated.0ao8ljt1gvivwr17sdur60fla8r1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ao8ljt1gvivwr17sdur60fla8r1'>
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column datatype='integer' name='[Opacity]' role='measure' type='quantitative'>
+              <aliases>
+                <alias key='0' value='Not Opaque' />
+                <alias key='1' value='Opaque' />
+              </aliases>
+            </column>
+            <column datatype='integer' name='[Slanted]' role='measure' type='quantitative'>
+              <aliases>
+                <alias key='0' value='Not Slanted' />
+                <alias key='1' value='Slanted' />
+              </aliases>
+            </column>
+            <column datatype='integer' name='[Total_Studs]' role='measure' type='quantitative' />
+            <column-instance column='[Opacity]' derivation='Count' name='[cnt:Opacity:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Slanted]' derivation='Count' name='[cnt:Slanted:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Total_Studs]' derivation='None' name='[none:Total_Studs:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <path column='[federated.0ao8ljt1gvivwr17sdur60fla8r1].[sum:Number of Records:qk]' />
+            </encodings>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0ao8ljt1gvivwr17sdur60fla8r1].[cnt:Opacity:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <path column='[federated.0ao8ljt1gvivwr17sdur60fla8r1].[sum:Number of Records:qk]' />
+            </encodings>
+          </pane>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0ao8ljt1gvivwr17sdur60fla8r1].[cnt:Slanted:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <path column='[federated.0ao8ljt1gvivwr17sdur60fla8r1].[sum:Number of Records:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.0ao8ljt1gvivwr17sdur60fla8r1].[cnt:Opacity:qk] + [federated.0ao8ljt1gvivwr17sdur60fla8r1].[cnt:Slanted:qk])</rows>
+        <cols>[federated.0ao8ljt1gvivwr17sdur60fla8r1].[none:Total_Studs:qk]</cols>
+      </table>
+      <simple-id uuid='{1164A1C8-B1CE-4932-A9E4-F0F36547C8F0}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Width of Studs Vs. Length of Studs&#10;Size show details for Extra Studs</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (CS2-Lego)' name='federated.0ao8ljt1gvivwr17sdur60fla8r1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ao8ljt1gvivwr17sdur60fla8r1'>
+            <column datatype='integer' name='[Extra_Studs]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Length_Studs]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column datatype='integer' name='[Total_Studs]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Width_Studs]' role='measure' type='quantitative' />
+            <column-instance column='[Total_Studs]' derivation='Avg' name='[avg:Total_Studs:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Extra_Studs]' derivation='None' name='[none:Extra_Studs:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Length_Studs]' derivation='None' name='[none:Length_Studs:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Width_Studs]' derivation='None' name='[none:Width_Studs:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.0ao8ljt1gvivwr17sdur60fla8r1].[none:Extra_Studs:qk]' />
+              <lod column='[federated.0ao8ljt1gvivwr17sdur60fla8r1].[sum:Number of Records:qk]' />
+              <lod column='[federated.0ao8ljt1gvivwr17sdur60fla8r1].[avg:Total_Studs:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0ao8ljt1gvivwr17sdur60fla8r1].[none:Length_Studs:qk]</rows>
+        <cols>[federated.0ao8ljt1gvivwr17sdur60fla8r1].[none:Width_Studs:qk]</cols>
+      </table>
+      <simple-id uuid='{A9A80421-D54F-41B4-BFCC-24A21EEF1D4A}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Sum and Average of Studs for each Primary Color&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (CS2-Lego)' name='federated.0ao8ljt1gvivwr17sdur60fla8r1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ao8ljt1gvivwr17sdur60fla8r1'>
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column datatype='string' name='[Primary Color]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Total_Studs]' role='measure' type='quantitative' />
+            <column-instance column='[Total_Studs]' derivation='Avg' name='[avg:Total_Studs:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Number of Records]' derivation='Count' name='[cnt:Number of Records:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Primary Color]' derivation='None' name='[none:Primary Color:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Total_Studs]' derivation='Sum' name='[sum:Total_Studs:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0ao8ljt1gvivwr17sdur60fla8r1].[none:Primary Color:nk]' direction='ASC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0ao8ljt1gvivwr17sdur60fla8r1].[sum:Total_Studs:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0ao8ljt1gvivwr17sdur60fla8r1].[none:Primary Color:nk]' />
+              <lod column='[federated.0ao8ljt1gvivwr17sdur60fla8r1].[cnt:Number of Records:qk]' />
+            </encodings>
+          </pane>
+          <pane id='8' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0ao8ljt1gvivwr17sdur60fla8r1].[sum:Total_Studs:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0ao8ljt1gvivwr17sdur60fla8r1].[none:Primary Color:nk]' />
+              <lod column='[federated.0ao8ljt1gvivwr17sdur60fla8r1].[cnt:Number of Records:qk]' />
+            </encodings>
+          </pane>
+          <pane id='9' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0ao8ljt1gvivwr17sdur60fla8r1].[avg:Total_Studs:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0ao8ljt1gvivwr17sdur60fla8r1].[none:Primary Color:nk]' />
+              <lod column='[federated.0ao8ljt1gvivwr17sdur60fla8r1].[cnt:Number of Records:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.0ao8ljt1gvivwr17sdur60fla8r1].[sum:Total_Studs:qk] + [federated.0ao8ljt1gvivwr17sdur60fla8r1].[avg:Total_Studs:qk])</rows>
+        <cols>[federated.0ao8ljt1gvivwr17sdur60fla8r1].[none:Primary Color:nk]</cols>
+      </table>
+      <simple-id uuid='{D79B304C-2353-4678-ABA7-BE9005F2C24B}' />
+    </worksheet>
+    <worksheet name='Sheet 4'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Sum of Studs for Primary and Secondary Colors</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (CS2-Lego)' name='federated.0ao8ljt1gvivwr17sdur60fla8r1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ao8ljt1gvivwr17sdur60fla8r1'>
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column datatype='string' name='[Primary Color]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Second Color]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;NA&quot;' value='Same' />
+              </aliases>
+            </column>
+            <column datatype='integer' name='[Total_Studs]' role='measure' type='quantitative' />
+            <column-instance column='[Primary Color]' derivation='None' name='[none:Primary Color:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Second Color]' derivation='None' name='[none:Second Color:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Total_Studs]' derivation='Sum' name='[sum:Total_Studs:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0ao8ljt1gvivwr17sdur60fla8r1].[Exclusions (Primary Color,Second Color)]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='level-members' level='[none:Primary Color:nk]' />
+                <groupfilter function='level-members' level='[none:Second Color:nk]' />
+              </groupfilter>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='member' level='[none:Primary Color:nk]' member='&quot;Black&quot;' />
+                <groupfilter function='member' level='[none:Second Color:nk]' member='&quot;NA&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0ao8ljt1gvivwr17sdur60fla8r1].[none:Second Color:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0ao8ljt1gvivwr17sdur60fla8r1].[sum:Total_Studs:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0ao8ljt1gvivwr17sdur60fla8r1].[Exclusions (Primary Color,Second Color)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0ao8ljt1gvivwr17sdur60fla8r1].[none:Primary Color:nk]' />
+              <lod column='[federated.0ao8ljt1gvivwr17sdur60fla8r1].[sum:Number of Records:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0ao8ljt1gvivwr17sdur60fla8r1].[sum:Total_Studs:qk]</rows>
+        <cols>([federated.0ao8ljt1gvivwr17sdur60fla8r1].[none:Primary Color:nk] / [federated.0ao8ljt1gvivwr17sdur60fla8r1].[none:Second Color:nk])</cols>
+      </table>
+      <simple-id uuid='{92FAB4B9-3F1B-4D7C-9CD1-D621F86271D5}' />
+    </worksheet>
+    <worksheet name='Sheet 5'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Count of Studs for each Second and Third color</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (CS2-Lego)' name='federated.0ao8ljt1gvivwr17sdur60fla8r1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ao8ljt1gvivwr17sdur60fla8r1'>
+            <column datatype='string' name='[Primary Color]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Second Color]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;NA&quot;' value='Same' />
+              </aliases>
+            </column>
+            <column datatype='string' name='[Third Color]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Total_Studs]' role='measure' type='quantitative' />
+            <column-instance column='[Total_Studs]' derivation='Count' name='[cnt:Total_Studs:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Primary Color]' derivation='None' name='[none:Primary Color:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Second Color]' derivation='None' name='[none:Second Color:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Third Color]' derivation='None' name='[none:Third Color:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0ao8ljt1gvivwr17sdur60fla8r1].[none:Third Color:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Third Color:nk]' />
+              <groupfilter function='member' level='[none:Third Color:nk]' member='&quot;NA&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0ao8ljt1gvivwr17sdur60fla8r1].[none:Third Color:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0ao8ljt1gvivwr17sdur60fla8r1].[none:Primary Color:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.0ao8ljt1gvivwr17sdur60fla8r1].[none:Second Color:nk] / [federated.0ao8ljt1gvivwr17sdur60fla8r1].[none:Third Color:nk])</rows>
+        <cols>[federated.0ao8ljt1gvivwr17sdur60fla8r1].[cnt:Total_Studs:qk]</cols>
+      </table>
+      <simple-id uuid='{761CCFE5-CE6E-44CA-8F0C-C59E98942EA6}' />
+    </worksheet>
+    <worksheet name='Sheet 6'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Average Studs for Slanted and Opacity&#10;Colored by Primary Color</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (CS2-Lego)' name='federated.0ao8ljt1gvivwr17sdur60fla8r1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ao8ljt1gvivwr17sdur60fla8r1'>
+            <column datatype='integer' name='[Opacity]' role='measure' type='quantitative'>
+              <aliases>
+                <alias key='0' value='Not Opaque' />
+                <alias key='1' value='Opaque' />
+              </aliases>
+            </column>
+            <column datatype='string' name='[Primary Color]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Slanted]' role='measure' type='quantitative'>
+              <aliases>
+                <alias key='0' value='Not Slanted' />
+                <alias key='1' value='Slanted' />
+              </aliases>
+            </column>
+            <column datatype='integer' name='[Total_Studs]' role='measure' type='quantitative' />
+            <column-instance column='[Total_Studs]' derivation='Avg' name='[avg:Total_Studs:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Opacity]' derivation='None' name='[none:Opacity:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Primary Color]' derivation='None' name='[none:Primary Color:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Slanted]' derivation='None' name='[none:Slanted:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='8' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0ao8ljt1gvivwr17sdur60fla8r1].[none:Primary Color:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0ao8ljt1gvivwr17sdur60fla8r1].[avg:Total_Studs:qk]</rows>
+        <cols>([federated.0ao8ljt1gvivwr17sdur60fla8r1].[none:Opacity:ok] / [federated.0ao8ljt1gvivwr17sdur60fla8r1].[none:Slanted:ok])</cols>
+      </table>
+      <simple-id uuid='{9012B3A4-885D-4064-B05A-513F29058957}' />
+    </worksheet>
+    <worksheet name='Sheet 7'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Sample Count for each Primary Color&#10;Colored by Secondary Color</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (CS2-Lego)' name='federated.0ao8ljt1gvivwr17sdur60fla8r1' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ao8ljt1gvivwr17sdur60fla8r1'>
+            <column datatype='string' name='[Primary Color]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Sample]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Second Color]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;NA&quot;' value='Same' />
+              </aliases>
+            </column>
+            <column datatype='string' name='[Third Color]' role='dimension' type='nominal' />
+            <column-instance column='[Sample]' derivation='Count' name='[cnt:Sample:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Primary Color]' derivation='None' name='[none:Primary Color:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Second Color]' derivation='None' name='[none:Second Color:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Third Color]' derivation='None' name='[none:Third Color:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0ao8ljt1gvivwr17sdur60fla8r1].[none:Second Color:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Second Color:nk]' />
+              <groupfilter function='member' level='[none:Second Color:nk]' member='&quot;NA&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0ao8ljt1gvivwr17sdur60fla8r1].[none:Second Color:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0ao8ljt1gvivwr17sdur60fla8r1].[none:Second Color:nk]' />
+              <lod column='[federated.0ao8ljt1gvivwr17sdur60fla8r1].[none:Third Color:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0ao8ljt1gvivwr17sdur60fla8r1].[none:Primary Color:nk]</rows>
+        <cols>[federated.0ao8ljt1gvivwr17sdur60fla8r1].[cnt:Sample:qk]</cols>
+      </table>
+      <simple-id uuid='{F1D908AA-2CD7-481E-BA7C-429BCB4262A8}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='Checkpt'>
+      <cards>
+        <edge name='left'>
+          <strip size='172'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='100'>
+            <card pane-specification-id='4' param='[federated.0ao8ljt1gvivwr17sdur60fla8r1].[cnt:Number of Records:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{52EF1D80-7348-4E8B-9766-3E473F2EF682}' />
+    </window>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{676A1B38-6608-4D92-80AD-55BC5760A3CC}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='4' param='[federated.0ao8ljt1gvivwr17sdur60fla8r1].[none:Extra_Studs:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B9945A81-CCD9-4EE5-A5EF-B7D50D02CB46}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='8' param='[federated.0ao8ljt1gvivwr17sdur60fla8r1].[none:Primary Color:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{F005BF69-ECE5-42E7-AA31-A08F6CF9D1EE}' />
+    </window>
+    <window class='worksheet' name='Sheet 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card pane-specification-id='2' param='[federated.0ao8ljt1gvivwr17sdur60fla8r1].[none:Primary Color:nk]' type='color' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{547501E6-3C1B-4616-AE7C-CBCD929D6AD4}' />
+    </window>
+    <window class='worksheet' name='Sheet 5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card pane-specification-id='2' param='[federated.0ao8ljt1gvivwr17sdur60fla8r1].[none:Primary Color:nk]' type='color' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{363AC687-7C90-48C7-ABFF-1EC79DA127E2}' />
+    </window>
+    <window class='worksheet' name='Sheet 6'>
+      <cards>
+        <edge name='left'>
+          <strip size='157'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='8' param='[federated.0ao8ljt1gvivwr17sdur60fla8r1].[none:Primary Color:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{BE4BA5FC-F1F5-40F9-B85D-3D5254E13316}' />
+    </window>
+    <window class='worksheet' name='Sheet 7'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0ao8ljt1gvivwr17sdur60fla8r1].[none:Second Color:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+      </viewpoint>
+      <simple-id uuid='{C2A5A42F-94BA-4C45-AB0B-4F39D43D4AEB}' />
+    </window>
+  </windows>
+</workbook>
