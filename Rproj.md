@@ -1,3 +1,5 @@
+# R Project
+
 Version: 1.0
 
 RestoreWorkspace: No
@@ -11,5 +13,4 @@ Encoding: UTF-8
 
 RnwWeave: Sweave
 LaTeX: pdfLaTeX
-
-BuildType: Website
+DisableExecuteRprofile: Yes
