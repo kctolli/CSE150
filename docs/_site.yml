@@ -50,9 +50,6 @@ navbar:
           href: https://datavizcatalogue.com/
         - text: "Communicating with Tableau"
           href: https://dataremixed.com/books/cdwt/
-        - text: "---------------"      
-        - text: "Tableau Public"
-          href: https://public.tableau.com/en-us/s/
     - text: "Resources"
       icon: fa-briefcase
       menu:
@@ -70,6 +67,9 @@ navbar:
         - text: "---------------" 
         - text: "Quotes"
           href: ./quotes.html  
+        - text: "---------------"      
+        - text: "Tableau Public"
+          href: https://public.tableau.com/en-us/s/  
         - text: "---------------"  
         - text: "Data Wrangling"
           href: https://mcs335.glitch.me/   
