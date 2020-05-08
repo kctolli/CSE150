@@ -58,5 +58,3 @@ Students will come to understand the difference between visualizing a sample of 
 ### Day 22
 
 * Read [Call Centers and Data Requests](https://byuistats.github.io/CSE150/files/FSCPD_Donahue_callcenter.pdf) (Type: Data)
-
-## Class Notes

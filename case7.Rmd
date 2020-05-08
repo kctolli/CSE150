@@ -62,5 +62,3 @@ Students will learn the complications that come with requesting and manipulating
 ### Day 26
 
 * Read [Building your dream data science resume](https://www.dataquest.io/blog/how-data-science-resume-cv/)
-
-## Class Notes

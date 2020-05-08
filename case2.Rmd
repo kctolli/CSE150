@@ -31,10 +31,13 @@ If you would like more details about each brick you can [read here](https://www.
 
 ## Deliverables
 
-1. [3-5 Plot Presentation of your team’s LEGO](https://docs.google.com/presentation/d/1puP4BQR_4wwqvyamrdrzd14GcBf5NWVEJqTwV-wZG7s/edit?usp=sharing)
-2. [A complete data set of each LEGO block in your bag](https://docs.google.com/spreadsheets/d/1cbTpIahGzPFqoalRYJbucLHlYJp13bEUYuAdyu_O8Ao/edit?usp=sharing)
-3. Estimated value or asking price for your bag
-4. One extra visualization that is requested the day of the sale
+* [3-5 Plot Presentation of your team’s LEGO](https://docs.google.com/presentation/d/1puP4BQR_4wwqvyamrdrzd14GcBf5NWVEJqTwV-wZG7s/edit?usp=sharing)
+  + Estimated value or asking price for your bag
+  + One extra visualization that is requested the day of the sale
+
+* [A complete data set of each LEGO block in your bag](https://docs.google.com/spreadsheets/d/1cbTpIahGzPFqoalRYJbucLHlYJp13bEUYuAdyu_O8Ao/edit?usp=sharing)
+
+--- Visualizations created using [Tableau](./tableau/CS2.twb)
 
 ## Class Meeting
 
@@ -78,11 +81,3 @@ Students discover team collaboration, understand collecting data vs. data summar
 * Read CSE 150: Data Intuition and Insight
   + Section 1.5: Data vs. Summaries (Type: Data)
   + Section 6.2.3 Tableau Introduction depth (Type: Tools)
-  
-## Class Notes  
-
-Conceptual and Exploratory 
-
-Design Thinking 
-
-Sketching vs Prototyping

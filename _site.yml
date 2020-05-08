@@ -45,14 +45,21 @@ navbar:
     - text: "Data"
       icon: fa-table
       menu:
-        - text: "Data-4 - Download"
-          href: ./site_libs/data4.zip  
-        - text: "---------------"   
-        - text: "Data-4  - Google Drive"
-          href: https://drive.google.com/drive/u/0/folders/1jR07hsu3mbsBOmghKset0geclsFn_ZMG  
+        - text: "Data-4"
+        - text: "Description"
+          href: ./data.html
+        - text: "Download"
+          href: ./data4/data4.zip     
+        - text: "Google Drive"
+          href: https://drive.google.com/drive/u/0/folders/1jR07hsu3mbsBOmghKset0geclsFn_ZMG 
+        - text: "Github"
+          href: https://github.com/byuidatascience 
         - text: "---------------" 
-        - text: "Stats Sheet - Google Drive"
-          href: https://docs.google.com/spreadsheets/d/1KUq-7qEHB642UB9olN7Fw0Yp9pYoKyCQIhs1TCPP198/template/preview   
+        - text: "Statistics"
+        - text: "Google Sheets"
+          href: https://docs.google.com/spreadsheets/d/1KUq-7qEHB642UB9olN7Fw0Yp9pYoKyCQIhs1TCPP198/template/preview  
+        - text: "Excel"
+          href: ./data4/Stats.xlsx   
     - text: "Resources"
       icon: fa-briefcase
       menu:
@@ -71,7 +78,7 @@ navbar:
         - text: "Quotes"
           href: ./quotes.html  
         - text: "---------------"      
-        - text: "Tableau Public"
+        - text: "Tableau"
           href: https://public.tableau.com/en-us/s/  
         - text: "---------------"  
         - text: "Data Wrangling"

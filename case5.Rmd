@@ -62,5 +62,3 @@ Students discover how to move their visualizations and data beyond descriptions 
 
 * Read CSE 150 Data Intuition and Insight
   + Section 4.4: Chi-Square Goodness of Fit Test (Type: Statistics)
-  
-## Class Notes  

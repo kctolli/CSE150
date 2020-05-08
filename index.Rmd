@@ -60,13 +60,9 @@ We will use class time to enforce the analytics and visualization concepts neede
 
 ## Course Tools
 
-We will be using Google Spreadsheets and Chart Studio by Plotly for our data handling and visualization throughout the course. Neither tool requires the use of a programming language for their use in our class. Both are used heavily in the data science space, and they have many connections to R and Python. There are many other tools for this type of work. You may have heard of PowerBI, Tableau, Python, R, SQL, to name a few that touch the space of data handling. PowerBI and Tableau are described as Graphical User Interface (GUI) tools for Business Analytics and Intelligence (BI) and Data Science (DS). Python, R, and SQL are programming languages that are heavily used in data science.
+We will be using Google Spreadsheets and Tableau for our data handling and visualization throughout the course. Neither tool requires the use of a programming language for their use in our class. Both are used heavily in the data science space, and they have many connections to R and Python. There are many other tools for this type of work. You may have heard of PowerBI, Tableau, Python, R, SQL, to name a few that touch the space of data handling. PowerBI and Tableau are described as Graphical User Interface (GUI) tools for Business Analytics and Intelligence (BI) and Data Science (DS). Python, R, and SQL are programming languages that are heavily used in data science.
 
 Microsoft’s Excel program has broad industry penetration and is used by virtually every company on the planet. Google’s spreadsheet tool is a strong competitor and has equally strong user penetration in industry.
-
-### Chart Studio
-
-Plotly has provided a full suite of [tutorials](https://plotly.com/chart-studio-help/tutorials/) that we can use during the course. Chart Studio is the tool that was used to make the graphics in our textbook. It pretty intuitive and has Plotly has built R and Python packages as well.
 
 ### Google Sheets
 

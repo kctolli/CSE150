@@ -60,5 +60,3 @@ Students will understand how percentiles are calculated and data distribution as
 
 * CSE 150 Data Intuition and Insight 
   + Chapter 3: Probability, Sampling, and Confidence Intervals (Type: Statistics)
-  
-## Class Notes  
