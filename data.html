@@ -425,7 +425,7 @@ div.tocify {
       <a href="https://drive.google.com/drive/u/0/folders/1jR07hsu3mbsBOmghKset0geclsFn_ZMG">Google Drive</a>
     </li>
     <li>
-      <a href="https://github.com/byuidatascience">Github</a>
+      <a href="https://github.com/byuidatascience/data4">Github</a>
     </li>
     <li class="divider"></li>
     <li class="dropdown-header">Statistics</li>
@@ -504,63 +504,64 @@ div.tocify {
 <h2>Finding data</h2>
 <p>All of the data for CSE 150 can be found within the <code>data4</code> packages in our GitHub group <a href="https://github.com/byuidatascience">byuidatascience</a> and on our <a href="https://drive.google.com/drive/folders/1jR07hsu3mbsBOmghKset0geclsFn_ZMG">Google Drive</a>.</p>
 <p>We have built multiple data sets that will help you answer the questions in the case studies. You should read the data description and look at the available files to find the files you need before you do too much data wrangling.</p>
+<div id="repository-details" class="section level4">
+<h4>Repository details</h4>
+<p>These repositories are built using the <a href="https://github.com/BYUIDSS/DataPushR">DataPushR R package</a>, and they have the following structure.</p>
+<ul>
+<li>There is a <code>data-raw</code> folder that has varied file formats of the curated data. All data is the same, but they are stored in varied formats for use with different software and programming languages. this folder can have more data than is available in the R package.</li>
+<li>Each of these repositories is stored as an R package and can be installed in R using <code>devtools::install_github("byuidatascience/data4[NAME]")</code>. If done, the data objects in the <code>data</code> folder will be available to the R user. We recommend using <code>data4[NAME]::</code> structure to access the available data.</li>
+<li>Each data set is documented with the <code>data.md</code> file in the repository and as a help file in R. You can find the data sources here.</li>
+<li>There is an R script in the <code>data-raw</code> folder that documents what was done with the source data before it was created in the repository.</li>
+</ul>
+</div>
 <div id="case-study-2-lego-my-data" class="section level3">
 <h3>Case Study 2: Lego my data</h3>
 <p>You will be making your own data set from bags of LEGO in class or by using the <a href="https://byuidatascience.github.io/cse150_lego/index.html">virtual LEGO bags</a>.</p>
 </div>
 <div id="case-study-3-what-is-normal-about-marathons" class="section level3">
 <h3>Case Study 3: What is normal about marathons?</h3>
+<p>This repository has marathon times for the majority of marathons in the US. It is largely various subsets of data from <a href="https://faculty.chicagobooth.edu/george.wu/research/marathon/marathon_names.htm">Wu’s data</a>. One addition is the inclusion of spatial coordinates for the locations of some of the races.</p>
 <ul>
 <li><a href="./data4/marathons/data.pdf">Dataset overview</a></li>
 <li><a href="https://drive.google.com/drive/u/2/folders/1bkls_SlzcfIGoSXBheAhK4nmQfuJH9Pb">Google Drive</a></li>
-<li><a href="https://github.com/byuidatascience/data4marathons/tree/master/data-raw">Github</a></li>
+<li><a href="https://github.com/byuidatascience/data4marathons/">Github</a></li>
 </ul>
 </div>
 <div id="case-study-4-what-is-a-healthy-child" class="section level3">
 <h3>Case Study 4: What is a healthy child?</h3>
+<p>This repository has varied height and weight measurements of children from various countries under the age of 2. Also, we have the WHO table of mean and standard deviation values for each day of age. This data can be used to teach about z-scores and the normal distribution.</p>
 <ul>
 <li><a href="./data4/childhealth/data.pdf">Dataset overview</a></li>
 <li><a href="https://drive.google.com/drive/u/2/folders/1eVDsjUgWMGgotR99JXqKYUm6J4Xq958Q">Google Drive</a></li>
-<li><a href="https://github.com/byuidatascience/data4childhealth/tree/master/data-raw">Github</a></li>
+<li><a href="https://github.com/byuidatascience/data4childhealth/">Github</a></li>
 </ul>
 </div>
 <div id="case-study-5-does-your-birthday-make-you-better-at-sports" class="section level3">
 <h3>Case Study 5: Does your birthday make you better at sports?</h3>
+<p>This repository has the birthdates of many professional athletes. It also has the number of births by month and day of the month for the US and the varied athlete groups. This data can be used to teach about the Matthew Effect.</p>
 <ul>
 <li><a href="./data4/births/data.pdf">Dataset overview</a></li>
 <li><a href="https://drive.google.com/drive/u/2/folders/1mODEM50IEduaQWDGALT2obDDBBdpwDqq">Google Drive</a></li>
-<li><a href="https://github.com/byuidatascience/data4births/tree/master/data-raw">Github</a></li>
+<li><a href="https://github.com/byuidatascience/data4births/">Github</a></li>
 </ul>
 </div>
 <div id="case-study-6-catch-me-if-you-can" class="section level3">
 <h3>Case Study 6: Catch me, if you can?</h3>
+<p>The repository has varied data sets that can be used to teach about Benford’s law. They can be used to explain the Chi-Square Goodness of Fit process.</p>
 <ul>
 <li><a href="./data4/benfords/data.pdf">Dataset overview</a></li>
 <li><a href="https://drive.google.com/drive/u/2/folders/1cLFFHZ17wZNrFU-Dnhauva2WCCK2IOww">Google Drive</a></li>
-<li><a href="https://github.com/byuidatascience/data4benfords/tree/master/data-raw">Github</a></li>
+<li><a href="https://github.com/byuidatascience/data4benfords/">Github</a></li>
 </ul>
 </div>
 <div id="case-study-7-can-you-help-me-with-my-data-problem" class="section level3">
 <h3>Case Study 7: Can you help me with my data problem?</h3>
+<p>This repository has tuberculosis data from the World Health Organization (WHO). It is messy by intention. This data can be used to teach tidy principles.</p>
 <ul>
 <li><a href="./data4/tuberculosis/data.pdf">Dataset overview</a></li>
 <li><a href="https://drive.google.com/drive/u/2/folders/1pOYd0T5XY6sPYEBlygj0E-18nnaM7xjQ">Google Drive</a></li>
-<li><a href="https://github.com/byuidatascience/data4tuberculosis/tree/master/data-raw">Github</a></li>
+<li><a href="https://github.com/byuidatascience/data4tuberculosis/">Github</a></li>
 </ul>
-</div>
-</div>
-<div id="repositories" class="section level2">
-<h2>Repositories</h2>
-<ul>
-<li><a href="https://github.com/byuidatascience/data4benfords">data4benfords</a>: The repository has varied data sets that can be used to teach about Benford’s law. They can be used to explain the Chi-Square Goodness of Fit process.</li>
-<li><a href="https://github.com/byuidatascience/data4childhealth">data4childhealth</a>: This repository has varied height and weight measurements of children from various countries under the age of 2. Also, we have the WHO table of mean and standard deviation values for each day of age. This data can be used to teach about z-scores and the normal distribution.</li>
-<li><a href="https://github.com/byuidatascience/data4births">data4births</a>: This repository has the birthdates of many professional athletes. It also has the number of births by month and day of the month for the US and the varied athlete groups. This data can be used to teach about the Matthew Effect.</li>
-<li><a href="https://github.com/byuidatascience/data4tuberculosis">data4tuberculosis</a>: This repository has tuberculosis data from the World Health Organization (WHO). It is messy by intention. This data can be used to teach tidy principles.</li>
-<li><a href="https://github.com/byuidatascience/data4marathons">data4marathons</a>: This repository has marathon times for the majority of marathons in the US. It is largely various subsets of data from <a href="https://faculty.chicagobooth.edu/george.wu/research/marathon/marathon_names.htm">Wu’s data</a>. One addition is the inclusion of spatial coordinates for the locations of some of the races.</li>
-</ul>
-<div id="repository-details" class="section level3">
-<h3>Repository details</h3>
-<p>These repositories are built using the <a href="https://github.com/BYUIDSS/DataPushR">DataPushR R package</a>, and they have the following structure. - There is a <code>data-raw</code> folder that has varied file formats of the curated data. All data is the same, but they are stored in varied formats for use with different software and programming languages. this folder can have more data than is available in the R package. - Each of these repositories is stored as an R package and can be installed in R using <code>devtools::install_github("byuidatascience/data4[NAME]")</code>. If done, the data objects in the <code>data</code> folder will be available to the R user. We recommend using <code>data4[NAME]::</code> structure to access the available data. - Each data set is documented with the <code>data.md</code> file in the repository and as a help file in R. You can find the data sources here. - There is an R script in the <code>data-raw</code> folder that documents what was done with the source data before it was created in the repository.</p>
 </div>
 </div>
 

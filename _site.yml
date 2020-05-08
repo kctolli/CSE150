@@ -53,7 +53,7 @@ navbar:
         - text: "Google Drive"
           href: https://drive.google.com/drive/u/0/folders/1jR07hsu3mbsBOmghKset0geclsFn_ZMG 
         - text: "Github"
-          href: https://github.com/byuidatascience 
+          href: https://github.com/byuidatascience/data4 
         - text: "---------------" 
         - text: "Statistics"
         - text: "Google Sheets"
