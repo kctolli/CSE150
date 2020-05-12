@@ -1,7 +1,6 @@
 ---
 title: "Data Intuition and Insight"
 subtitle: "CSE 150"
-author: "Kyle Tolliver"
 ---
 
 ```{r load_libraries, include=FALSE}
