@@ -32,7 +32,7 @@ Some things you may want to ponder:
 * How could past projects or work that you’ve done have been helped through more structured thinking?
 * How can you demonstrate to potential employers that you’ve developed a structured thinking approach to your work?
 
-Another article to help show how data scientists work and think:[What I do when I get a new data set as told through tweets](https://simplystatistics.org/2014/06/13/what-i-do-when-i-get-a-new-data-set-as-told-through-tweets/)
+Another article to help show how data scientists work and think: [What I do when I get a new data set as told through tweets](https://simplystatistics.org/2014/06/13/what-i-do-when-i-get-a-new-data-set-as-told-through-tweets/)
 
 ## Languages
 
