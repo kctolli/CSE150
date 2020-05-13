@@ -27,6 +27,7 @@ To be an effective data scientist, you must become a problem solver. Everything 
 ### The art of structured thinking and analyzing
 
 Some things you may want to ponder:
+
 * How would you define structured thinking?
 * How could past projects or work that you’ve done have been helped through more structured thinking?
 * How can you demonstrate to potential employers that you’ve developed a structured thinking approach to your work?
