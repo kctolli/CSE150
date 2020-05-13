@@ -65,9 +65,3 @@ With Google Sheets, you can create and edit spreadsheets directly in your web br
 ### Tableau
 
 Tableau is heavily used among business analysts and data scientists. As we use Tableau, we will not be covering all the powerful data connections and dashboard tools in the software in our class. We will be focusing on creating different data views for visual analytics in this class. 
-
-<br> <br> 
-
-#####  *--- Website is made with [Rmd files](https://rmarkdown.rstudio.com/index.html) and [Rstudio](https://rstudio.com/)*
-
-#####  *--- Hosted on [github](https://github.com/kctolli/CSE150)*
