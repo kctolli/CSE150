@@ -40,16 +40,21 @@ Students will understand how percentiles are calculated and data distribution as
 
 ## Readings
 
-### Day 11
+### Day 11 (No Class)
 
 * Read Good Charts (Type: Visualization)
   + Chapter 7: Persuasion or Manipulation
-* Read [Build a Line Chart](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_line.htm) (Type:Tools)
-* Read [Build a Box Plot](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_boxplot.htm) (Types: Tools)
 
 ### Day 12
 
-* None
+* Read [Build a Line Chart](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_line.htm) (Type:Tools)
+* Read [Build a Box Plot](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_boxplot.htm) (Types: Tools)
+* Read [Tableau Editing your graphic Part 2](https://help.tableau.com/current/pro/desktop/en-us/ask_data.htm) (Type: Tools)
+  + [Sorting visualization information](https://help.tableau.com/current/pro/desktop/en-us/sortgroup_sorting_computed_howto.htm) and [a 6-minute video on sorting](https://www.tableau.com/learn/tutorials/on-demand/sorting)
+  + [Filters](https://www.tableau.com/learn/tutorials/on-demand/ways-filter)
+  + [Editing tooltips](https://www.tableau.com/learn/tutorials/on-demand/tooltips)
+  + [Add annotations](https://help.tableau.com/current/pro/desktop/en-us/annotations_annotations_add.htm)
+  + [Grouping categories](https://www.tableau.com/learn/tutorials/on-demand/grouping)
 
 ### Day 13
 
