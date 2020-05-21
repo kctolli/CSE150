@@ -186,7 +186,7 @@ A data frame with columns:
 
 The data is called marathon_location.
 
-### Description
+### Description (marathon_location)
 
 This data set has ~150k observations.
 
@@ -212,7 +212,7 @@ A data frame with columns:
 
 The data is called race_location.
 
-### Description
+### Description (race_location)
 
 This data set has ~2k observations.
 

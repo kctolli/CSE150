@@ -1,0 +1,93 @@
+---
+title: "The Effects of Elevation on Marathons"
+subtitle: "ID-Times"
+author: "Kyle Tolliver"
+date: "May 23, 2020"
+output:
+  html_document:
+    code_folding: hide
+---
+
+```{r library, include=FALSE}
+library(knitr)
+library(tidyverse)
+```
+
+```{r pic_load}
+day <- "../site_libs/images/day_marathon.png"
+chip <- "../site_libs/images/chip_histo.png"
+gender <- "../site_libs/images/gender_chip.png"
+elevation <- "../site_libs/images/chip_elev.png"
+elev <- "../site_libs/images/elev_chip.png"
+map <- "../site_libs/images/map.png"
+month <- "../site_libs/images/month_chip.png"
+```
+
+## Introduction to Marathons
+
+<!-- Begin your story in this section. What might your local community want to know about marathons? Include a small table of data summaries as part of this section.  You don’t have to follow the order listed below but should include each of the plots listed below. -->
+
+A marathon is a long distance race which is about 26 miles. More than 500,000 people run in races a year. I was given the data for marathons over time, I focused on the marathons in the USA and between the years 2010 and 2013. The data sets I used are [marathon location](https://github.com/kctolli/CSE150/blob/master/data4/marathons/marathon_location_data4.xlsx?raw=true) and [race location](https://github.com/kctolli/CSE150/blob/master/data4/marathons/race_location_data4.xlsx?raw=true).
+
+For details on the data sets see the [readme](https://github.com/kctolli/CSE150/blob/master/data4/marathons/Readme.md) from my repository. 
+
+## What is the Distribution of the Finishing Time and Gender?
+<!-- ## Variable Graphic  -->
+
+<!-- Include a variable graphic (chip time) in this section and discuss it in your article. -->
+
+<!-- ## Normal Distributions -->
+
+<!-- Include a graphic in this section and use it to introduce your community to normal distributions. -->
+
+```{r histo, fig.align='center', out.width='75%'}
+include_graphics(chip)
+include_graphics(gender)
+```
+
+The plots show a trend that a majority of runners finish the race around 4 hours after the race starts. The male and female plots are similar in both height and shape. The female plot declines gradually after 225 mins. Where as the majority of all male runners are done after 260 mins with a steep decline after that time.
+
+## Does Elevation Effect Finishing Time?
+
+<!-- ## Spatial Graphic -->
+
+<!-- Include a spatial graphic in this section and discuss it in your article. What does it teach us about marathons? Why is it interesting? -->
+<!--
+```{r elev, fig.align='center', out.width='75%'}
+include_graphics(elevation)
+include_graphics(elev)
+```
+-->
+
+```{r map, fig.align='center', out.width='50%'}
+include_graphics(map)
+```
+
+Utah and Colorado have a greater elevation than other states that host marathons. Map shows that the people in those states have a longer chip time (finish later) than those of lower elevation. You can learn that there is a connection to elevation and chip time, however there are always outliers. The greater the elevation the longer the takes. 
+
+## What Trends are seen when Months and Marathons are explored? 
+<!-- ## Temporal Graphic -->
+
+<!-- Include a temporal graphic in this section and discuss it in your article. -->
+
+```{r gay, fig.align='center', out.width='25%'}
+include_graphics(day)
+```
+
+```{r temporal, fig.align='center', out.width='75%'}
+include_graphics(month)
+```
+
+From this plot we can see what the date of marathons are. The data shows that races are every month in 2013 and are sporadic in other years. The trend between month and average finishing time is at about a constant 280 mins after the marathon starts
+
+## Conclusion
+
+<!-- Wrap up your article -->
+
+Marathons are not just about speed and endurance. Marathon success is effected by elevation, temperature, weather, month, etc. This article illustrates how elevation and month effects the success of a race.    
+
+### H Tolli
+
+<!-- Include a quote from a reader. -->
+
+"When data is explored I always come up with more questions. I would be fascinating to explore how weather effects chip time"
