@@ -91,3 +91,6 @@ Marathons are not just about speed and endurance. Marathon success is effected b
 <!-- Include a quote from a reader. -->
 
 "When data is explored I always come up with more questions. I would be fascinating to explore how weather effects chip time"
+
+
+--- Plots built in [Tableau](https://github.com/kctolli/CSE150/raw/master/tableau/CS3.twb)

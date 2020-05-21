@@ -31,11 +31,11 @@ If you would like more details about each brick you can [read here](https://www.
 
 ## Deliverables
 
-* [3-5 Plot Presentation of your team’s LEGO](https://docs.google.com/presentation/d/1puP4BQR_4wwqvyamrdrzd14GcBf5NWVEJqTwV-wZG7s/edit?usp=sharing)
+* [3-5 Plot Presentation of your team’s LEGO](./analysis/cs2.pptx)
   + Estimated value or asking price for your bag
   + One extra visualization that is requested the day of the sale
 
-* [A complete data set of each LEGO block in your bag](https://docs.google.com/spreadsheets/d/1cbTpIahGzPFqoalRYJbucLHlYJp13bEUYuAdyu_O8Ao/edit?usp=sharing)
+* [A complete data set of each LEGO block in your bag](./analysis/cs2.xlsx)
 
 --- Visualizations created using [Tableau](./tableau/CS2.twb)
 

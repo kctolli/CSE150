@@ -24,7 +24,7 @@ You have been asked to create a short story that describes marathons that could 
 
 ## Deliverables
 
-* A short article with less than 500 words and 4-6 visualizations.
+* A [short article](./analysis/cs3_article.html) with less than 500 words and 4-6 visualizations.
   + Your article should introduce the reader to what a normal distribution is with the use of a visualization of the marathon data.
   + Your article should contain at least one spatial, temporal, and variable graphic.
   + Your article should contain one table that provides data summaries.
