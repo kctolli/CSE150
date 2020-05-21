@@ -1,11 +1,9 @@
 ---
-title: "The Effects of Elevation on Marathons"
+title: "The Effects on Marathons"
 subtitle: "ID-Times"
 author: "Kyle Tolliver"
 date: "May 23, 2020"
-output:
-  html_document:
-    code_folding: hide
+output: html_document
 ---
 
 ```{r library, include=FALSE}
@@ -13,7 +11,7 @@ library(knitr)
 library(tidyverse)
 ```
 
-```{r pic_load}
+```{r pic_load, include=FALSE}
 day <- "../site_libs/images/day_marathon.png"
 chip <- "../site_libs/images/chip_histo.png"
 gender <- "../site_libs/images/gender_chip.png"
@@ -40,7 +38,7 @@ For details on the data sets see the [readme](https://github.com/kctolli/CSE150/
 
 <!-- Include a graphic in this section and use it to introduce your community to normal distributions. -->
 
-```{r histo, fig.align='center', out.width='75%'}
+```{r histo, fig.align='center', out.width='75%', echo=FALSE}
 include_graphics(chip)
 include_graphics(gender)
 ```
@@ -53,13 +51,13 @@ The plots show a trend that a majority of runners finish the race around 4 hours
 
 <!-- Include a spatial graphic in this section and discuss it in your article. What does it teach us about marathons? Why is it interesting? -->
 <!--
-```{r elev, fig.align='center', out.width='75%'}
+```{r elev, fig.align='center', out.width='75%', echo=FALSE}
 include_graphics(elevation)
 include_graphics(elev)
 ```
 -->
 
-```{r map, fig.align='center', out.width='50%'}
+```{r map, fig.align='center', out.width='50%', echo=FALSE}
 include_graphics(map)
 ```
 
@@ -70,11 +68,11 @@ Utah and Colorado have a greater elevation than other states that host marathons
 
 <!-- Include a temporal graphic in this section and discuss it in your article. -->
 
-```{r gay, fig.align='center', out.width='25%'}
+```{r gay, fig.align='center', out.width='25%', echo=FALSE}
 include_graphics(day)
 ```
 
-```{r temporal, fig.align='center', out.width='75%'}
+```{r temporal, fig.align='center', out.width='75%', echo=FALSE}
 include_graphics(month)
 ```
 
