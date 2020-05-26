@@ -9,7 +9,7 @@ library(tidyverse)
 
 ## Summary
 
-This course will introduce you to data science and provide insight into how to use data to make decisions using visualization and statistical inference. Data scientists spend a significant amount of their time cleaning and manipulating data for use in decision making. In this course, we have crafted real-world data for use in our learning to offset much of the work around data cleaning and manipulation. CSE 250, CSE 350/Math 335, CIT 111, CIT 225 and other advanced analytics courses like CSE 450 and Math 488 can help you build those skills.
+This course will introduce you to data science and provide insight into how to use data to make decisions using visualization and statistical inference. Data scientists spend a significant amount of their time cleaning and manipulating data for use in decision making. In this course, we have crafted real-world data for use in our learning to offset much of the work around data cleaning and manipulation. CSE 250, CSE 350/Math 335, CIT 111, CIT 225 and other advanced analytics courses like MATH 425, CSE 450 and Math 488 can help you build those skills.
 
 ### Why This Class
 
