@@ -79,10 +79,7 @@ navbar:
           href: ./quotes.html  
         - text: "---------------"      
         - text: "Tableau"
-          href: https://public.tableau.com/en-us/s/  
-        - text: "---------------"  
-        - text: "Data Wrangling"
-          href: https://mcs335.glitch.me/   
+          href: https://public.tableau.com/en-us/s/   
 
           
 output_dir: '.'

@@ -24,7 +24,7 @@ We have repeated measurements of weights and heights for children from multiple 
   + One slide should explain what a z-score is and how it is calculated for our graphics.
   + One slide should have visualizations of the health of the children at ~365 days for each country (height adjusted z-scores).
   + One slide should show height adjusted z-scores (HAZ) for a healthy and unhealthy child over all their measurements (don’t use the US data).
-* Be creative with the remaining slides.
+  + Be creative with the remaining slides.
 
 ## Class Meeting
 
