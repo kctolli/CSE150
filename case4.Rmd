@@ -18,13 +18,15 @@ We have repeated measurements of weights and heights for children from multiple 
 
 ## Deliverables
 
-* A short presentation (4-8 slides) that visualizes child health using the height measurements.
+* A [short presentation (4-8 slides)](./analysis/cs4.pptx) that visualizes child health using the height measurements.
   + One slide should show the distribution of heights for the US and Dutch data at ~365 days.
   + One slide should show a plot of the heights of the dutch children over time.
   + One slide should explain what a z-score is and how it is calculated for our graphics.
   + One slide should have visualizations of the health of the children at ~365 days for each country (height adjusted z-scores).
   + One slide should show height adjusted z-scores (HAZ) for a healthy and unhealthy child over all their measurements (don’t use the US data).
   + Be creative with the remaining slides.
+  
+--- Visualizations created using [Tableau](./tableau/CS4.twb)  
 
 ## Class Meeting
 

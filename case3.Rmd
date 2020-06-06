@@ -30,6 +30,8 @@ You have been asked to create a short story that describes marathons that could 
   + Your article should contain one table that provides data summaries.
   + The end of your article should contain one quote from a reader (like a comment on the article). The reader should be a spouse or parent.
 
+--- Visualizations created using [Tableau](./tableau/CS3.twb)
+
 ## Class Meeting
 
 ### Objective 
