@@ -27,7 +27,10 @@ navbar:
           href: ./case7.html 
         - text: "---------------"   
         - text: "Do you want to be a data scientist?"
-          href: ./case8.html   
+          href: ./case8.html
+        - text: "---------------"    
+        - text: "Class Notes"
+          href: https://byuistats.github.io/CSE150/class.html   
     - text: "Materials"
       icon: fa-book    
       menu:
@@ -42,6 +45,8 @@ navbar:
           href: https://datavizcatalogue.com/
         - text: "Communicating with Tableau"
           href: https://dataremixed.com/books/cdwt/
+        - text: "Case Study Description"
+          href: https://byuistats.github.io/CSE150/project.html   
     - text: "Data"
       icon: fa-table
       menu:
