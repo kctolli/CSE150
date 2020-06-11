@@ -771,208 +771,6 @@
         </objects>
       </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
     </datasource>
-    <datasource caption='counts_all_data4.csv (counts_all_data4)' inline='true' name='federated.1djkhz301ncwsy10z9nk211b0h77' version='18.1'>
-      <connection class='federated'>
-        <named-connections>
-          <named-connection caption='counts_all_data4' name='excel-direct.0tr99sk1jeqzrv13bvs261at8d0i'>
-            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='D:/Portfolio/Data-Science/Sub/Data-Insight/data4/births/counts_all_data4.xlsx' interpretationMode='0' password='' server='' validate='no' />
-          </named-connection>
-        </named-connections>
-        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0tr99sk1jeqzrv13bvs261at8d0i' name='counts_all_data4.csv' table='[counts_all_data4#csv$]' type='table'>
-          <columns gridOrigin='A1:F1832:no:A1:F1832:0' header='yes' outcome='6'>
-            <column datatype='integer' name='month_number' ordinal='0' />
-            <column datatype='string' name='month_name' ordinal='1' />
-            <column datatype='integer' name='day_of_month' ordinal='2' />
-            <column datatype='integer' name='day_of_year' ordinal='3' />
-            <column datatype='integer' name='births' ordinal='4' />
-            <column datatype='string' name='group' ordinal='5' />
-          </columns>
-        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
-        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0tr99sk1jeqzrv13bvs261at8d0i' name='counts_all_data4.csv' table='[counts_all_data4#csv$]' type='table'>
-          <columns gridOrigin='A1:F1832:no:A1:F1832:0' header='yes' outcome='6'>
-            <column datatype='integer' name='month_number' ordinal='0' />
-            <column datatype='string' name='month_name' ordinal='1' />
-            <column datatype='integer' name='day_of_month' ordinal='2' />
-            <column datatype='integer' name='day_of_year' ordinal='3' />
-            <column datatype='integer' name='births' ordinal='4' />
-            <column datatype='string' name='group' ordinal='5' />
-          </columns>
-        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
-        <metadata-records>
-          <metadata-record class='capability'>
-            <remote-name />
-            <remote-type>0</remote-type>
-            <parent-name>[counts_all_data4.csv]</parent-name>
-            <remote-alias />
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='integer' name='context'>0</attribute>
-              <attribute datatype='string' name='gridOrigin'>&quot;A1:F1832:no:A1:F1832:0&quot;</attribute>
-              <attribute datatype='boolean' name='header'>true</attribute>
-              <attribute datatype='integer' name='outcome'>6</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>month_number</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[month_number]</local-name>
-            <parent-name>[counts_all_data4.csv]</parent-name>
-            <remote-alias>month_number</remote-alias>
-            <ordinal>0</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
-            </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[counts!all!data4.csv_C4FD513739BD41D1AA5EFF5F186A31BC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>month_name</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[month_name]</local-name>
-            <parent-name>[counts_all_data4.csv]</parent-name>
-            <remote-alias>month_name</remote-alias>
-            <ordinal>1</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <collation flag='1' name='LEN_RUS_S2' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
-            </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[counts!all!data4.csv_C4FD513739BD41D1AA5EFF5F186A31BC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>day_of_month</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[day_of_month]</local-name>
-            <parent-name>[counts_all_data4.csv]</parent-name>
-            <remote-alias>day_of_month</remote-alias>
-            <ordinal>2</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
-            </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[counts!all!data4.csv_C4FD513739BD41D1AA5EFF5F186A31BC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>day_of_year</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[day_of_year]</local-name>
-            <parent-name>[counts_all_data4.csv]</parent-name>
-            <remote-alias>day_of_year</remote-alias>
-            <ordinal>3</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
-            </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[counts!all!data4.csv_C4FD513739BD41D1AA5EFF5F186A31BC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>births</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[births]</local-name>
-            <parent-name>[counts_all_data4.csv]</parent-name>
-            <remote-alias>births</remote-alias>
-            <ordinal>4</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
-            </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[counts!all!data4.csv_C4FD513739BD41D1AA5EFF5F186A31BC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>group</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[group]</local-name>
-            <parent-name>[counts_all_data4.csv]</parent-name>
-            <remote-alias>group</remote-alias>
-            <ordinal>5</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <collation flag='1' name='LEN_RUS_S2' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
-            </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[counts!all!data4.csv_C4FD513739BD41D1AA5EFF5F186A31BC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-        </metadata-records>
-      </connection>
-      <aliases enabled='yes' />
-      <_.fcp.ObjectModelTableType.true...column caption='counts_all_data4.csv' datatype='table' name='[__tableau_internal_object_id__].[counts!all!data4.csv_C4FD513739BD41D1AA5EFF5F186A31BC]' role='measure' type='quantitative' />
-      <column caption='Births' datatype='integer' name='[births]' role='measure' type='quantitative' />
-      <column caption='Day Of Month' datatype='integer' name='[day_of_month]' role='dimension' type='quantitative' />
-      <column caption='Day Of Year' datatype='integer' name='[day_of_year]' role='dimension' type='quantitative' />
-      <column caption='Group' datatype='string' name='[group]' role='dimension' type='nominal' />
-      <column caption='Month Name' datatype='string' name='[month_name]' role='dimension' type='nominal' />
-      <column caption='Month Number' datatype='integer' name='[month_number]' role='dimension' type='quantitative' />
-      <column-instance column='[births]' derivation='None' name='[none:births:qk]' pivot='key' type='quantitative' />
-      <column-instance column='[group]' derivation='None' name='[none:group:nk]' pivot='key' type='nominal' />
-      <column-instance column='[births]' derivation='Sum' name='[sum:births:qk]' pivot='key' type='quantitative' />
-      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
-      <style>
-        <style-rule element='mark'>
-          <encoding attr='color' field='[:Measure Names]' type='palette'>
-            <map to='#4e79a7'>
-              <bucket>&quot;[federated.1djkhz301ncwsy10z9nk211b0h77]&quot;</bucket>
-            </map>
-            <map to='#f28e2b'>
-              <bucket>&quot;[federated.1djkhz301ncwsy10z9nk211b0h77].[none:births:qk]&quot;</bucket>
-            </map>
-            <map to='#f28e2b'>
-              <bucket>&quot;[federated.1djkhz301ncwsy10z9nk211b0h77].[sum:births:qk]&quot;</bucket>
-            </map>
-          </encoding>
-          <encoding attr='color' field='[none:group:nk]' type='palette'>
-            <map to='#4e79a7'>
-              <bucket>&quot;baseball&quot;</bucket>
-            </map>
-            <map to='#59a14f'>
-              <bucket>&quot;us&quot;</bucket>
-            </map>
-            <map to='#76b7b2'>
-              <bucket>&quot;hockey&quot;</bucket>
-            </map>
-            <map to='#e15759'>
-              <bucket>&quot;football&quot;</bucket>
-            </map>
-            <map to='#f28e2b'>
-              <bucket>&quot;basketball&quot;</bucket>
-            </map>
-          </encoding>
-        </style-rule>
-      </style>
-      <semantic-values>
-        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
-      </semantic-values>
-      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
-        <objects>
-          <object caption='counts_all_data4.csv' id='counts!all!data4.csv_C4FD513739BD41D1AA5EFF5F186A31BC'>
-            <properties context=''>
-              <relation connection='excel-direct.0tr99sk1jeqzrv13bvs261at8d0i' name='counts_all_data4.csv' table='[counts_all_data4#csv$]' type='table'>
-                <columns gridOrigin='A1:F1832:no:A1:F1832:0' header='yes' outcome='6'>
-                  <column datatype='integer' name='month_number' ordinal='0' />
-                  <column datatype='string' name='month_name' ordinal='1' />
-                  <column datatype='integer' name='day_of_month' ordinal='2' />
-                  <column datatype='integer' name='day_of_year' ordinal='3' />
-                  <column datatype='integer' name='births' ordinal='4' />
-                  <column datatype='string' name='group' ordinal='5' />
-                </columns>
-              </relation>
-            </properties>
-          </object>
-        </objects>
-      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
-    </datasource>
     <datasource caption='football_births_data4.csv (football_births_data4)' inline='true' name='federated.0jkz5b41g4hh4c1cp635h025v7uv' version='18.1'>
       <connection class='federated'>
         <named-connections>
@@ -1650,6 +1448,262 @@
         </objects>
       </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
     </datasource>
+    <datasource caption='counts_all_data4.csv (counts_all_data4)' inline='true' name='federated.1djkhz301ncwsy10z9nk211b0h77' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='counts_all_data4' name='excel-direct.0tr99sk1jeqzrv13bvs261at8d0i'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='D:/Portfolio/Data-Science/Sub/Data-Insight/data4/births/counts_all_data4.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0tr99sk1jeqzrv13bvs261at8d0i' name='counts_all_data4.csv' table='[counts_all_data4#csv$]' type='table'>
+          <columns gridOrigin='A1:F1832:no:A1:F1832:0' header='yes' outcome='6'>
+            <column datatype='integer' name='month_number' ordinal='0' />
+            <column datatype='string' name='month_name' ordinal='1' />
+            <column datatype='integer' name='day_of_month' ordinal='2' />
+            <column datatype='integer' name='day_of_year' ordinal='3' />
+            <column datatype='integer' name='births' ordinal='4' />
+            <column datatype='string' name='group' ordinal='5' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0tr99sk1jeqzrv13bvs261at8d0i' name='counts_all_data4.csv' table='[counts_all_data4#csv$]' type='table'>
+          <columns gridOrigin='A1:F1832:no:A1:F1832:0' header='yes' outcome='6'>
+            <column datatype='integer' name='month_number' ordinal='0' />
+            <column datatype='string' name='month_name' ordinal='1' />
+            <column datatype='integer' name='day_of_month' ordinal='2' />
+            <column datatype='integer' name='day_of_year' ordinal='3' />
+            <column datatype='integer' name='births' ordinal='4' />
+            <column datatype='string' name='group' ordinal='5' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[counts_all_data4.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:F1832:no:A1:F1832:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>month_number</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[month_number]</local-name>
+            <parent-name>[counts_all_data4.csv]</parent-name>
+            <remote-alias>month_number</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[counts!all!data4.csv_C4FD513739BD41D1AA5EFF5F186A31BC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>month_name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[month_name]</local-name>
+            <parent-name>[counts_all_data4.csv]</parent-name>
+            <remote-alias>month_name</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[counts!all!data4.csv_C4FD513739BD41D1AA5EFF5F186A31BC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day_of_month</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[day_of_month]</local-name>
+            <parent-name>[counts_all_data4.csv]</parent-name>
+            <remote-alias>day_of_month</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[counts!all!data4.csv_C4FD513739BD41D1AA5EFF5F186A31BC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day_of_year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[day_of_year]</local-name>
+            <parent-name>[counts_all_data4.csv]</parent-name>
+            <remote-alias>day_of_year</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[counts!all!data4.csv_C4FD513739BD41D1AA5EFF5F186A31BC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>births</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[births]</local-name>
+            <parent-name>[counts_all_data4.csv]</parent-name>
+            <remote-alias>births</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[counts!all!data4.csv_C4FD513739BD41D1AA5EFF5F186A31BC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>group</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[group]</local-name>
+            <parent-name>[counts_all_data4.csv]</parent-name>
+            <remote-alias>group</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[counts!all!data4.csv_C4FD513739BD41D1AA5EFF5F186A31BC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='counts_all_data4.csv' datatype='table' name='[__tableau_internal_object_id__].[counts!all!data4.csv_C4FD513739BD41D1AA5EFF5F186A31BC]' role='measure' type='quantitative' />
+      <column caption='Births' datatype='integer' name='[births]' role='measure' type='quantitative' />
+      <column caption='Day Of Month' datatype='integer' name='[day_of_month]' role='dimension' type='quantitative' />
+      <column caption='Day Of Year' datatype='integer' name='[day_of_year]' role='dimension' type='quantitative' />
+      <column caption='Group' datatype='string' name='[group]' role='dimension' type='nominal' />
+      <column caption='Month Name' datatype='string' name='[month_name]' role='dimension' type='nominal' />
+      <column caption='Month Number' datatype='integer' name='[month_number]' role='dimension' type='quantitative' />
+      <column-instance column='[births]' derivation='Avg' name='[avg:births:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[births]' derivation='Count' name='[cnt:births:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[births]' derivation='CountD' name='[ctd:births:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[births]' derivation='None' name='[none:births:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[group]' derivation='None' name='[none:group:nk]' pivot='key' type='nominal' />
+      <column-instance column='[month_number]' derivation='None' name='[none:month_number:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[births]' derivation='Sum' name='[sum:births:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1djkhz301ncwsy10z9nk211b0h77]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1djkhz301ncwsy10z9nk211b0h77].[avg:births:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1djkhz301ncwsy10z9nk211b0h77].[cnt:births:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1djkhz301ncwsy10z9nk211b0h77].[ctd:births:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1djkhz301ncwsy10z9nk211b0h77].[none:births:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1djkhz301ncwsy10z9nk211b0h77].[sum:births:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:month_number:ok]' type='palette'>
+            <map to='#499894'>
+              <bucket>8</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>4</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>12</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>9</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>5</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>1</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>6</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>10</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>7</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>2</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>11</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>3</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:group:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;baseball&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;us&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;hockey&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;football&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;basketball&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='counts_all_data4.csv' id='counts!all!data4.csv_C4FD513739BD41D1AA5EFF5F186A31BC'>
+            <properties context=''>
+              <relation connection='excel-direct.0tr99sk1jeqzrv13bvs261at8d0i' name='counts_all_data4.csv' table='[counts_all_data4#csv$]' type='table'>
+                <columns gridOrigin='A1:F1832:no:A1:F1832:0' header='yes' outcome='6'>
+                  <column datatype='integer' name='month_number' ordinal='0' />
+                  <column datatype='string' name='month_name' ordinal='1' />
+                  <column datatype='integer' name='day_of_month' ordinal='2' />
+                  <column datatype='integer' name='day_of_year' ordinal='3' />
+                  <column datatype='integer' name='births' ordinal='4' />
+                  <column datatype='string' name='group' ordinal='5' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
   </datasources>
   <worksheets>
     <worksheet name='Sheet 1'>
@@ -1688,6 +1742,65 @@
         <cols>[federated.0jkz5b41g4hh4c1cp635h025v7uv].[none:pos:nk]</cols>
       </table>
       <simple-id uuid='{3C2E1AE2-4DC6-49D3-97B3-D52B899541D2}' />
+    </worksheet>
+    <worksheet name='Sheet 10'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='counts_all_data4.csv (counts_all_data4)' name='federated.1djkhz301ncwsy10z9nk211b0h77' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1djkhz301ncwsy10z9nk211b0h77'>
+            <_.fcp.ObjectModelTableType.false...column caption='counts_all_data4.csv' datatype='integer' name='[__tableau_internal_object_id__].[counts!all!data4.csv_C4FD513739BD41D1AA5EFF5F186A31BC]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[counts!all!data4.csv_C4FD513739BD41D1AA5EFF5F186A31BC]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:counts!all!data4.csv_C4FD513739BD41D1AA5EFF5F186A31BC:qk]' pivot='key' type='quantitative' />
+            <_.fcp.ObjectModelTableType.true...column caption='counts_all_data4.csv' datatype='table' name='[__tableau_internal_object_id__].[counts!all!data4.csv_C4FD513739BD41D1AA5EFF5F186A31BC]' role='measure' type='quantitative' />
+            <column caption='Births' datatype='integer' name='[births]' role='measure' type='quantitative' />
+            <column-instance column='[births]' derivation='CountD' name='[ctd:births:qk]' pivot='key' type='quantitative' />
+            <column caption='Group' datatype='string' name='[group]' role='dimension' type='nominal' />
+            <column caption='Month Name' datatype='string' name='[month_name]' role='dimension' type='nominal' />
+            <column caption='Month Number' datatype='integer' name='[month_number]' role='dimension' type='quantitative' />
+            <column-instance column='[group]' derivation='None' name='[none:group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[month_name]' derivation='None' name='[none:month_name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[month_number]' derivation='None' name='[none:month_number:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1djkhz301ncwsy10z9nk211b0h77].[none:group:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:group:nk]' />
+              <groupfilter function='member' level='[none:group:nk]' member='&quot;us&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1djkhz301ncwsy10z9nk211b0h77].[none:month_number:ok]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:month_number:ok]' />
+              <groupfilter function='member' level='[none:month_number:ok]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1djkhz301ncwsy10z9nk211b0h77].[none:month_number:ok]</column>
+            <column>[federated.1djkhz301ncwsy10z9nk211b0h77].[none:group:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.1djkhz301ncwsy10z9nk211b0h77].[none:group:nk]' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1djkhz301ncwsy10z9nk211b0h77].[none:group:nk]' />
+              <lod column='[federated.1djkhz301ncwsy10z9nk211b0h77].[__tableau_internal_object_id__].[cnt:counts!all!data4.csv_C4FD513739BD41D1AA5EFF5F186A31BC:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1djkhz301ncwsy10z9nk211b0h77].[ctd:births:qk]</rows>
+        <cols>([federated.1djkhz301ncwsy10z9nk211b0h77].[none:month_name:nk] / ([federated.1djkhz301ncwsy10z9nk211b0h77].[none:month_number:ok] / [federated.1djkhz301ncwsy10z9nk211b0h77].[none:group:nk]))</cols>
+      </table>
+      <simple-id uuid='{A7727D93-DC74-41D5-A036-6A58B0C2C326}' />
     </worksheet>
     <worksheet name='Sheet 2'>
       <table>
@@ -2244,7 +2357,7 @@
       </viewpoint>
       <simple-id uuid='{BF48681E-159E-42C1-9E4D-0B12F5D9C87D}' />
     </window>
-    <window class='worksheet' maximized='true' name='Sheet 9'>
+    <window class='worksheet' name='Sheet 9'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -2273,6 +2386,44 @@
         </highlight>
       </viewpoint>
       <simple-id uuid='{600B34FE-E391-4B64-98C5-3AC5ECC59046}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 10'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1djkhz301ncwsy10z9nk211b0h77].[none:group:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1djkhz301ncwsy10z9nk211b0h77].[none:day_of_month:qk]</field>
+            <field>[federated.1djkhz301ncwsy10z9nk211b0h77].[none:group:nk]</field>
+            <field>[federated.1djkhz301ncwsy10z9nk211b0h77].[none:month_name:nk]</field>
+            <field>[federated.1djkhz301ncwsy10z9nk211b0h77].[none:month_number:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{B5DBB990-28D5-4F39-8395-5BF1615DBD52}' />
     </window>
   </windows>
   <thumbnails>
@@ -2430,6 +2581,116 @@
       khtYBy8SjYS5dfMqsWj4XZskOKGcSgFY7S5KqSC6ycTq8hp25xsW0RV0NKeyCyQQ7JVT2QII
       BHtFCEDQ0QgBCDoaIQBBRyMEIOhohAAEHY0QgKCjEQIQdDRCAIKORghA0NEIAQg6GiEAQUcj
       BCDoaIQABB2NEICgoxECEHQ0/x/oat2KnQrE6QAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 10' width='192'>
+      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
+      lRA1IvcFErZW0X2B/sMbFrrHzfFLk3IMIFaVik6DTly9zkghT2vWwwzQscxFCVErZQOQiSfZ
+      sHsr2u0cDW6FllpUJUSNlA1AfPI+s9kk8elJEkoTGsjFMLFqlJ3St3V3kE8btHV08epvvyy3
+      RRSrSpkAFHj7X9/CaGxjTYubH33/J2i1qUuImigTgBQ5o5Wu1iYaQx2sNQtyWxSxqpQ5Bmhg
+      88YgFy5cAMCxrpdQDYoSolbKBMDDvgOfq00lQtSBXNcStiYBELYmARC2JgEQtiYBELYmARC2
+      JgEQtiYBELYmARC2JgEQtiYBELYmARC2JgEQtiYBELYmARC2JgEQtlbRfYEqZ3Hk5z9Bd7fS
+      P7iLtS3yE3qxslU5AFkMAnR2r6Mt2PCwXZL0CFtQq/QIe3KMldwj7JPx8vzeQXxmhpGxu9Ij
+      rESt0iPsSSu6R1jFtDRXrw4zny2waWCd9Agrth7pEfaxMVZ4j7CKeQK8+OlXqjqkEMtJzgIJ
+      W5MACFuTAAhbkwAIW5MACFuTAAhbkwAIW5MACFuTAAhbkwAIW5MACFuTAAhbkwAIW5MACFuT
+      AAhbkwAIW5MACFuTAAhbkwAIW5MACFuTAAhbkwAIW5MACFuTAAhbkwAIW5MACFuregCSs/e4
+      dus2erFb9AqxglQ3AIUkQ9fuQWaG0btzVR1aiOVQ1QBY6RjBrk309fSg5earObQQy6Kqd4dW
+      PD7SsVnSbgcOh6eaQwuxLKo7BfK10elJMTQWo2dtuKpDC7Ec/j9FtKyz2mF7FAAAAABJRU5E
+      rkJggg==
     </thumbnail>
     <thumbnail height='192' name='Sheet 2' width='192'>
       iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
