@@ -22,10 +22,12 @@ Malcolm Gladwell’s chapter on the Matthew Effect is persuasive as a narrative.
 
 ## Deliverables
 
-* Build a 6-10 slide presentation that provides data visualizations to pair up with text from Malcolm Gladwell’s chapter on the Matthew Effect.
-* At least one slide should have a visualization that compares the US population of births to a sport of your preference with persuasive annotations added to the graphics.
-* At least three slides should describe and show the statistical comparison you performed to provide justification for your inference.
-* Your final slide should have your conclusions beyond the observed data.
+* Build a [6-10 slide presentation](./analysis/cs5.pptx) that provides data visualizations to pair up with text from Malcolm Gladwell’s chapter on the Matthew Effect.
+  + At least one slide should have a visualization that compares the US population of births to a sport of your preference with persuasive annotations added to the graphics.
+  + At least three slides should describe and show the [statistical comparison](./analysis/cs5.xlsx) you performed to provide justification for your inference.
+  + Your final slide should have your conclusions beyond the observed data.
+
+--- Visualizations created using [Tableau](./tableau/CS5.twb)  
 
 ## Class Meeting
 

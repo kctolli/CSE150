@@ -519,11 +519,14 @@ div.tocify {
 <div id="deliverables" class="section level2">
 <h2>Deliverables</h2>
 <ul>
-<li>Build a 6-10 slide presentation that provides data visualizations to pair up with text from Malcolm Gladwell’s chapter on the Matthew Effect.</li>
+<li>Build a <a href="./analysis/cs5.pptx">6-10 slide presentation</a> that provides data visualizations to pair up with text from Malcolm Gladwell’s chapter on the Matthew Effect.
+<ul>
 <li>At least one slide should have a visualization that compares the US population of births to a sport of your preference with persuasive annotations added to the graphics.</li>
-<li>At least three slides should describe and show the statistical comparison you performed to provide justification for your inference.</li>
+<li>At least three slides should describe and show the <a href="./analysis/cs5.xlsx">statistical comparison</a> you performed to provide justification for your inference.</li>
 <li>Your final slide should have your conclusions beyond the observed data.</li>
+</ul></li>
 </ul>
+<p>— Visualizations created using <a href="./tableau/CS5.twb">Tableau</a></p>
 </div>
 <div id="class-meeting" class="section level2">
 <h2>Class Meeting</h2>
@@ -644,7 +647,7 @@ $(document).ready(function ()  {
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
       },
       ignoreSelector: ".toc-ignore",
       scrollTo: 0
