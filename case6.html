@@ -25,6 +25,7 @@
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <script src="site_libs/navigation-1.1/codefolding.js"></script>
+<script src="site_libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
@@ -549,7 +550,10 @@ div.tocify {
 <div id="day-19" class="section level3">
 <h3>Day 19</h3>
 <ul>
-<li>Read <a href="https://www.statisticshowto.com/benfords-law/">Benford’s Law (The First Digit Law): Simple Definition, Examples</a> (Type: Statistics)</li>
+<li>Read CSE 150 Data Intuition and Insight (Type: Statistics)
+<ul>
+<li>Section 4.6: Chi-Square Goodness of Fit Test</li>
+</ul></li>
 </ul>
 </div>
 <div id="day-20" class="section level3">
@@ -630,7 +634,7 @@ $(document).ready(function ()  {
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
       },
       ignoreSelector: ".toc-ignore",
       scrollTo: 0

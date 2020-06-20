@@ -44,7 +44,8 @@ Students will come to understand the difference between visualizing a sample of 
 
 ### Day 19
 
-* Read [Benford’s Law (The First Digit Law): Simple Definition, Examples](https://www.statisticshowto.com/benfords-law/) (Type: Statistics)
+* Read CSE 150 Data Intuition and Insight (Type: Statistics)
+  + Section 4.6: Chi-Square Goodness of Fit Test 
 
 ### Day 20
 
