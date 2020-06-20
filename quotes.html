@@ -24,15 +24,16 @@
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <script src="site_libs/navigation-1.1/codefolding.js"></script>
+<script src="site_libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css" data-origin="pandoc">
-a.sourceLine { display: inline-block; line-height: 1.25; }
-a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
-a.sourceLine:empty { height: 1.2em; }
+code.sourceCode > span { display: inline-block; line-height: 1.25; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode { white-space: pre; position: relative; }
 div.sourceCode { margin: 1em 0; }
@@ -42,14 +43,16 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 code.sourceCode { white-space: pre-wrap; }
-a.sourceLine { text-indent: -1em; padding-left: 1em; }
+code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
-pre.numberSource a.sourceLine
-  { position: relative; left: -4em; }
-pre.numberSource a.sourceLine::before
-  { content: attr(title);
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
     position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; pointer-events: all; display: inline-block;
+    border: none; display: inline-block;
     -webkit-touch-callout: none; -webkit-user-select: none;
     -khtml-user-select: none; -moz-user-select: none;
     -ms-user-select: none; user-select: none;
@@ -58,9 +61,9 @@ pre.numberSource a.sourceLine::before
   }
 pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
 div.sourceCode
-  { background-color: #f8f8f8; }
+  {  background-color: #f8f8f8; }
 @media screen {
-a.sourceLine::before { text-decoration: underline; }
+code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 code span.al { color: #ef2929; } /* Alert */
 code span.an { color: #8f5902; font-weight: bold; font-style: italic; } /* Annotation */
@@ -476,10 +479,6 @@ div.tocify {
     <li>
       <a href="./case8.html">Do you want to be a data scientist?</a>
     </li>
-    <li class="divider"></li>
-    <li>
-      <a href="https://byuistats.github.io/CSE150/class.html">Class Notes</a>
-    </li>
   </ul>
 </li>
 <li class="dropdown">
@@ -507,7 +506,7 @@ div.tocify {
       <a href="https://dataremixed.com/books/cdwt/">Communicating with Tableau</a>
     </li>
     <li>
-      <a href="https://byuistats.github.io/CSE150/project.html">Case Study Description</a>
+      <a href="https://byuistats.github.io/CSE150/class.html">Class Notes</a>
     </li>
   </ul>
 </li>
@@ -604,33 +603,33 @@ div.tocify {
 
 <div id="albert-einstein" class="section level2">
 <h2>Albert Einstein</h2>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" title="1">albert &lt;-<span class="st"> &#39;https://upload.wikimedia.org/wikipedia/commons/3/3e/Einstein_1921_by_F_Schmutzer_-_restoration.jpg&#39;</span></a>
-<a class="sourceLine" id="cb1-2" title="2">knitr<span class="op">::</span><span class="kw">include_graphics</span>(albert)</a></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a>albert &lt;-<span class="st"> &#39;https://upload.wikimedia.org/wikipedia/commons/3/3e/Einstein_1921_by_F_Schmutzer_-_restoration.jpg&#39;</span></span>
+<span id="cb1-2"><a href="#cb1-2"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(albert)</span></code></pre></div>
 <p><img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Einstein_1921_by_F_Schmutzer_-_restoration.jpg" width="25%" style="display: block; margin: auto auto auto 0;" /></p>
 <p>The formulation of a problem is often more essential than its solution, which may be merely a matter of mathematical or experimental skill.</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb2-1" title="1">fish &lt;-<span class="st"> &#39;https://fishclimbingtrees.com/images/treeFishSplash.png&#39;</span></a>
-<a class="sourceLine" id="cb2-2" title="2">knitr<span class="op">::</span><span class="kw">include_graphics</span>(fish)</a></code></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a>fish &lt;-<span class="st"> &#39;https://fishclimbingtrees.com/images/treeFishSplash.png&#39;</span></span>
+<span id="cb2-2"><a href="#cb2-2"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(fish)</span></code></pre></div>
 <p><img src="https://fishclimbingtrees.com/images/treeFishSplash.png" width="17.5%" style="display: block; margin: auto auto auto 0;" /></p>
 <p>Everybody is a genius. But if you judge a fish by its ability to climb a tree, it will live its whole life believing that it is stupid.</p>
 </div>
 <div id="dan-meyer" class="section level2">
 <h2>Dan Meyer</h2>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb3-1" title="1">meyer &lt;-<span class="st"> &#39;https://pbs.twimg.com/profile_images/519209067219140608/HwYQDxhT_400x400.jpeg&#39;</span></a>
-<a class="sourceLine" id="cb3-2" title="2">knitr<span class="op">::</span><span class="kw">include_graphics</span>(meyer)</a></code></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1"></a>meyer &lt;-<span class="st"> &#39;https://pbs.twimg.com/profile_images/519209067219140608/HwYQDxhT_400x400.jpeg&#39;</span></span>
+<span id="cb3-2"><a href="#cb3-2"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(meyer)</span></code></pre></div>
 <p><img src="https://pbs.twimg.com/profile_images/519209067219140608/HwYQDxhT_400x400.jpeg" width="25%" style="display: block; margin: auto auto auto 0;" /></p>
 <p>Ask yourselves, what problem have you solved, <em>ever</em>, that was worth solving… Where you didn’t have a surplus of information and have to filter it out, or you didn’t have insufficient information and have to go find some?</p>
 </div>
 <div id="aristotle" class="section level2">
 <h2>Aristotle</h2>
-<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb4-1" title="1">Aristotle &lt;-<span class="st"> &#39;https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Aristotle_Altemps_Inv8575.jpg/1200px-Aristotle_Altemps_Inv8575.jpg&#39;</span></a>
-<a class="sourceLine" id="cb4-2" title="2">knitr<span class="op">::</span><span class="kw">include_graphics</span>(Aristotle)</a></code></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1"></a>Aristotle &lt;-<span class="st"> &#39;https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Aristotle_Altemps_Inv8575.jpg/1200px-Aristotle_Altemps_Inv8575.jpg&#39;</span></span>
+<span id="cb4-2"><a href="#cb4-2"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(Aristotle)</span></code></pre></div>
 <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Aristotle_Altemps_Inv8575.jpg/1200px-Aristotle_Altemps_Inv8575.jpg" width="25%" style="display: block; margin: auto auto auto 0;" /></p>
 <p>Anything that we have to learn to do we learn by the actual doing of it … We become just by doing just acts, temperate by doing temperate ones, brave by doing brave ones.’ … by doing the acts that we do in our transactions with other men we become just or unjust, and by doing the acts that we do in the presence of danger, and being habituated to feel fear or confidence, we become brave or cowardly. … Thus, in one word, states of character arise out of like activities. This is why the activities we exhibit must be of a certain kind; it is because the states of character correspond to the differences between these. It makes no small difference, then, whether we form habits of one kind or of another from our very youth; it makes a very great difference, or rather all the difference.</p>
 </div>
 <div id="jeffrey-r.-holland" class="section level2">
 <h2>Jeffrey R. Holland</h2>
-<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb5-1" title="1">Holland &lt;-<span class="st"> &#39;https://www.churchofjesuschrist.org/bc/content/shared/content/images/leaders/jeffrey-r-holland-large.jpg&#39;</span></a>
-<a class="sourceLine" id="cb5-2" title="2">knitr<span class="op">::</span><span class="kw">include_graphics</span>(Holland)</a></code></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1"></a>Holland &lt;-<span class="st"> &#39;https://www.churchofjesuschrist.org/bc/content/shared/content/images/leaders/jeffrey-r-holland-large.jpg&#39;</span></span>
+<span id="cb5-2"><a href="#cb5-2"></a>knitr<span class="op">::</span><span class="kw">include_graphics</span>(Holland)</span></code></pre></div>
 <p><img src="https://www.churchofjesuschrist.org/bc/content/shared/content/images/leaders/jeffrey-r-holland-large.jpg" width="25%" style="display: block; margin: auto auto auto 0;" /></p>
 <p>So let’s talk about learning. As a teacher at heart, I love the word and the idea, though I do think we should define it a little better than we usually do. … I don’t just mean the accumulation of knowledge, though that is part of it. I also don’t just mean passively listening to a lecture or memorizing facts. I mean learning in the sense of growth and change, of insight leading to improvement, of knowing the truth, which in turn leads us closer to the God of all truth.</p>
 <p>Talk titled ‘<a href="https://www.churchofjesuschrist.org/study/ensign/2018/12/making-your-life-a-soul-stirring-journey-of-personal-growth?lang=eng">Making Your Life a Soul-Stirring Journey of Personal Growth</a>’</p>
@@ -691,7 +690,7 @@ $(document).ready(function ()  {
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
       },
       ignoreSelector: ".toc-ignore",
       scrollTo: 0

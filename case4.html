@@ -25,6 +25,7 @@
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <script src="site_libs/navigation-1.1/codefolding.js"></script>
+<script src="site_libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
@@ -378,10 +379,6 @@ div.tocify {
     <li>
       <a href="./case8.html">Do you want to be a data scientist?</a>
     </li>
-    <li class="divider"></li>
-    <li>
-      <a href="https://byuistats.github.io/CSE150/class.html">Class Notes</a>
-    </li>
   </ul>
 </li>
 <li class="dropdown">
@@ -409,7 +406,7 @@ div.tocify {
       <a href="https://dataremixed.com/books/cdwt/">Communicating with Tableau</a>
     </li>
     <li>
-      <a href="https://byuistats.github.io/CSE150/project.html">Case Study Description</a>
+      <a href="https://byuistats.github.io/CSE150/class.html">Class Notes</a>
     </li>
   </ul>
 </li>
@@ -645,7 +642,7 @@ $(document).ready(function ()  {
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
       },
       ignoreSelector: ".toc-ignore",
       scrollTo: 0

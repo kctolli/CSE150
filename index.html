@@ -24,6 +24,7 @@
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <script src="site_libs/navigation-1.1/codefolding.js"></script>
+<script src="site_libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
@@ -377,10 +378,6 @@ div.tocify {
     <li>
       <a href="./case8.html">Do you want to be a data scientist?</a>
     </li>
-    <li class="divider"></li>
-    <li>
-      <a href="https://byuistats.github.io/CSE150/class.html">Class Notes</a>
-    </li>
   </ul>
 </li>
 <li class="dropdown">
@@ -408,7 +405,7 @@ div.tocify {
       <a href="https://dataremixed.com/books/cdwt/">Communicating with Tableau</a>
     </li>
     <li>
-      <a href="https://byuistats.github.io/CSE150/project.html">Case Study Description</a>
+      <a href="https://byuistats.github.io/CSE150/class.html">Class Notes</a>
     </li>
   </ul>
 </li>
@@ -509,7 +506,7 @@ div.tocify {
 <p>This course will introduce you to data science and provide insight into how to use data to make decisions using visualization and statistical inference. Data scientists spend a significant amount of their time cleaning and manipulating data for use in decision making. In this course, we have crafted real-world data for use in our learning to offset much of the work around data cleaning and manipulation. CSE 250, CSE 350/Math 335, MATH 325, CIT 111, CIT 225 and other advanced analytics courses like MATH 425, CSE 450 and Math 488 can help you build those skills and other data science skills.</p>
 <div id="why-this-class" class="section level3">
 <h3>Why This Class</h3>
-<p>You are driven by curiosity and interested in how data decisions are made (sometimes called data intuition). Possibly, you have a more empathetic approach to how the world works and how problems can be solved. Finally, you have an eye for visualization and how data is communicated to make impactful decisions.</p>
+<p>You are driven by curiosity and interested in how data decisions are made (sometimes called data intuition). Possibly, you have a more empathetic approach to how the world works and how problems can be solved. Finally, you have an eye for visualization and how data is communicated to make decisions.</p>
 </div>
 <div id="principles-of-teaching-data-science" class="section level3">
 <h3>Principles of Teaching Data Science</h3>
@@ -538,7 +535,7 @@ div.tocify {
 </div>
 <div id="course-format" class="section level2">
 <h2>Course Format</h2>
-<p>We have built the class around a set of data driven projects. During each of those projects we will cover readings in visualzation, data handling, and statistics. Excluding the first two days and the last two days of class, we will spend four days of class on each case study.</p>
+<p>We have built the class around a set of data driven projects. During each of those projects we will cover readings in visualization, data handling, and statistics. Excluding the first two days and the last two days of class, we will spend four days of class on each case study.</p>
 <p>We will meet for 1 hour twice a week and use the following weekly rhythm. After the first week, we will complete multiple 4-class day data projects. We expect 1-3 hours of work to be completed outside of class.</p>
 <p>See <a href="https://byui.instructure.com/">Canvas</a> for due dates and assignments.</p>
 <div id="preparation" class="section level3">
@@ -619,7 +616,7 @@ $(document).ready(function ()  {
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
       },
       ignoreSelector: ".toc-ignore",
       scrollTo: 0
