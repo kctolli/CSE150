@@ -44,14 +44,14 @@ Students will understand how percentiles are calculated and data distribution as
 
 ### Day 11 (No Class)
 
-* Read Good Charts (Type: Visualization)
+* Read Good Charts
   + Chapter 7: Persuasion or Manipulation
 
 ### Day 12
 
-* Read [Build a Line Chart](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_line.htm) (Type:Tools)
-* Read [Build a Box Plot](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_boxplot.htm) (Types: Tools)
-* Read [Tableau Editing your graphic Part 2](https://help.tableau.com/current/pro/desktop/en-us/ask_data.htm) (Type: Tools)
+* Read [Build a Line Chart](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_line.htm) 
+* Read [Build a Box Plot](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_boxplot.htm) 
+* Read [Tableau Editing your graphic Part 2](https://help.tableau.com/current/pro/desktop/en-us/ask_data.htm) 
   + [Sorting visualization information](https://help.tableau.com/current/pro/desktop/en-us/sortgroup_sorting_computed_howto.htm) and [a 6-minute video on sorting](https://www.tableau.com/learn/tutorials/on-demand/sorting)
   + [Filters](https://www.tableau.com/learn/tutorials/on-demand/ways-filter)
   + [Editing tooltips](https://www.tableau.com/learn/tutorials/on-demand/tooltips)
@@ -60,10 +60,10 @@ Students will understand how percentiles are calculated and data distribution as
 
 ### Day 13
 
-* Read Good Charts (Type: Visualization)
+* Read Good Charts 
   + Chapter 8: Present to Persuade (pg. 177-192)
 
 ### Day 14
 
 * CSE 150 Data Intuition and Insight 
-  + Chapter 3: Probability, Sampling, and Confidence Intervals (Type: Statistics)
+  + Chapter 3: Probability, Sampling, and Confidence Intervals 

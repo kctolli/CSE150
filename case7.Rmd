@@ -49,15 +49,19 @@ Students will learn the complications that come with requesting and manipulating
 ### Day 23
 
 * Read [How to ask for data sets](https://medium.com/@ckreibich/how-to-ask-for-datasets-d5ef791cb38c)
+* Read [Call Centers and Data Requests](https://byuistats.github.io/CSE150/files/FSCPD_Donahue_callcenter.pdf)
 
 ### Day 24
 
-* None
+* Read CSE 150 Data Intuition and Insight
+  + Section 5.1: What is a Data Scientist? 
+  + Section 5.2: Languages of Data Science
 
 ### Day 25
 
-* Read Good Charts (Type: Visualization)
-  + Conclusion Chapter of Good Charts
+* Read CSE 150 Data Intuition and Insight
+  + Section 5.3: Requesting and Communicating Data
+  + Section 5.4: Marketing Yourself as a Data Scientist
 
 ### Day 26
 

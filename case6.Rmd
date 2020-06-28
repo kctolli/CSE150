@@ -44,18 +44,18 @@ Students will come to understand the difference between visualizing a sample of 
 
 ### Day 19
 
-* Read CSE 150 Data Intuition and Insight (Type: Statistics)
+* Read CSE 150 Data Intuition and Insight
   + Section 4.6: Chi-Square Goodness of Fit Test 
 
 ### Day 20
 
-* Read [Visualize Benford's Law](https://help.tableau.com/current/pro/desktop/en-us/benford.htm) (Type: Tools)
+* Read [Visualize Benford's Law](https://help.tableau.com/current/pro/desktop/en-us/benford.htm)
 
 ### Day 21
 
-* Read Good Charts (Type: Visualization)
+* Read Good Charts
   + Chapter 9: Visual Crit
 
 ### Day 22
 
-* Read [Call Centers and Data Requests](https://byuistats.github.io/CSE150/files/FSCPD_Donahue_callcenter.pdf) (Type: Data)
+* None

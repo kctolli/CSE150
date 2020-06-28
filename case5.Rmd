@@ -47,21 +47,21 @@ Students discover how to move their visualizations and data beyond descriptions 
 
 ### Day 15
 
-* Read Good Charts (Type: Visualization)
+* Read Good Charts 
   + Chapter 8: Present to Persuade (pg. 192-208)
-* Read CSE 150 Data Intuition and Insight (Type: Statistics)
+* Read CSE 150 Data Intuition and Insight 
   + Section 4.1: Introduction
   + Section 4.2: Hypothesis Tests 
 
 ### Day 16
 
-* Read CSE 150 Data Intuition and Insight (Type: Statistics)
+* Read CSE 150 Data Intuition and Insight 
   + Section 4.3: Confidence Intervals
   + Section 4.4: Comparing Proportional Measures
 
 ### Day 17
 
-* Read CSE 150 Data Intuition and Insight (Type: Statistics)
+* Read CSE 150 Data Intuition and Insight 
   + Section 4.5: Chi-Squared Test of Independence 
 
 ### Day 18

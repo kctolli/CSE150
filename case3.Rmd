@@ -50,16 +50,16 @@ Students discover how to visualize data temporally (lines), spatially (map), and
 
 ### Day 7 
 
-* Read Good Charts (Type: Visualization)
+* Read Good Charts
   + Chapter 5: Refine to impress (pg. 109-120)
-* Read [Build a Histogram](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_histogram.htm) (Type:Tools)
-* Read [Create Bins from a Continuous Measure](https://help.tableau.com/current/pro/desktop/en-us/calculations_bins.htm) (Types: Tools)
+* Read [Build a Histogram](https://help.tableau.com/current/pro/desktop/en-us/buildexamples_histogram.htm)
+* Read [Create Bins from a Continuous Measure](https://help.tableau.com/current/pro/desktop/en-us/calculations_bins.htm)
 
 ### Day 8
 
-* Read Good Charts (Type: Visualization)
+* Read Good Charts 
   + Chapter 5: Refine to impress (pg. 121-132)
-* Read [Tableau Editing your graphic, Part 1](https://help.tableau.com/current/pro/desktop/en-us/concepts.htm) (Type: Tools)
+* Read [Tableau Editing your graphic, Part 1](https://help.tableau.com/current/pro/desktop/en-us/concepts.htm)
   + [Using Shelves and Cards](https://help.tableau.com/current/pro/desktop/en-us/buildmanual_shelves.htm)
   + [Changing the mark or geometry of the graphic](https://help.tableau.com/current/pro/desktop/en-us/viewparts_marks_marktypes.htm)
   + [Editing the marks or geometry](https://help.tableau.com/current/pro/desktop/en-us/viewparts_marks_markproperties.htm)
@@ -67,13 +67,13 @@ Students discover how to visualize data temporally (lines), spatially (map), and
 
 ### Day 9
 
-* Read Good Charts (Type: Visualization)
+* Read Good Charts
   + Chapter 6: Refine to persuade (pg. 133-142)
-* Read [Tidy Data Paper](https://vita.had.co.nz/papers/tidy-data.pdf) (pg. 1-13) (Type: Data)
+* Read [Tidy Data Paper](https://vita.had.co.nz/papers/tidy-data.pdf) (pg. 1-13)
 
 ### Day 10
 
-* Read Good Charts (Type: Visualization)
+* Read Good Charts 
   + Chapter 6: Refine to persuade (pg. 143-152)
 * CSE 150 Data Intuition and Insight
-  + Chapter 2: Introduction to the Normal Distribution and Z-Scores (Type: Statistics)  
+  + Chapter 2: Introduction to the Normal Distribution and Z-Scores

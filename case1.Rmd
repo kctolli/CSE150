@@ -36,14 +36,14 @@ During the first two days of the semester students will get oriented with the co
 ### Day 1  
 
 * Watch [How Humans See Data](https://www.youtube.com/watch?v=fSgEeI2Xpdc)
-* Read Good Charts (Type: Visualization)
+* Read Good Charts
   + Introduction
   + Chapter 1: A brief history of DataViz 
 
 ### Day 2 
 
-* Read Good Charts (Type: Visualization)
+* Read Good Charts
   + Chapter 2: When a chart hits our eyes
 * Read CSE 150: Data Intuition and Insight
-  + Section 1.1: Tidy Data (Type: Data)
-  + Sections 6.1.1 and 6.1.2: Google Sheets (Type: Tools)
+  + Section 1.1: Tidy Data
+  + Sections 6.1.1 and 6.1.2: Google Sheets 
