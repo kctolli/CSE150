@@ -22,11 +22,13 @@ You will be responsible to report as much evidence as you can with the data prov
 
 ## Deliverables
 
-* A 8-12 slide presentation to your IRS managers on the case against each entity.
-* At least one slide that shows the statistical test results from the analysis you performed.
-* At least one slide per institution that visualizes their first digit distribution compared to Benford’s law.
-* At least one slide for one of the institutions that compares the last digit distribution to what would be expected.
-* Multiple visualizations of the Government Entity data to find other interesting insights.
+* A [8-12 slide presentation](./analysis/cs6.pptx) to your IRS managers on the case against each entity.
+  + At least one slide that shows the statistical test results from the analysis you performed.
+  + At least one slide per institution that visualizes their first digit distribution compared to Benford’s law.
+  + At least one slide for one of the institutions that compares the last digit distribution to what would be expected.
+  + Multiple visualizations of the Government Entity data to find other interesting insights.
+
+--- Visualizations created using [Tableau](./tableau/CS6.twb) 
 
 ## Class Meeting
 

@@ -28,9 +28,11 @@ Address the following questions;
 ## Deliverables
 
 * A 5-8 slide presentation that addresses the questions above.
-* Each question should have at least one graphic to support your answer.
-* At least one slide highlighting the language choice for future work on the project.
-* You should have an appendix slide that describes the wrangling that had to be done to the data.
+  + Each question should have at least one graphic to support your answer.
+  + At least one slide highlighting the language choice for future work on the project.
+  + You should have an appendix slide that describes the wrangling that had to be done to the data.
+  
+--- Visualizations created using [Tableau](./tableau/CS7.twb)   
 
 ## Class Meeting
 
