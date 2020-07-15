@@ -22,26 +22,30 @@ To finish the semester you will need to create your hypothetical resume that you
 * A second page of sources that you used to justify the stuff in your resume.
 * A cover letter that describes what you have learned from this course.
 
+<!-- ## Teach One Another -->
+
+<!-- ### Cases Studies -->
+
 <!-- ## Class Meeting -->
 
 <!-- ### Objective  -->
 
-## Resume 
+<!-- ## Resume  -->
 
-[Resume](https://kctolli.github.io/site_libs/images/resume.html)
+<!-- [Resume](https://kctolli.github.io/site_libs/images/resume.html) -->
 
-### Additions
+<!-- ### Additions -->
 
-I would add Machine Learning to my resume. I would also add Web Backend material such as APIs and NoSQL. I would also keep the projects updated. I also would add Statistics skills and knowledge. I wish I could be able to add things like Applied Linear Regression, Big Data, and Statistical Consulting. 
+<!-- I would add Machine Learning to my resume. I would also add Web Backend material such as APIs and NoSQL. I would also keep the projects updated. I also would add Statistics skills and knowledge. I wish I could be able to add things like Applied Linear Regression, Big Data, and Statistical Consulting.  -->
 
-### Justifications 
+<!-- ### Justifications  -->
 
-#### Fall 2020 Classes
+<!-- #### Fall 2020 Classes -->
 
-* MATH 325 - Intermediate Stats
-* WDD 330 - Web Frontend 2
-* CSE 341 - Web Backend 2
-* CSE 450 - Machine Learning
+<!-- * MATH 325 - Intermediate Stats -->
+<!-- * WDD 330 - Web Frontend 2 -->
+<!-- * CSE 341 - Web Backend 2 -->
+<!-- * CSE 450 - Machine Learning -->
 
-## What I learned in CSE 150
+<!-- ## What I learned in CSE 150 -->
 
