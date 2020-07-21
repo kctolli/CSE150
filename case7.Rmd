@@ -27,7 +27,7 @@ Address the following questions;
 
 ## Deliverables
 
-* A 5-8 slide presentation that addresses the questions above.
+* A [5-8 slide presentation](./analysis/cs7.pptx) that addresses the questions above.
   + Each question should have at least one graphic to support your answer.
   + At least one slide highlighting the language choice for future work on the project.
   + You should have an appendix slide that describes the wrangling that had to be done to the data.
@@ -61,10 +61,13 @@ Students will learn the complications that come with requesting and manipulating
 
 ### Day 25
 
+* Read Good Charts
+  + Conclusion Chapter of Good Charts
 * Read CSE 150 Data Intuition and Insight
   + Section 5.3: Requesting and Communicating Data
   + Section 5.4: Marketing Yourself as a Data Scientist
+* Read [Building your dream data science resume](https://www.dataquest.io/blog/how-data-science-resume-cv/)
 
 ### Day 26
 
-* Read [Building your dream data science resume](https://www.dataquest.io/blog/how-data-science-resume-cv/)
+* None

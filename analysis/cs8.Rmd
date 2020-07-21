@@ -1,0 +1,26 @@
+---
+title: "Cover Letter"
+author: "Kyle Tolliver"
+output: html_document
+---
+
+## What I learned
+
+This semester in Data Intuition and Insight, CSE 150, I learned many different things. First I would like to say I gained a love and passion for data science. I was able learn tableau visualization skills. I was also  able to work on my data story telling skills. I learned many different statistics skills including Benford's Law, Chi Squared Tests, Probability and Sampling, Data and Summaries, and Distributions. I was able to learn from other students, TAs and Professors to learn tools, techniques and technologies that are are of use in the Data Science industry.       
+
+## What Grade I deserve
+
+The grade I feel like I deserve in CSE 150 is an A-. I have worked hard in this class and tried to understand all the topics in this class. I need to improve on my data story telling skills and on writing an narrative to present data. I also created a website to help me organize my work, the link is https://kctolli.github.io/CSE150/ and is hosted on github https://github.com/kctolli/CSE150. I have done very well on all the canvas assignments, including reading quizzes, visualization discussions, and beginning case studies. Like I said I need to work on my data story telling skills which I feel is my weakness. This made my grade drop for case studies. So this is why I believe I deserve an A-. 
+
+## Course Requirements
+
+We will not focus on traditional statistical hypothesis testing or complex statistical modeling. We will leverage statistics for the concepts of how to visualize uncertainty and variability while keeping our focus on visualization and data handling to focus on ‘safe-stats.’ We will not focus on traditional statistical hypothesis testing or complex statistical modeling.
+
+We will leverage statistics for the concepts of how to visualize uncertainty and variability while keeping our focus on visualization and data handling to focus on ‘safe-stats’. We do expect that you have familiarity with using web-based software.
+
+### Course Outcomes
+
+1. Organize and store tabular data for time-series, spatial, and measured variables.
+2. Calculate data summaries and produce visualizations from data.
+3. Communicate about data with people of varied backgrounds (e.g., novices, database administrators, data scientists, business decision-makers).
+4. Describe the implications of data visualization and summaries in the decision-making process.
